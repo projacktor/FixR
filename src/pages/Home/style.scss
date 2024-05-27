@@ -1,35 +1,16 @@
-.content  {
+.home_content  {
   position: relative;
   width: 100%;
   height: 103vh;
-  //top: 0%;
+  display: flex;
+  flex-direction: column;
 }
-
-h1, h2, h4 {
-  font-family: var(--font-family);
-  --font-family: "Inter", sans-serif;
-  --second-family: "Manrope", sans-serif;
-  --third-family: "Stolzl", sans-serif;
-  color: rgb(22, 22, 22);
-  font-size: 3.13rem;
-  font-weight: 600;
-  line-height: 3.81rem;
-  letter-spacing: -7%;
-  text-align: left;
+.home_content > * {
+  width: 100%;
 }
 
 b {
   color: #f9af15;
-}
-
-button {
-  cursor: pointer;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
 }
 
 .rightMover {
@@ -58,11 +39,11 @@ a {
 }
 
 .mega_box {
-  position: relative;
+  position: absolute;
   width: 52%;
-  height: 49.06rem;
+  height: 95%;
   left: 3%;
-  top: -2.4%;
+  top: 4%;
   background-image: url("../../assets/img/megaBoxBackground.png");
   background-size: cover;
   border-radius: 2.19rem;
@@ -74,7 +55,7 @@ a {
     width: 26.75rem;
     height: 22.5rem;
     left: 4.44rem;
-    top: 18.99rem;
+    top: 35%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -87,11 +68,11 @@ a {
 }
 
 .work_station {
-  position: relative;
+  position: absolute;
   width: 45%;
-  height: 70%;
+  height: 65%;
   left: 57%;
-  top: -111.15%;
+  top: 6%;
 
   border-radius: 3vh;
   background: rgb(22, 22, 22);
@@ -99,7 +80,7 @@ a {
   .work_station_tagline {
     position: relative;
     left: 6.75%;
-    top: 11%;
+    top: 5%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -114,7 +95,7 @@ a {
   .buttons {
     position: relative;
     width: 90%;
-    top: 30vh;
+    top: 20vh;
     left: 2.59vw;
     display: flex;
     flex-direction: row;
@@ -144,15 +125,15 @@ a {
 
 
 .sections {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   position: absolute;
   width: 44%;
   height: 22%;
   left: 58%;
-  top: 74%;
+  top: 76%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
   .section_box {
     width: 40%;
@@ -192,13 +173,14 @@ a {
 }
 
 .sections p {
+  padding: 0 7%;
   font-weight: 545;
   font-size: 24px;
   line-height: 133%;
   letter-spacing: -0.06em;
   color: #161616;
   text-align: left;
-  margin: 10%;
+  //margin: 10%;
 }
 
 .sections img {
@@ -207,9 +189,9 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 1rem 1.63rem 1rem 1.63rem;
+  padding: 15% 10%;
   top: 10%;
-  left: 60%;
+  left: 53%;
 }
 
 .bullets {
@@ -1096,21 +1078,4 @@ a {
   height: 55%;
   left: 7%;
   top: 1390%;
-  h4 {
-    all: initial;
-  }
-  ul, h3, h4, h5, h6 {
-    font-family: var(--font-family);
-    --font-family: "Inter", sans-serif;
-    --second-family: "Manrope", sans-serif;
-    --third-family: "Stolzl", sans-serif;
-  }
-  ul {
-    position: relative;
-    left: -1.5%;
-    font-weight: 400;
-    font-size: 14px;
-    //letter-spacing: -0.04em;
-    color: #000;
-  }
 }

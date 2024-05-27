@@ -5,6 +5,7 @@
 import React, {useState} from 'react';
 
 import OrangeButton from "../../components/Orange_Button/Orange_Button.jsx";
+import SeoDiv from "../../components/SEO part/seo_div.jsx";
 
 import "./style.scss";
 
@@ -34,13 +35,13 @@ import response1 from "./static/responses/response1.png";
 import videoE from "./static/works/videoE.png";
 import videoY from "./static/works/videoY.png";
 import plannerImg1 from "./static/works/plannerImg1.png";
-import teamPhotoBullits from "../../assets/img/teamPhotoBullits.png";
 import responsibilityBullits from "../../assets/img/responsibilityBullits.png";
-import responsibilityHuman from "../../assets/img/responsibilityHuman.png";
+import ceoPhoto from "./static/works/ceoPhoto.png";
 import vkIco from "./static/icons/vkIco.svg";
 import instagramIco from "./static/icons/instagramIco.svg";
 import telegramIco from "./static/icons/telegramIco.svg";
 import pseudoVid from "./static/works/pseudoVid.png";
+import groupPhoto from "./static/works/groupPhoto.png";
 import whatsappIco from "../../assets/img/whatsappIco.svg";
 
 
@@ -61,7 +62,7 @@ function Home() {
     }
 
     return (
-        <div className="content">
+        <div className="home_content">
             <div className="mega_box">
                 <p className="mega_box_tagline">Первый в России<br/>
                     онлайн-сервис<br/>
@@ -309,7 +310,7 @@ function Home() {
 
             <div className="presentation">
                 <h1>Над вашим объектом будет работать команда <b>настоящих фанатов</b> своего дела </h1>
-                <img src={teamPhotoBullits}/>
+                <img src={groupPhoto}/>
                 <button className="get_consulting check_button">
                     Оставить заявку на консультацию от специалиста
                 </button>
@@ -321,7 +322,7 @@ function Home() {
                 <p className="responsibility_para">За 10 лет мы выполнили более 1 000 объектов и не получили</p>
                 <p className="responsibility_para">ни одной жалобы на качество работы и обслуживания</p>
                 <img className="responsibility_bullits" src={responsibilityBullits}/>
-                <img className="responsibility_human" src={responsibilityHuman}/>
+                <img className="responsibility_human" src={ceoPhoto}/>
             </div>
 
             <div className="social_media">
@@ -427,21 +428,7 @@ function Home() {
                     </a>
                 </div>
             </div>
-
-            <div className="seo_part">
-                <h1>Текст, который важен для SEO</h1>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br/>
-                    Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. <br/> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <ul>
-                    <li>do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor</li>
-                    <li>Amet minim mollit non deserunt ullamco est sit aliqua dolor.</li>
-                    <li>do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</li>
-                </ul>
-                <h3>Заголовок H3</h3>
-                <h4>Заголовок H4</h4>
-                <h5>Заголовок H5</h5>
-                <h6>Заголовок H6</h6>
-            </div>
+            <SeoDiv />
         </div>
     );
 }
