@@ -35,14 +35,13 @@ import response1 from "./static/responses/response1.png";
 import videoE from "./static/works/videoE.png";
 import videoY from "./static/works/videoY.png";
 import plannerImg1 from "./static/works/plannerImg1.png";
-import responsibilityBullits from "../../assets/img/responsibilityBullits.png";
-import ceoPhoto from "./static/works/ceoPhoto.png";
 import vkIco from "./static/icons/vkIco.svg";
 import instagramIco from "./static/icons/instagramIco.svg";
 import telegramIco from "./static/icons/telegramIco.svg";
 import pseudoVid from "./static/works/pseudoVid.png";
-import groupPhoto from "./static/works/groupPhoto.png";
 import whatsappIco from "../../assets/img/whatsappIco.svg";
+import Responsibility from "../../components/Responsibility/Responsibility.jsx";
+import Presentation from "../../components/Presentation/Presentation.jsx";
 
 
 function Home() {
@@ -308,23 +307,19 @@ function Home() {
                 </div>
             </div>
 
-            <div className="presentation">
-                <h1>Над вашим объектом будет работать команда <b>настоящих фанатов</b> своего дела </h1>
-                <img src={groupPhoto}/>
-                <button className="get_consulting check_button">
-                    Оставить заявку на консультацию от специалиста
-                </button>
+            {/*<div className="presentation">*/}
+            {/*    <h1>Над вашим объектом будет работать команда <b>настоящих фанатов</b> своего дела </h1>*/}
+            {/*    <img src={groupPhoto}/>*/}
+            {/*    <button className="get_consulting check_button">*/}
+            {/*        Оставить заявку на консультацию от специалиста*/}
+            {/*    </button>*/}
+            {/*</div>*/}
+            <div className="home_presentation">
+                <Presentation />
             </div>
-
-            <div className="responsibility">
-                <h1>Лично <b>несу</b><br/><b>ответственность</b><br/>
-                    за качество<br/> предоставляемых услуг </h1>
-                <p className="responsibility_para">За 10 лет мы выполнили более 1 000 объектов и не получили</p>
-                <p className="responsibility_para">ни одной жалобы на качество работы и обслуживания</p>
-                <img className="responsibility_bullits" src={responsibilityBullits}/>
-                <img className="responsibility_human" src={ceoPhoto}/>
+            <div className="home_responsibility">
+                <Responsibility/>
             </div>
-
             <div className="social_media">
                 <h1>Мы максимально <b>открыты</b> и <br/>
                     подтверждаем экспертность в социальных сетях </h1>
@@ -377,7 +372,8 @@ function Home() {
                     <button className="to_blog check_button">
                         Перейти в блог
                     </button>
-                    <button className="to_youtube check_button" onClick={openLink("https://www.youtube.com/@director_stroyki")}>
+                    <button className="to_youtube check_button"
+                            onClick={openLink("https://www.youtube.com/@director_stroyki")}>
                         Перейти в YouTube
                     </button>
                 </div>
@@ -428,7 +424,9 @@ function Home() {
                     </a>
                 </div>
             </div>
-            <SeoDiv />
+            <div className="home_seo">
+                <SeoDiv/>
+            </div>
         </div>
     );
 }

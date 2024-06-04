@@ -1,7 +1,8 @@
 import React from 'react';
 
-import SeoDiv from "../../components/SEO part/seo_div.jsx";
+// import SeoDiv from "../../components/SEO part/seo_div.jsx";
 import Presentation from "../../components/Presentation/Presentation.jsx";
+import Responsibility from "../../components/Responsibility/Responsibility.jsx";
 
 import "./style.scss";
 
@@ -12,7 +13,8 @@ function Portfolio() {
     return (
         <div className="portfolio_content">
             <div className="main_portfolio">
-                <p className="portfolio_headers">Работаем одинаково хорошо, как на крупных объектах, так и в небольших квартирах</p>
+                <p className="portfolio_headers">Работаем одинаково хорошо, как на крупных объектах, так и в небольших
+                    квартирах</p>
                 <h1 className="portfolio_headers">Посмотрите на наши <b>выполненные проекты</b></h1>
                 <div className="portfolio_content_filter">
                     <button className="portfolio_section portfolio_section1">
@@ -43,13 +45,22 @@ function Portfolio() {
                         <a><p><u>Узнать стоимость</u></p></a>
                     </div>
                 </div>
+                <button className="main_portfolio_show_more check_button">
+                    Показать больше
+                </button>
             </div>
 
-            <div className="portfolio_cosultation">
-                <Presentation />
+            <div className="portfolio_consulting">
+                <Presentation/>
             </div>
+
+            <div className="portfolio_responsibility">
+                <Responsibility />
+            </div>
+
+            <div className="portfolio_engConsulting"></div>
             {/*<div className="portfolio_seo">*/}
-            {/*    <SeoDiv />*/}
+            {/*<SeoDiv />*/}
             {/*</div>*/}
         </div>
     );

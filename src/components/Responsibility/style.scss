@@ -1,0 +1,29 @@
+.responsibility {
+  //background: #2b2a29;
+  position: absolute;
+  width: 98%;
+  height: 100%;
+  //left: 3%;
+  //top: 925%;
+  b {
+    color: #f9af15;
+  }
+  h1,
+  .responsibility_para {
+    position: relative;
+    left: 3%;
+    //top: -0.5%;
+  }
+  .responsibility_bullits {
+    position: absolute;
+    left: 1%;
+    top: 50%;
+    width: 50%;
+  }
+  .responsibility_human {
+    position: absolute;
+    left: 55%;
+    top: 7%;
+    width: 45%;
+  }
+}

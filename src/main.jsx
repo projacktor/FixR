@@ -5,7 +5,7 @@ import App from './App.jsx'
 import "./assets/styles/global.scss"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  // <React.StrictMode>
+  // </React.StrictMode>,
     <App />
-  </React.StrictMode>,
 )
