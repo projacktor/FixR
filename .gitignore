@@ -1,0 +1,42 @@
+# FastAPI
+*.py[cod]
+*.log
+*.pot
+*.pyc
+__pycache__/
+*.pyo
+*.mo
+*.orig
+*.ini
+*.sqlite3
+*.swp
+.DS_Store
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+ENV.bak/
+
+# React
+node_modules/
+/build/
+/.idea/
+.npm/
+.npmrc
+yarn-error.log
+*.lock
+
+# Vite
+dist/
+out/
+*.cache/
+.rush/
+.pnpm-store/
+
+# WebStorm/PyCharm/VS Code
+.idea/
+.vscode/
+*.iml
+modules.xml
+*.ipr
