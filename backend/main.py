@@ -1,6 +1,6 @@
-from typing import Union
-
 from fastapi import FastAPI
+from fastapi.responses import FileResponse
+import os
 
 app = FastAPI()
 
@@ -15,6 +15,6 @@ async def say_hello(name: str):
     return {"message": f"Hello {name}"}
 
 
-@app.get("/items/{item_id}")
-def read_item(item_id: int, q: Union[str, None] = None):
-    return {"item_id": item_id, "q": q}
+@app.get("/main")
+async def main():
+    return FileResponse(os.path.join('..', 'frontend', 'index.html'), media_type='text/html')
