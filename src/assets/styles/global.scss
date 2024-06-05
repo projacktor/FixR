@@ -1,11 +1,11 @@
-p, h1, h2, h4 {
+p, h1, h2, h4, h5, li, ul {
   font-family: var(--font-family);
   --font-family: "Inter", sans-serif;
   --second-family: "Manrope", sans-serif;
   --third-family: "Stolzl", sans-serif;
 }
 
-h1, h2, h4 {
+h1, h4 {
   color: rgb(22, 22, 22);
   font-size: 3.13rem;
   font-weight: 600;
