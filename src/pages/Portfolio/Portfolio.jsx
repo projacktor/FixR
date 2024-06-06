@@ -11,7 +11,7 @@ import work2 from "../Home/static/works/work2.png";
 
 function Portfolio() {
     return (
-        <div className="portfolio_content">
+        <main className="portfolio_content">
             <div className="main_portfolio">
                 <p className="portfolio_headers">Работаем одинаково хорошо, как на крупных объектах, так и в небольших
                     квартирах</p>
@@ -64,7 +64,7 @@ function Portfolio() {
             {/*<div className="portfolio_seo">*/}
             {/*<SeoDiv />*/}
             {/*</div>*/}
-        </div>
+        </main>
     );
 }
 

@@ -61,7 +61,7 @@ function Home() {
     }
 
     return (
-        <div className="home_content">
+        <main className="home_content">
             <div className="mega_box">
                 <p className="mega_box_tagline">Первый в России<br/>
                     онлайн-сервис<br/>
@@ -427,7 +427,7 @@ function Home() {
             <div className="home_seo">
                 <SeoDiv/>
             </div>
-        </div>
+        </main>
     );
 }
 
