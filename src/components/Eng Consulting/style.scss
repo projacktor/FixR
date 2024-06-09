@@ -1,11 +1,11 @@
 .eng_consulting {
-  width: 100%;
+  width: 90rem;
   height: 100%;
   p, h1 {
     position: relative;
     margin-left: -1rem;
-
   }
+
   ul {
     position: relative;
     top: 5%;
@@ -18,7 +18,7 @@
 
   img {
     position: relative;
-    left: 50%;
+    left: 49%;
     margin-top: -20rem;
     width: 50%;
   }
@@ -26,13 +26,17 @@
   .eng_consulting_textBox {
     position: relative;
     top: 15%;
-    left: 1%;
+    left: 2%;
     width: 50%;
+    #eng_quest {
+      position: relative;
+      transform: translateY(110%);
+    }
   }
 
   .eng_consulting_imgBox {
     position: relative;
-    left: 82rem;
+    left: 79rem;
     margin-top: -24rem;
     width: 10%;
     color: #fff;

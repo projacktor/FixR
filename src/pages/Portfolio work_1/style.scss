@@ -1,24 +1,22 @@
 .portfolio_project {
+  overflow: hidden;
   width: 100%;
   height: 100%;
-  overflow: hidden;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
 
-
-
   .project_desc {
-    //background: aqua;
     position: relative;
     width: 100%;
     height: 100%;
+
     h1 {
       margin-left: 1.5rem;
     }
+
     .description_bar {
-      //background: #f9af15;
       width: 43rem;
       height: 5rem;
       margin-left: -0.5rem;
@@ -28,11 +26,13 @@
       flex-direction: row;
       justify-content: space-around;
     }
+
     .project_picture {
       width: 97%;
       padding: 0 1.5rem;
       margin-top: 2rem;
     }
+
     #die_container_pic {
       display: flex;
       align-items: center;
@@ -46,15 +46,17 @@
       height: 100%;
       padding: 1% 7%;
       display: flex;
-      //align-items: left;
       flex-direction: column;
       justify-content: space-around;
+
       b {
         color: initial;
       }
+
       #project_textBox_1 {
         width: 90%;
       }
+
       #project_textBox_2 {
         width: 85%;
       }
@@ -65,9 +67,11 @@
         b {
           color: initial;
         }
+
         padding-left: 2rem;
         font-size: 29px;
       }
+
       img {
         margin-top: 0.5rem;
       }
@@ -75,11 +79,26 @@
   }
 }
 
-#projects_gallery {
+#project_gallery {
   .check_button, h1 {
     margin-left: 3rem;
   }
+
   .gallery_arrows {
     margin-left: 1rem;
   }
+}
+
+#project_eng_consulting {
+  overflow: hidden;
+  margin-left: 3rem;
+
+  b {
+    color: #f9af15;
+  }
+}
+
+#project_seo {
+  //overflow: hidden;
+  margin-left: 3.5rem;
 }

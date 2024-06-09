@@ -10,7 +10,7 @@ function EngConsulting() {
     return (
         <div className="eng_consulting">
             <div className="eng_consulting_textBox">
-                <p>Остались вопросы?</p>
+                <p id="eng_quest">Остались вопросы?</p>
                 <h1><b>Запишитесь</b> на <br/> консультацию от <br/> инженера FIX-ремонт </h1>
                 <ul>
                     <li>Поможем подобрать тариф</li>

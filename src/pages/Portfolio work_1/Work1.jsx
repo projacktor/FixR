@@ -11,6 +11,8 @@ import projPic1 from "./static/projPicture1.png"
 import projPic2 from "./static/projPicture2.png"
 import WorksGallery from "../../components/Works Gallery/WorksGallery.jsx";
 import CheckButton from "../../components/CheckButton/CheckButton.jsx";
+import EngConsulting from "../../components/Eng Consulting/EngConsulting.jsx";
+import SeoDiv from "../../components/SEO part/seo_div.jsx";
 
 function Work1() {
     return (
@@ -77,10 +79,16 @@ function Work1() {
                     </div>
                 </div>
             </div>
-            <div id="projects_gallery">
+            <div id="project_gallery">
                 <h1>Другие реализованные проекты</h1>
                 <WorksGallery />
                 <CheckButton text="Смотреть все портфолио"/>
+            </div>
+            <div id="project_eng_consulting">
+                <EngConsulting />
+            </div>
+            <div id="project_seo">
+                <SeoDiv />
             </div>
         </main>
     );
