@@ -1,0 +1,11 @@
+.minibar_video {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  button {
+    background: transparent;
+    border-color: transparent;
+    height: 4rem;
+    margin-top: 1rem;
+  }
+}

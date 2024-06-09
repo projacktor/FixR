@@ -1,0 +1,22 @@
+.description_minibar {
+  //background: black;
+  //width: 5rem;
+  //height: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  .description_name {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    letter-spacing: -0.04em;
+    color: #c1c1c1;
+  }
+
+  .description_content {
+    font-weight: 600;
+    margin-top: -0.9rem;
+  }
+}
