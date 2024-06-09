@@ -25,7 +25,7 @@ p {
   justify-content: space-around;
   align-items: center;
   padding: 0px 5px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  //box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
   .contacts_header_logo {
     flex: none;
@@ -132,7 +132,7 @@ p {
 
   border-radius: 20px;
   background: rgb(255, 255, 255);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  //box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
   order: 2;
   width: 300px;
@@ -174,7 +174,7 @@ p {
 
   border-radius: 1.25rem;
   background: rgb(22, 22, 22);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0);
+  //box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0);
 
   .to_profile_tagline {
     font-weight: 500;
@@ -201,6 +201,6 @@ p {
   order: 4;
   margin: 0 2rem;
   border-radius: 20px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  //box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   fill: #fff;
 }

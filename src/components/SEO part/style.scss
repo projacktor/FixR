@@ -1,9 +1,9 @@
 .seo_part {
   //background: lightgrey;
-  position: absolute;
+  //position: absolute;
   width: 98%;
   height: 55%;
-  //left: 7%;
+  left: 1%;
   //top: 1390%;
   h4 {
     all: initial;
@@ -14,9 +14,9 @@
     --second-family: "Manrope", sans-serif;
     --third-family: "Stolzl", sans-serif;
   }
-  ul, button {
+  button {
     position: relative;
-    left: -1.5%;
+    left: -0.5%;
     font-weight: 400;
     font-size: 14px;
     color: #000;
@@ -25,7 +25,7 @@
   .toggle_button_seo {
     background: transparent;
     border-color: transparent;
-    position: absolute;
+    //position: absolute;
   }
 
   .seo_content {
@@ -44,7 +44,7 @@
 
   .closed::after {
     content: "";
-    position: absolute;
+    //position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;

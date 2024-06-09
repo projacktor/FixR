@@ -4,6 +4,7 @@ import "./style.scss"
 
 import mainEng from "../../assets/img/mainEngPhoto.png"
 import RowBullet from "../Row Bullet/RowBullet.jsx";
+import BlackBtn from "../Consulting Black Btn/BlackBtn.jsx";
 
 function EngConsulting() {
     return (
@@ -28,7 +29,7 @@ function EngConsulting() {
                 <div className="get_contact_rower_bullets">
                     <RowBullet text={"Написать нам в WhatsApp"} id={"row_bullet_1"}/>
                     <RowBullet text={"Ваш номер телефона"} id={"row_bullet_2"}/>
-                    <RowBullet text={"Записаться на на консультацию"} id={"row_bullet_3"}/>
+                    <BlackBtn />
                 </div>
             </div>
         </div>

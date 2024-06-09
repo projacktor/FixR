@@ -1,15 +1,15 @@
 .eng_consulting {
-  width: 98%;
+  width: 100%;
   height: 100%;
   p, h1 {
     position: relative;
-    left: 3%;
-    top: 5%;
+    margin-left: -1rem;
+
   }
   ul {
     position: relative;
     top: 5%;
-    left: 1.5%;
+    left: -5%;
   }
 
   ul li {
@@ -17,10 +17,10 @@
   }
 
   img {
-    position: absolute;
-    left: 53%;
-    top: 8%;
-    width: 46%;
+    position: relative;
+    left: 50%;
+    margin-top: -20rem;
+    width: 50%;
   }
 
   .eng_consulting_textBox {
@@ -32,8 +32,8 @@
 
   .eng_consulting_imgBox {
     position: relative;
-    left: 90%;
-    top: -45%;
+    left: 82rem;
+    margin-top: -24rem;
     width: 10%;
     color: #fff;
     h2 {
@@ -43,8 +43,9 @@
       letter-spacing: -0.04em;
     }
     p {
-      position: absolute;
-      top: 95%;
+      position: relative;
+      margin-top: -0.5rem;
+      left: 1rem;
       font-weight: 500;
       font-size: 15px;
       line-height: 147%;
@@ -53,16 +54,22 @@
   }
 
   .get_contact_rower {
-    //background: gray;
     position: relative;
     width: 100%;
     height: 25%;
-    .get_contact_rower_bullets {
-      //background: aqua;
+    margin-top: 17rem;
+    margin-left: 3rem;
+
+    p {
       position: relative;
-      top: 10%;
+      left: 1%;
+    }
+    .get_contact_rower_bullets {
+      position: relative;
+      margin-top: 1rem;
       height: 50%;
       width: 90%;
+      margin-left: -2rem;
       padding-left: 2%;
       display: flex;
       align-items: center;
@@ -73,11 +80,6 @@
       }
       #row_bullet_2 {
         order: 2;
-      }
-      #row_bullet_3 {
-        order: 0;
-        background: black;
-        align-items: center;
       }
     }
   }
