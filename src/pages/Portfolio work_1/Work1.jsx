@@ -10,6 +10,7 @@ import "./style.scss";
 import projPic1 from "./static/projPicture1.png"
 import projPic2 from "./static/projPicture2.png"
 import WorksGallery from "../../components/Works Gallery/WorksGallery.jsx";
+import CheckButton from "../../components/CheckButton/CheckButton.jsx";
 
 function Work1() {
     return (
@@ -74,11 +75,12 @@ function Work1() {
                         <h2><b>Результат:</b></h2>
                         <img alt="projectPic2" src={projPic2} className="project_picture"/>
                     </div>
-                    <div id="projects_gallery">
-                        <h1>Другие реализованные проекты</h1>
-                        <WorksGallery />
-                    </div>
                 </div>
+            </div>
+            <div id="projects_gallery">
+                <h1>Другие реализованные проекты</h1>
+                <WorksGallery />
+                <CheckButton text="Смотреть все портфолио"/>
             </div>
         </main>
     );

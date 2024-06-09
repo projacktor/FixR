@@ -1,0 +1,19 @@
+.check_button {
+  position: relative;
+  width: 90rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 1.6rem;
+  box-sizing: border-box;
+  border: 0.06rem solid rgb(22, 22, 22);
+  border-radius: 31.25rem;
+  background: transparent;
+  color: rgb(22, 22, 22);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.13rem;
+  letter-spacing: -3%;
+  text-align: center;
+}

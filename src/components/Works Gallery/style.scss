@@ -1,6 +1,6 @@
 .variants_gallery {
   position: relative;
-  width: 98%;
+  width: 91rem;
   margin-left: 0.5rem;
 
   height: 80vh;
@@ -13,7 +13,7 @@
 
   .variants_gallery_slideshow {
     position: relative;
-    width: 100%;
+    width: 91rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,7 +32,7 @@
 
     #variant1 {
       order: 1;
-      margin: 1%;
+      margin: 2.5%;
     }
 
     #variant2 {
