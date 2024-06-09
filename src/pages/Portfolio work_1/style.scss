@@ -31,6 +31,7 @@
     .project_picture {
       width: 97%;
       padding: 0 1.5rem;
+      margin-top: 2rem;
     }
     #die_container_pic {
       display: flex;
@@ -38,6 +39,23 @@
       position: relative;
       top: -45rem;
       left: 3rem;
+    }
+
+    .project_textBox {
+      width: 100%;
+      height: 100%;
+      padding: 0 3%;
+      background: aqua;
+      display: flex;
+      //align-items: left;
+      flex-direction: column;
+      justify-content: space-around;
+      p {
+        width: 90%;
+        b {
+          color: initial;
+        }
+      }
     }
   }
 }
