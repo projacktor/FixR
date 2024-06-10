@@ -2,6 +2,7 @@ import React from 'react';
 
 import ContentFilter from "../../components/Content Filter/ContentFilter.jsx";
 import BlogGallery from "../../components/Blog Gallery/BlogGallery.jsx";
+import RecommendationForm from "../../components/Recommendation Form/RecommendationForm.jsx";
 
 import "./style.scss";
 
@@ -23,6 +24,7 @@ function Blog() {
             </div>
             <div id="blog_content">
                 <BlogGallery/>
+                <RecommendationForm/>
             </div>
         </main>
     );

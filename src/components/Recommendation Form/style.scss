@@ -1,0 +1,97 @@
+.recommendation-form {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 90%;
+  max-width: 400px;
+  margin: 2rem auto;
+  //text-align: center;
+
+  .free-file {
+    margin-bottom: 1rem;
+    //margin-left: -12em;
+  }
+
+  h3 {
+    font-size: 30px;
+    justify-content: left;
+    b {
+      color: #f9af15;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #contact_method {
+      margin-left: -17em;
+    }
+
+    label {
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    .input-field {
+      width: 100%;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border: none;
+      border-radius: 5rem;
+      background-color: #333;
+      color: #fff;
+      font-size: 1rem;
+
+      &:focus {
+        outline: none;
+        border: 1px solid #f9af15;
+      }
+    }
+
+    .phone_number_input {
+      width: 93%;
+      //border-radius: 4rem;
+      padding: 1rem 1em;
+    }
+
+    .submit-button {
+      width: 100%;
+      padding: 0.75rem;
+      background-color: #f9af15;
+      border: none;
+      border-radius: 0.5rem;
+      color: #000;
+      font-size: 1rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #e89d00;
+      }
+    }
+
+    .consent {
+      display: flex;
+      align-items: center;
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      text-align: left;
+      color: #999;
+
+      input {
+        margin-right: 0.5rem;
+      }
+
+      a {
+        color: #999;
+        text-decoration: underline;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
