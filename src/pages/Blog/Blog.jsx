@@ -5,8 +5,11 @@ import BlogGallery from "../../components/Blog Gallery/BlogGallery.jsx";
 import RecommendationForm from "../../components/Recommendation Form/RecommendationForm.jsx";
 import SocialMedia from "../../components/Social Media/SocialMedia.jsx";
 import CheckButton from "../../components/CheckButton/CheckButton.jsx";
+import FAQ from "../../components/FAQ/FAQ.jsx";
 
 import "./style.scss";
+
+import pseudoVid from "../Home/static/works/pseudoVid.png";
 
 function Blog() {
     const buttons = [
@@ -34,6 +37,14 @@ function Blog() {
 
             <div id="blog_social_media">
                 <SocialMedia/>
+            </div>
+
+            <div className="pseudo_vid">
+                <img src={pseudoVid} alt="pseudo_video"/>
+            </div>
+
+            <div id="blog_faq">
+                <FAQ />
             </div>
         </main>
     );

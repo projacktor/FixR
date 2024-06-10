@@ -33,7 +33,6 @@
     flex-direction: column;
 
     #blog_content {
-      //background: #2b2a29;
       width: 90rem;
       height: 100%;
       flex-grow: 1;
@@ -44,7 +43,24 @@
     }
   }
 
+  .pseudo_vid {
+    margin-top: 5%;
+    position: relative;
+    width: 94%;
+    height: 100%;
+      img {
+      width: 100%;
+    }
+  }
+
   #blog_social_media {
+    margin-top: 2%;
+  }
+
+  #blog_faq {
+    position: relative;
+    width: 89rem;
+    margin-top: 5%;
 
   }
 }
