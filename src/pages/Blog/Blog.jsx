@@ -7,6 +7,7 @@ import SocialMedia from "../../components/Social Media/SocialMedia.jsx";
 import CheckButton from "../../components/CheckButton/CheckButton.jsx";
 import EngConsulting from "../../components/Eng Consulting/EngConsulting.jsx";
 import FAQ from "../../components/FAQ/FAQ.jsx";
+import SeoDiv from "../../components/SEO part/seo_div.jsx";
 
 import "./style.scss";
 import pseudoVid from "../Home/static/works/pseudoVid.png";
@@ -49,6 +50,10 @@ function Blog() {
 
             <div id="blog_eng_consulting">
                 <EngConsulting />
+            </div>
+
+            <div id="blog_seoo">
+                <SeoDiv />
             </div>
         </main>
     );
