@@ -1,0 +1,22 @@
+.content_filter {
+  top: 23%;
+  width: 30%;
+  height: 7%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+  .filter_section {
+    background: rgb(247, 247, 247);
+    padding: 0 3%;
+    border-radius: 31.25rem;
+    height: 85%;
+    width: auto;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: transparent;
+  }
+}
