@@ -1,0 +1,55 @@
+.feedbacks {
+  width: 100%;
+  min-height: 80vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .headers {
+    position: relative;
+    right: 25rem;
+  }
+
+  .feedbacks_content {
+    //background: #2b2a29;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+
+    .feedbacks_gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      width: 100%;
+      padding: 1rem;
+      margin-left: 1rem;
+
+      .pseudo_vid3 {
+        width: 42rem;
+        height: 26em;
+        padding: 0.005rem;
+        background-size: cover;
+        background-image: url(../../assets/img/pseudoVideo3.png);
+      }
+    }
+  }
+
+  .platforms_responses {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+      position: relative;
+      right: 17rem;
+    }
+
+    img {
+      //position: relative;
+      //right: 1.5rem;
+      width: 95%;
+    }
+  }
+}
