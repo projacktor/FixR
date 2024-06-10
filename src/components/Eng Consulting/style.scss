@@ -78,13 +78,26 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+    }
 
-      #row_bullet_1 {
-        order: 1;
-      }
-      #row_bullet_2 {
-        order: 2;
+    .eng_phone_input {
+      padding: 2em 1.5em;
+    }
+
+    .eng_chose_contact {
+      padding: 2em;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      position: relative;
+
+      &::after {
+        content: "▼"; /* Можно заменить на любой символ стрелочки или иконку */
+        right: 10px; /* Позиция справа */
+        transform: translateX(-100%); /* Подвинуть стрелочку влево */
+        pointer-events: none; /* Стрелочка не перехватывает события клика */
       }
     }
+
   }
 }

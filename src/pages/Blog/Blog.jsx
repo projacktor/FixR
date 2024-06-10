@@ -5,10 +5,10 @@ import BlogGallery from "../../components/Blog Gallery/BlogGallery.jsx";
 import RecommendationForm from "../../components/Recommendation Form/RecommendationForm.jsx";
 import SocialMedia from "../../components/Social Media/SocialMedia.jsx";
 import CheckButton from "../../components/CheckButton/CheckButton.jsx";
+import EngConsulting from "../../components/Eng Consulting/EngConsulting.jsx";
 import FAQ from "../../components/FAQ/FAQ.jsx";
 
 import "./style.scss";
-
 import pseudoVid from "../Home/static/works/pseudoVid.png";
 
 function Blog() {
@@ -23,7 +23,7 @@ function Blog() {
             <div className="blog_headers">
                 <p>Делимся полезными идеями и раскрываем секреты ремонта и строительства</p>
                 <h1>Полезные статьи</h1>
-                <div className="content_filter">
+                <div className="blog_content_filter">
                     <ContentFilter buttons={buttons}/>
                 </div>
             </div>
@@ -45,6 +45,10 @@ function Blog() {
 
             <div id="blog_faq">
                 <FAQ />
+            </div>
+
+            <div id="blog_eng_consulting">
+                <EngConsulting />
             </div>
         </main>
     );

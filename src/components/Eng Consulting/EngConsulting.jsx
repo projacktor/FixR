@@ -27,9 +27,13 @@ function EngConsulting() {
             <div className="get_contact_rower">
                 <p>Как с нами связаться?</p>
                 <div className="get_contact_rower_bullets">
-                    <RowBullet text={"Написать нам в WhatsApp"} id={"row_bullet_1"}/>
-                    <RowBullet text={"Ваш номер телефона"} id={"row_bullet_2"}/>
-                    <BlackBtn />
+                    <select id="contact-method" className="row_bullet eng_chose_contact">
+                        <option>Написать в WhatsApp</option>
+                        <option>Написать в Telegram</option>
+                        <option>Отправить на Email</option>
+                    </select>
+                    <input type="tel" placeholder="Ваш номер телефона" className="row_bullet eng_phone_input"/>
+                    <BlackBtn/>
                 </div>
             </div>
         </div>
