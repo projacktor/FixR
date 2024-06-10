@@ -80,8 +80,18 @@
 }
 
 #project_gallery {
-  .check_button, h1 {
-    margin-left: 3rem;
+  position: relative;
+  left: -1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  h1 {
+    margin-right: 35rem;
+  }
+  button {
+    position: relative;
+    left: 1em;
   }
 
   .gallery_arrows {
