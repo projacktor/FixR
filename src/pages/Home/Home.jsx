@@ -1,6 +1,6 @@
 // TODO: выделить gallery_scroller to the single component
 // TODO: replace some imgs to bullits
-// TODO: replace h4 to h-relatives
+// TODO: replace social media by component
 
 import React, {useState} from 'react';
 

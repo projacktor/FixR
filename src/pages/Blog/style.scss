@@ -23,17 +23,28 @@
     left: -8%;
   }
 
-  #blog_content {
+  #blog_interaction {
     //background: #2b2a29;
     position: relative;
     width: 90rem;
     height: 100%;
-    flex-grow: 1;
     display: flex;
     align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
 
+    #blog_content {
+      //background: #2b2a29;
+      width: 90rem;
+      height: 100%;
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  #blog_social_media {
 
   }
 }
