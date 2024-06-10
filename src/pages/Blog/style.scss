@@ -2,10 +2,11 @@
   width: 95rem;
   height: 100%;
 
-  .blog_articles {
+  .blog_articles, #blog_content_filter {
     margin-left: 2rem;
-    margin-top: 3rem;
   }
 
-
+  .blog_articles {
+    margin-top: 3rem;
+  }
 }

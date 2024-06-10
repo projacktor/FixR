@@ -1,17 +1,15 @@
 import React from 'react';
 
-function ContetnFilter({text1, text2, text3}) {
+import "./style.scss";
+
+function ContetnFilter({ buttons }) {
     return (
         <div className="content_filter">
-            <button className="filter_sec">
-                <p>{text1}</p>
-            </button>
-            <button className="filter_sec">
-                <p>{text2}</p>
-            </button>
-            <button className="filter_sec">
-                <p>{text3}</p>
-            </button>
+            {buttons.map((text, index) => (
+                <button key={index} className="filter_sec">
+                    <p>{text}</p>
+                </button>
+            ))}
         </div>
     );
 }

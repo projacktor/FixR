@@ -1,3 +1,5 @@
+// TODO: Replace @portfolio_content_filter with its component
+
 import React from 'react';
 
 import SeoDiv from "../../components/SEO part/seo_div.jsx";
