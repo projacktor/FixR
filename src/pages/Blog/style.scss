@@ -1,12 +1,39 @@
 .blog_main {
-  width: 95rem;
-  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  //justify-content: space-around;
 
-  .blog_articles, #blog_content_filter {
-    margin-left: 2rem;
+  .blog_headers {
+    position: relative;
+    left: 2%;
+    top: 2%;
+    width: 98%;
+
+    b {
+      color: #f9af15;
+    }
   }
 
-  .blog_articles {
-    margin-top: 3rem;
+  .content_filter {
+    position: relative;
+    left: -8%;
+  }
+
+  #blog_content {
+    //background: #2b2a29;
+    position: relative;
+    width: 90rem;
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+
   }
 }

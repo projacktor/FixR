@@ -2,7 +2,7 @@ import React from 'react';
 
 import "./style.scss";
 
-function ContetnFilter({ buttons }) {
+function ContentFilter({ buttons }) {
     return (
         <div className="content_filter">
             {buttons.map((text, index) => (
@@ -14,4 +14,4 @@ function ContetnFilter({ buttons }) {
     );
 }
 
-export default ContetnFilter;
+export default ContentFilter;

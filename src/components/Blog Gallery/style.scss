@@ -1,0 +1,60 @@
+.blog_gallery {
+  background: #f9af15 ;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: 65%;
+  padding: 1rem;
+
+  .single_blog_bullit {
+    width: 25em;
+    height: 17em;
+    margin: 0 1%;
+
+    border-radius: 1.5rem;
+    background-size: cover;
+
+    p {
+      position: relative;
+      top: 45%;
+      left: 5%;
+      font-family: var(--font-family);
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 148%;
+      letter-spacing: -0.04em;
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+      color: #fff;
+    }
+
+    .blog_bullit_section {
+      position: relative;
+      top: 5%;
+      left: 5%;
+      padding: 0 10%;
+      max-width: 5%;
+      max-height: 15%;
+      border-radius: 31.25rem;
+      background: rgb(22, 22, 22);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 150%;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: #fff;
+      }
+    }
+  }
+
+  .blog_bullit_post {
+    background-image: url(../../pages/Home/static/works/blog1.png);
+  }
+
+}

@@ -1,4 +1,4 @@
-// TODO: Replace @portfolio_content_filter with its component
+// TODO: Replace @portfolio_content_filter with the component
 
 import React from 'react';
 
