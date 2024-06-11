@@ -32,7 +32,7 @@
 
     #variant1 {
       order: 1;
-      margin: 2.5%;
+      margin: 1%;
     }
 
     #variant2 {
@@ -40,32 +40,9 @@
     }
   }
 
-  .rightMover {
-    rotate: 180deg;
-  }
-
-  .moveRight,
-  .moveLeft {
-    background: transparent;
-    border-color: transparent;
-  }
-
-  .gallery_scroller {
-    //position: relative;
-    width: 96%;
-    padding-left: 1rem;
+  #scroller_WG {
+    width: 89rem;
     margin-top: -3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    .gallery_arrows {
-      order: 1;
-    }
-
-    .gallery_pointer {
-      order: 2;
-    }
+    margin-left: 1rem;
   }
 }
