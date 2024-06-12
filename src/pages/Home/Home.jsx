@@ -10,14 +10,14 @@ import SeoDiv from "../../components/SEO part/seo_div.jsx";
 import "./style.scss";
 
 import "../../assets/img/megaBoxBackground.png";
-import linkImg from "../../assets/img/linkImg.svg";
+import linkImg from "../../assets/svg/linkImg.svg";
 import contactIco from "./static/icons/contactIcon.svg";
 import rublIco from "./static/icons/rublIcon.svg";
 import shieledIco from "./static/icons/shiledIcon.svg";
 import lampIco from "./static/icons/lampIcon.svg";
 import flagIco from "./static/icons/flagIcon.svg";
 import sofaImg from "../../assets/img/sofaPhotoHome.png";
-import movingArrow from "../../assets/img/moveArrow.svg";
+import movingArrow from "../../assets/svg/moveArrow.svg";
 import solution1 from "./static/icons/solution1.png";
 import solution2 from "./static/icons/solution2.png";
 import solution3 from "./static/icons/solution3.png";
@@ -39,7 +39,7 @@ import vkIco from "./static/icons/vkIco.svg";
 import instagramIco from "./static/icons/instagramIco.svg";
 import telegramIco from "./static/icons/telegramIco.svg";
 import pseudoVid from "./static/works/pseudoVid.png";
-import whatsappIco from "../../assets/img/whatsappIco.svg";
+import whatsappIco from "../../assets/svg/whatsappIco.svg";
 import Responsibility from "../../components/Responsibility/Responsibility.jsx";
 import Presentation from "../../components/Presentation/Presentation.jsx";
 

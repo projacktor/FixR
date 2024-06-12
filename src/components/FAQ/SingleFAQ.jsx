@@ -1,7 +1,7 @@
 import React from 'react';
 
 import "./style.scss";
-import linkImg from "../../assets/img/linkImg.svg";
+import linkImg from "../../assets/svg/linkImg.svg";
 
 function SingleFaq({text}) {
     return (

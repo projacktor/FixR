@@ -4,7 +4,7 @@ import Minibar from "./Minibar.jsx";
 
 import "./style_video.scss"
 
-import videoBtn from "../../assets/img/videoBtn.svg";
+import videoBtn from "../../assets/svg/videoBtn.svg";
 
 function MinibarVideo({desc_content}) {
     return (

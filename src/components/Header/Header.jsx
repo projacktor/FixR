@@ -2,15 +2,15 @@ import React from 'react';
 
 import "./style.scss";
 
-import headerLogo from "../../assets/img/headerLogo.svg";
-import line from "../../assets/img/headerLine.svg";
-import clockIcon from "../../assets/img/headerClockIcon.svg";
-import phoneIcon from "../../assets/img/headerPhone.svg";
-import onlineCircle from "../../assets/img/onlineCircleHeader.svg"
-import whatsapp from "../../assets/img/whatsappIco.svg";
-import telegram from "../../assets/img/telegramIco.svg";
-import profileIcon from "../../assets/img/profileIcon.svg";
-import menuBar from "../../assets/img/menuBar.svg";
+import headerLogo from "../../assets/svg/headerLogo.svg";
+import line from "../../assets/svg/headerLine.svg";
+import clockIcon from "../../assets/svg/headerClockIcon.svg";
+import phoneIcon from "../../assets/svg/headerPhone.svg";
+import onlineCircle from "../../assets/svg/onlineCircleHeader.svg"
+import whatsapp from "../../assets/svg/whatsappIco.svg";
+import telegram from "../../assets/svg/telegramIco.svg";
+import profileIcon from "../../assets/svg/profileIcon.svg";
+import menuBar from "../../assets/svg/menuBar.svg";
 
 
 function Header() {

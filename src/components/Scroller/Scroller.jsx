@@ -2,7 +2,7 @@ import React from 'react';
 
 import "./style.scss";
 
-import movingArrow from "../../assets/img/moveArrow.svg";
+import movingArrow from "../../assets/svg/moveArrow.svg";
 import scroller from "../../pages/Home/static/icons/scroller.svg";
 
 function Scroller() {
