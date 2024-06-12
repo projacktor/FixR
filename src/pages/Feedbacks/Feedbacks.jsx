@@ -3,14 +3,13 @@ import React from 'react';
 import "./style.scss";
 
 import CheckButton from "../../components/CheckButton/CheckButton.jsx";
-
-import feedbacks from "../../assets/img/feedbacks.png";
 import Scroller from "../../components/Scroller/Scroller.jsx";
 import WorksGallery from "../../components/Works Gallery/WorksGallery.jsx";
-import BlogGallery from "../../components/Blog Gallery/BlogGallery.jsx";
 import ToBlog from "../../components/To Blog/ToBlog.jsx";
 import EngConsulting from "../../components/Eng Consulting/EngConsulting.jsx";
 import SeoDiv from "../../components/SEO part/seo_div.jsx";
+
+import feedbacks from "../../assets/img/feedbacks.png";
 
 function Feedbacks() {
     return (
@@ -47,6 +46,7 @@ function Feedbacks() {
                     <CheckButton text="Смотреть все работы"/>
                 </div>
             </div>
+
             <ToBlog />
             <EngConsulting/>
             <SeoDiv/>
