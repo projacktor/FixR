@@ -7,6 +7,8 @@ import CheckButton from "../../components/CheckButton/CheckButton.jsx";
 import feedbacks from "../../assets/img/feedbacks.png";
 import Scroller from "../../components/Scroller/Scroller.jsx";
 import WorksGallery from "../../components/Works Gallery/WorksGallery.jsx";
+import BlogGallery from "../../components/Blog Gallery/BlogGallery.jsx";
+import ToBlog from "../../components/To Blog/ToBlog.jsx";
 
 function Feedbacks() {
     return (
@@ -36,8 +38,18 @@ function Feedbacks() {
             <div id="feedbacks_works_gallery">
                 <h1>Работаем <b>одинаков хорошо</b></h1>
                 <p id="feedbacks_works_gallery_pHeader">как на крупных объектах, так и в небольших квартирах</p>
-                <WorksGallery />
+                <div id="feedbacks_works_gallery_WG_container">
+                    <WorksGallery />
+                </div>
+                <div id="feedbacks_works_gallery_CB_container">
+                    <CheckButton text="Смотреть все работы"/>
+                </div>
             </div>
+
+            <div id="to_blog_sec">
+                <ToBlog />
+            </div>
+
         </main>
     );
 }

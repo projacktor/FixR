@@ -61,12 +61,21 @@
   #feedbacks_works_gallery {
     display: flex;
     flex-direction: column;
-    margin-right: 2rem;
-    h1 {
-      margin-left: 2rem;
+    align-items: flex-start;
+    margin-left: 3em;
+    #feedbacks_works_gallery_WG_container {
+      transform: translateX(-2rem);
     }
     #feedbacks_works_gallery_pHeader {
-      margin-left: 2rem;
+      margin-left: 0.125rem;
     }
+    #feedbacks_works_gallery_CB_container {
+      margin-top: 1rem;
+      width: 100%;
+    }
+  }
+
+  #to_blog_sec {
+    width: 100%;
   }
 }
