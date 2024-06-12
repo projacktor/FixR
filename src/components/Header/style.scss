@@ -1,9 +1,8 @@
 header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
   z-index: 1000;
-  padding: 0 1rem;
   //padding: 0 2.8rem;
   //position: ;
 }
@@ -124,16 +123,14 @@ p {
 
 }
 
-/* div social */
 .social {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px; /* Отступ внутри контейнера */
+  //padding: 10px;
 
   border-radius: 20px;
   background: rgb(255, 255, 255);
-  //box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
   order: 2;
   width: 300px;
