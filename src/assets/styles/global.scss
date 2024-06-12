@@ -1,8 +1,12 @@
-p, h1, h2, h4, h5, li, ul, h3, label, input, select {
+body {
   font-family: var(--font-family);
   --font-family: "Inter", sans-serif;
   --second-family: "Manrope", sans-serif;
   --third-family: "Stolzl", sans-serif;
+
+  b {
+    color: #f9af15;
+  }
 }
 
 h1, h4 {
@@ -23,6 +27,7 @@ a {
   color: inherit;
   cursor: pointer;
 }
+
 
 #root {
   display: flex;

@@ -9,6 +9,8 @@ import Scroller from "../../components/Scroller/Scroller.jsx";
 import WorksGallery from "../../components/Works Gallery/WorksGallery.jsx";
 import BlogGallery from "../../components/Blog Gallery/BlogGallery.jsx";
 import ToBlog from "../../components/To Blog/ToBlog.jsx";
+import EngConsulting from "../../components/Eng Consulting/EngConsulting.jsx";
+import SeoDiv from "../../components/SEO part/seo_div.jsx";
 
 function Feedbacks() {
     return (
@@ -45,11 +47,9 @@ function Feedbacks() {
                     <CheckButton text="Смотреть все работы"/>
                 </div>
             </div>
-
-            <div id="to_blog_sec">
-                <ToBlog />
-            </div>
-
+            <ToBlog />
+            <EngConsulting/>
+            <SeoDiv/>
         </main>
     );
 }
