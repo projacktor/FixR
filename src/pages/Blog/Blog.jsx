@@ -1,13 +1,13 @@
 import React from 'react';
 
-import ContentFilter from "../../components/Content Filter/ContentFilter.jsx";
-import BlogGallery from "../../components/Blog Gallery/BlogGallery.jsx";
-import RecommendationForm from "../../components/Recommendation Form/RecommendationForm.jsx";
-import SocialMedia from "../../components/Social Media/SocialMedia.jsx";
-import CheckButton from "../../components/CheckButton/CheckButton.jsx";
-import EngConsulting from "../../components/Eng Consulting/EngConsulting.jsx";
-import FAQ from "../../components/FAQ/FAQ.jsx";
-import SeoDiv from "../../components/SEO part/seo_div.jsx";
+import ContentFilter from "../../components/helpers/Content Filter/ContentFilter.jsx";
+import BlogGallery from "../../components/page chunks/Blog Gallery/BlogGallery.jsx";
+import RecommendationForm from "../../components/helpers/Recommendation Form/RecommendationForm.jsx";
+import SocialMedia from "../../components/page chunks/Social Media/SocialMedia.jsx";
+import CheckButton from "../../components/helpers/CheckButton/CheckButton.jsx";
+import EngConsulting from "../../components/page chunks/Eng Consulting/EngConsulting.jsx";
+import FAQ from "../../components/page chunks/FAQ/FAQ.jsx";
+import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
 
 import "./style.scss";
 import pseudoVid from "../Home/static/works/pseudoVid.png";

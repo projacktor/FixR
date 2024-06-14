@@ -2,10 +2,10 @@
 
 import React from 'react';
 
-import SeoDiv from "../../components/SEO part/seo_div.jsx";
-import Presentation from "../../components/Presentation/Presentation.jsx";
-import EngConsulting from "../../components/Eng Consulting/EngConsulting.jsx";
-import Responsibility from "../../components/Responsibility/Responsibility.jsx";
+import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
+import Presentation from "../../components/page chunks/Presentation/Presentation.jsx";
+import EngConsulting from "../../components/page chunks/Eng Consulting/EngConsulting.jsx";
+import Responsibility from "../../components/page chunks/Responsibility/Responsibility.jsx";
 
 import "./style.scss";
 import work1 from "../Home/static/works/work1.png";

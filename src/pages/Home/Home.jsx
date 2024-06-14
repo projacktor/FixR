@@ -4,8 +4,8 @@
 
 import React, {useState} from 'react';
 
-import OrangeButton from "../../components/Orange_Button/Orange_Button.jsx";
-import SeoDiv from "../../components/SEO part/seo_div.jsx";
+import OrangeButton from "../../components/helpers/Orange_Button/Orange_Button.jsx";
+import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
 
 import "./style.scss";
 
@@ -39,9 +39,9 @@ import vkIco from "./static/icons/vkIco.svg";
 import instagramIco from "./static/icons/instagramIco.svg";
 import telegramIco from "./static/icons/telegramIco.svg";
 import pseudoVid from "./static/works/pseudoVid.png";
-import whatsappIco from "../../assets/svg/whatsappIco.svg";
-import Responsibility from "../../components/Responsibility/Responsibility.jsx";
-import Presentation from "../../components/Presentation/Presentation.jsx";
+import whatsappIco from "../../assets/svg/whatsappIcon.svg";
+import Responsibility from "../../components/page chunks/Responsibility/Responsibility.jsx";
+import Presentation from "../../components/page chunks/Presentation/Presentation.jsx";
 
 
 function Home() {
