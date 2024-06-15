@@ -9,4 +9,70 @@
   .head {
     margin-right: 57rem;
   }
+
+  .map_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    .map {
+      width: 95%;
+      height: 422px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      iframe {
+        width: 100%;
+        height: 100%;
+        border-radius: 32px;
+        z-index: 1;
+      }
+
+      .map_make_route {
+        position: absolute;
+        left: 6rem;
+        width: 18vw;
+        height: 45vh;
+        background: #fff;
+        border-radius: 32px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        //gap: 20px;
+        //justify-content: center;
+        h2, p {
+          margin-left: 2rem;
+          line-height: 1.25;
+        }
+
+        h2 {
+          margin-top: 2rem;
+        }
+
+        p {
+          margin-top: 1rem;
+          font-weight: 600;
+        }
+
+        #map_route_button_container {
+          width: 95%;
+          height: 5rem;
+          button {
+            margin-left: 2rem;
+            height: 80%;
+            font-size: 14px;
+            text-align: center;
+          }
+        }
+      }
+
+    }
+
+  }
+
 }
