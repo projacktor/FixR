@@ -28,6 +28,10 @@ a {
   cursor: pointer;
 }
 
+address {
+  font-style: inherit;
+}
+
 
 #root {
   display: flex;
@@ -35,7 +39,6 @@ a {
   align-items: center;
   padding: 0 0.5rem;
 }
-
 footer {
   //margin-top: auto;
 }

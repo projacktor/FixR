@@ -2,10 +2,10 @@ import React from 'react';
 
 import "./style.scss"
 
-function BlackBtn() {
+function BlackBtn({text}) {
     return (
         <button className="to_consulting_btn">
-            Записаться на консультацию
+            {text}
         </button>
     );
 }

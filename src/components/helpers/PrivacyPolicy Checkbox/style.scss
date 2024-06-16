@@ -1,0 +1,21 @@
+.consent {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  text-align: left;
+  color: #999;
+
+  input {
+    margin-right: 0.5rem;
+  }
+
+  a {
+    color: #999;
+    text-decoration: underline;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
