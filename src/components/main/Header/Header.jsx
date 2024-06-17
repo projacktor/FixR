@@ -47,10 +47,10 @@ function Header() {
                 </address>
             </div>
 
-            <div className="profile">
+            <button className="profile">
                 <img className="profile_icon" src={profileIcon}/>
                 <p className="to_profile_tagline">Личный кабинет</p>
-            </div>
+            </button>
 
             <div className="menu">
                 <button>

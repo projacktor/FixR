@@ -4,6 +4,7 @@ header {
   align-items: center;
   gap: 24px;
   padding: 1rem 0;
+  width: 97%;
 }
 
 b {
@@ -142,6 +143,7 @@ b {
 }
 
 .write_us {
+  width: 8rem;
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
@@ -149,21 +151,21 @@ b {
 }
 
 .online_circle {
+  width: 10px;
   margin: 0 3px;
 }
 
 .profile {
   order: 3;
-  margin: 0 0.5px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 20px 35px;
-  width: 18rem;
+  width: 22rem;
   border-radius: 1.25rem;
   background: rgb(22, 22, 22);
-
+  border-color: transparent;
 
   .to_profile_tagline {
     font-weight: 500;
