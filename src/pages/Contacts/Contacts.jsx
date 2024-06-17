@@ -88,11 +88,13 @@ function Contacts() {
                 <form className="send_message_form">
                     <input type="text" placeholder="Сообщение" className="message_input"/>
                     <input type="tel" placeholder="Ваш номер телефона" className="tel_input"/>
-                    <input type="tel" placeholder="Ваш e-mail" className="email_input"/>
+                    <input type="email" placeholder="Ваш e-mail" className="email_input"/>
                     <div id="send_message_form_black_btn_container">
                         <BlackBtn text="Отправить сообщение"/>
                     </div>
-                    <PrivacyPolicy />
+                    <div id="send_message_form_privacy_container">
+                        <PrivacyPolicy />
+                    </div>
                 </form>
             </div>
         </main>

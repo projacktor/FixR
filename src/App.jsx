@@ -6,8 +6,8 @@ import Header from "./components/main/Header/Header.jsx";
 // import Footer from "./components/Footer/Footer.jsx";
 // import Portfolio from "./pages/Portfolio/Portfolio.jsx";
 // import Work1 from "./pages/Portfolio work_1/Work1.jsx";
-import Blog from "./pages/Blog/Blog.jsx";
-// import Contacts from "./pages/Contacts/Contacts.jsx";
+// import Blog from "./pages/Blog/Blog.jsx";
+import Contacts from "./pages/Contacts/Contacts.jsx";
 
 function App() {
     return (
@@ -17,9 +17,9 @@ function App() {
             {/*<Portfolio />*/}
             {/*<Footer />*/}
             {/*<Work1 />*/}
-            <Blog />
+            {/*<Blog />*/}
             {/*<Feedbacks />*/}
-            {/*<Contacts/>*/}
+            <Contacts/>
         </>
     )
 }

@@ -3,19 +3,29 @@
   align-items: center;
   margin-top: 1rem;
   font-size: 0.8rem;
-  text-align: left;
-  color: #999;
+  text-align: center;
+  //color: #999;
+  color: #161616;
 
-  input {
-    margin-right: 0.5rem;
+  input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #f9af15;
+
+    &:checked {
+      background-color: #f9af15;
+      border-color: #f9af15;
+    }
   }
 
   a {
-    color: #999;
     text-decoration: underline;
 
     &:hover {
-      color: #fff;
+      color: #999;
+      //color: #fff;
     }
   }
+
+
 }

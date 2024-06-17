@@ -181,12 +181,14 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-around;
+      justify-content: center;
+      gap: 25px;
       input {
-        background: rgb(220 220 230);
-        border-color: transparent;
-        font-size: 15px;
+        background: #f4f4f4;
+        color: #161616;
+        font-size: 18px;
         font-weight: 500;
+        border-color: transparent;
         padding-left: 2rem;
         padding-right: 10rem;
         padding-top: 1rem;
@@ -210,6 +212,19 @@
           padding-top: 2rem;
           padding-bottom: 2rem;
         }
+      }
+
+      #send_message_form_privacy_container {
+        width: 100%;
+        margin-top: -2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        label {
+          font-size: 13px;
+        }
+
+
       }
     }
   }
