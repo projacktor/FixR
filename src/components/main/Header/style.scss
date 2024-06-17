@@ -1,8 +1,8 @@
 header {
   display: flex;
-  justify-content: center;
-  width: 100%;
-  z-index: 1000;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
   padding: 1rem 0;
 }
 
@@ -12,16 +12,15 @@ b {
 
 .contacts {
   order: 1;
-  width: 65%;
+  width: 49%;
   height: 80px;
   border-radius: 20px;
   background: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  gap: 10px;
+  //justify-content: space-around;
   align-items: center;
-  padding: 0px 5px;
-  //box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
   .contacts_header_logo {
     flex: none;
@@ -32,6 +31,10 @@ b {
   .contacts_header_line {
     flex: none;
     flex-grow: 0;
+    width: 1px;
+    height: 50px;
+    border-left: 1px dashed rgba(0, 0, 0, 0.5);
+    opacity: 0.25;
   }
 
   .line1 {
@@ -41,29 +44,26 @@ b {
     order: 4;
   }
   .line3 {
-    order: 7;
+    order: 6;
   }
 
   .tagline {
-    /* Первый онлайн-сервис по ремонту и строительству с фикс стоимостью */
-    width: 157px;
+    width: 145px;
     height: 59px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px;
 
     flex: none;
     order: 3;
     flex-grow: 0;
-    margin: 0px 10px;
 
     text-align: left;
     font-weight: 500;
-    font-size: 13px;
-    line-height: 162%;
     letter-spacing: -0.04em;
     color: #2b2a29;
+    font-size: 12px;
+    line-height: 142%;
   }
 
   .worktime_container {
@@ -72,13 +72,11 @@ b {
     flex-direction: row;
     align-items: center;
     .clock {
-      /* Vector */
       width: 17px;
       height: 25px;
       order: 1;
     }
     .worktime {
-      /* Звоните Пн-Вс: 8:30 - 19:00 */
       width: 175px;
       height: 18px;
       display: flex;
@@ -101,8 +99,6 @@ b {
     flex-direction: row;
     align-items: center;
 
-    /*margin: 0 -3px;*/
-
     .phone {
       width: 17px;
       height: 25px;
@@ -116,23 +112,21 @@ b {
       margin: 0 4px;
     }
   }
-
 }
 
 .social {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  gap: 10px;
+  //justify-content: space-between;
   align-items: center;
-  //padding: 10px;
 
   border-radius: 20px;
   background: rgb(255, 255, 255);
 
   order: 2;
-  width: 300px;
+  width: 250px;
   height: 60px;
-
-  margin: 0 2rem;
 }
 
 .write_us_container,
@@ -148,6 +142,9 @@ b {
 }
 
 .write_us {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
   white-space: pre-line; /* Позволяет переносить текст на новую строку */
 }
 
@@ -168,7 +165,6 @@ b {
 
   border-radius: 1.25rem;
   background: rgb(22, 22, 22);
-  //box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0);
 
   .to_profile_tagline {
     font-weight: 500;
@@ -193,8 +189,6 @@ b {
   align-items: center;
   padding: 2rem 1.69rem 2rem 1.69rem;
   order: 4;
-  margin: 0 2rem;
   border-radius: 20px;
-  //box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   fill: #fff;
 }
