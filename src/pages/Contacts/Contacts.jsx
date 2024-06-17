@@ -1,18 +1,18 @@
 import React from 'react';
 
 import Orange_Button from "../../components/helpers/Orange_Button/Orange_Button.jsx";
+import CheckButton from "../../components/helpers/CheckButton/CheckButton.jsx";
+import BlackBtn from "../../components/helpers/Consulting Black Btn/BlackBtn.jsx";
+import PrivacyPolicy from "../../components/helpers/PrivacyPolicy Checkbox/PrivacyPolicy.jsx";
+import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
+
+import "./style.scss"
 
 import telegramIcon from "../../assets/svg/telegramIcon.svg";
 import whatsappIcon from "../../assets/svg/whatsappIcon.svg";
 import youtubeIcon from "../../assets/svg/youtubeIcon.svg";
 import vkIcon from "../../assets/svg/vkIcon.svg";
 import instaIcon from "../../assets/svg/instaIcon.svg";
-
-
-import "./style.scss"
-import CheckButton from "../../components/helpers/CheckButton/CheckButton.jsx";
-import BlackBtn from "../../components/helpers/Consulting Black Btn/BlackBtn.jsx";
-import PrivacyPolicy from "../../components/helpers/PrivacyPolicy Checkbox/PrivacyPolicy.jsx";
 
 function Contacts() {
     return (
@@ -86,9 +86,9 @@ function Contacts() {
                 </div>
 
                 <form className="send_message_form">
-                    <input type="text" placeholder="Сообщение" className="message_input"/>
-                    <input type="tel" placeholder="Ваш номер телефона" className="tel_input"/>
-                    <input type="email" placeholder="Ваш e-mail" className="email_input"/>
+                    <input type="text" placeholder="Сообщение" className="message_input" name="message"/>
+                    <input type="tel" placeholder="Ваш номер телефона" className="tel_input" name="telephone" autoComplete="tel"/>
+                    <input type="email" placeholder="Ваш e-mail" className="email_input" name="email" autoComplete="email"/>
                     <div id="send_message_form_black_btn_container">
                         <BlackBtn text="Отправить сообщение"/>
                     </div>
@@ -96,6 +96,17 @@ function Contacts() {
                         <PrivacyPolicy />
                     </div>
                 </form>
+
+                <div className="manager_block">
+                    <div id="manager_block_die">
+                        <h3>Александр <br/> Иванов</h3>
+                        <p>Менеджер по продажам <br/> FIX-ремонт</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contacts_seo">
+                <SeoDiv />
             </div>
         </main>
     );

@@ -142,7 +142,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 40px;
+    justify-content: space-around;
+    //gap: 50px;
 
     #feedback_form_headers {
       height: 85%;
@@ -229,4 +230,39 @@
     }
   }
 
+  .manager_block {
+    background-image: url(../../assets/img/managerPhoto.png);
+    background-size: cover;
+    height: 100%;
+    width: 32%;
+    margin-top: -15px;
+    #manager_block_die {
+      color: #ffffff;
+      position: relative;
+      left: 18rem;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 10px;
+      width: 11rem;
+      height: 9rem;
+      margin-top: 40px;
+      h3 {
+        margin: 0 0;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 130%
+      }
+      p {
+        margin: 0 0;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 147%;
+      }
+    }
+  }
+
+  #contacts_seo {
+    margin-top: 2rem;
+  }
 }
