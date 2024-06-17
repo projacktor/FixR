@@ -181,14 +181,17 @@ b {
 }
 
 .menu {
-  width: 25px;
-  height: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem 1.69rem 2rem 1.69rem;
+  button {
+    width: 25px;
+    height: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1.69rem 2rem 1.69rem;
+    border-radius: 20px;
+    background: #fff;
+    border-color: transparent;
+  }
   order: 4;
-  border-radius: 20px;
-  fill: #fff;
 }
