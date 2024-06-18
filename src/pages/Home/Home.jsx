@@ -41,8 +41,9 @@ import instagramIco from "./static/icons/instagramIco.svg";
 import telegramIco from "./static/icons/telegramIco.svg";
 import pseudoVid from "./static/works/pseudoVid.png";
 import whatsappIco from "../../assets/svg/whatsappIcon.svg";
-import Risk from "../../components/helpers/Risk/Risk.jsx";
+import Risk from "../../components/page chunks/Risk/Risk.jsx";
 import WorksGallery from "../../components/page chunks/Works Gallery/WorksGallery.jsx";
+import CheckFeedbacks from "../../components/page chunks/Check Feedbacks/CheckFeedbacks.jsx";
 
 
 function Home() {
@@ -214,48 +215,12 @@ function Home() {
                         </a>
                     </div>
                 </div>
-                <WorksGallery/>
+                <WorksGallery />
             </div>
 
-
-            {/*<div className="response_gallery">*/}
-            {/*    <div className="response_gallery_slideshow">*/}
-            {/*        <img src={response1}/>*/}
-            {/*    </div>*/}
-            {/*    <div className="gallery_scroller">*/}
-            {/*        <div className="gallery_arrows">*/}
-            {/*            <button className="moveLeft" onClick={moveLeft}>*/}
-            {/*                <img className="mover leftMover" src={movingArrow}/>*/}
-            {/*            </button>*/}
-            {/*            <button className="moveRight" onClick={moveRight}>*/}
-            {/*                <img className="mover rightMover" src={movingArrow}/>*/}
-            {/*            </button>*/}
-            {/*        </div>*/}
-            {/*        <div className="gallery_pointer">*/}
-            {/*            <img src={scroller}/>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
-
-            {/*<div className="video_gallery">*/}
-            {/*    <div className="video_gallery_slideshow">*/}
-            {/*        <img src={videoE} className="vid"/>*/}
-            {/*    </div>*/}
-            {/*    <div className="gallery_scroller">*/}
-            {/*        <div className="gallery_arrows">*/}
-            {/*            <button className="moveLeft" onClick={moveLeft}>*/}
-            {/*                <img className="mover leftMover" src={movingArrow}/>*/}
-            {/*            </button>*/}
-            {/*            <button className="moveRight" onClick={moveRight}>*/}
-            {/*                <img className="mover rightMover" src={movingArrow}/>*/}
-            {/*            </button>*/}
-            {/*        </div>*/}
-            {/*        <div className="gallery_pointer">*/}
-            {/*            <img src={scroller}/>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
-
+            <div id="home_check_feedbacks">
+                <CheckFeedbacks/>
+            </div>
             {/*<button className="check_responses check_button">*/}
             {/*    Смотреть все отзывы*/}
             {/*</button>*/}
