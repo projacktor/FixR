@@ -664,115 +664,17 @@
     }
   }
 
-  .home_presentation {
-    //background: gray;
-    width: 98%;
-    height: 150%;
-
-    b {
-      color: #f9af15;
-    }
-
+  #home_presentation {
+    width: 100%;
     img {
       width: 100%;
     }
-
-    .get_consulting {
-      position: relative;
-      top: 1.5%;
-      height: 5%;
-    }
   }
 
-  .home_responsibility {
+  #home_responsibility {
     width: 100%;
-    height: 100%;
   }
 
-  //.responsibility {
-
-
-  .social_media {
-    position: absolute;
-    width: 100%;
-    height: 80%;
-    //left: 1%;
-    top: 1010%;
-
-    b {
-      color: #f9af15;
-    }
-
-    h1 {
-      position: relative;
-      left: 3%;
-    }
-
-    .vid_temp {
-      position: relative;
-      //left: 2%;
-      top: 4%;
-      width: 43%;
-    }
-
-    .social_media_enum {
-      position: relative;
-      width: 50%;
-      height: 60%;
-      left: 47%;
-      top: -57%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-
-      .social_media_single {
-        //background: gray;
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        border-radius: 35px;
-        width: 100%;
-        height: 30%;
-
-        img {
-          order: 0;
-          //position: relative;
-          //left: 5%;
-          //top: 60%;
-        }
-
-        h4 {
-          order: 1;
-          //position: relative;
-          //left: 25%;
-          //top: -30%;
-          font-weight: 700;
-          font-size: 39px;
-          line-height: 123%;
-          letter-spacing: -0.06em;
-        }
-
-        p {
-          order: 2;
-        }
-      }
-
-      .social_media1 {
-        order: 1;
-      }
-
-      .social_media2 {
-        order: 2;
-      }
-
-      .social_media3 {
-        order: 3;
-      }
-    }
-  }
 
   .pseudo_vid {
     width: 98%;
@@ -783,102 +685,8 @@
     }
   }
 
-  .blog {
-    //background: gray;
+  #home_to_blog {
     width: 100%;
-    height: 80%;
-
-    h1 {
-      position: relative;
-      left: 1%;
-    }
-
-    .blog_bullits {
-      //background: lightgrey;
-      width: 100%;
-      height: 50%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-
-      .single_blog_bullit {
-        width: 35%;
-        height: 85%;
-        margin: 0 1%;
-
-        border-radius: 2.19rem;
-        background-size: cover;
-
-        p {
-          position: relative;
-          top: 45%;
-          left: 5%;
-          font-family: var(--font-family);
-          font-weight: 600;
-          font-size: 20px;
-          line-height: 148%;
-          letter-spacing: -0.04em;
-          text-decoration: underline;
-          text-decoration-skip-ink: none;
-          color: #fff;
-        }
-
-        .blog_bullit_section {
-          position: relative;
-          top: 5%;
-          left: 5%;
-          padding: 0 10%;
-          max-width: 5%;
-          max-height: 15%;
-          border-radius: 31.25rem;
-          background: rgb(22, 22, 22);
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          p {
-            font-weight: 600;
-            font-size: 12px;
-            line-height: 150%;
-            letter-spacing: -0.04em;
-            text-align: center;
-            color: #fff;
-          }
-        }
-      }
-
-      .blog_bullit_post {
-        background-image: url(./static/works/blog1.png);
-      }
-
-      .blog_bullit_vid {
-        background-image: url(./static/works/videoE.png);
-      }
-    }
-
-    .blog_buttons {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-direction: row;
-
-      .check_button {
-        margin: 0 1%;
-      }
-
-      .to_blog {
-        width: 85%;
-      }
-
-      .to_youtube {
-        width: 40%;
-        box-sizing: border-box;
-        border: 0.06rem solid rgb(255, 38, 0);
-        border-radius: 31.25rem;
-        color: rgb(255, 38, 0);
-      }
-    }
   }
 
   .section_faq {

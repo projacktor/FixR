@@ -44,6 +44,8 @@ import whatsappIco from "../../assets/svg/whatsappIcon.svg";
 import Risk from "../../components/page chunks/Risk/Risk.jsx";
 import WorksGallery from "../../components/page chunks/Works Gallery/WorksGallery.jsx";
 import CheckFeedbacks from "../../components/page chunks/Check Feedbacks/CheckFeedbacks.jsx";
+import SocialMedia from "../../components/page chunks/Social Media/SocialMedia.jsx";
+import ToBlog from "../../components/page chunks/To Blog/ToBlog.jsx";
 
 
 function Home() {
@@ -257,40 +259,25 @@ function Home() {
                 </div>
             </div>
 
-            <div className="home_presentation">
+            <div id="home_presentation">
                 <Presentation />
             </div>
 
-            <div className="home_responsibility">
+            <div id="home_responsibility">
                 <Responsibility/>
             </div>
 
-            {/*<div className="social_media">*/}
-            {/*    <h1>Мы максимально <b>открыты</b> и <br/>*/}
-            {/*        подтверждаем экспертность в социальных сетях </h1>*/}
-            {/*    <img className="vid_temp" src={videoY}/>*/}
-            {/*    <div className="social_media_enum">*/}
-            {/*        <div className="social_media_single social_media1">*/}
-            {/*            <img src={vkIco}/>*/}
-            {/*            <h4>Вконтакте</h4>*/}
-            {/*            <p>1 500 подписчиков</p>*/}
-            {/*        </div>*/}
-            {/*        <div className="social_media_single social_media2">*/}
-            {/*            <img src={instagramIco}/>*/}
-            {/*            <h4>Instagram</h4>*/}
-            {/*            <p>15 500 подписчиков</p>*/}
-            {/*        </div>*/}
-            {/*        <div className="social_media_single social_media3">*/}
-            {/*            <img src={telegramIco}/>*/}
-            {/*            <h4>Telegram</h4>*/}
-            {/*            <p>500 подписчиков</p>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
+            <div id="home_social_media">
+                <SocialMedia/>
+            </div>
 
-            {/*<div className="pseudo_vid">*/}
-            {/*    <img src={pseudoVid}/>*/}
-            {/*</div>*/}
+            <div className="pseudo_vid">
+                <img alt="pseudo_video" src={pseudoVid}/>
+            </div>
+
+            <div id="home_to_blog">
+                <ToBlog/>
+            </div>
 
             {/*<div className="blog">*/}
             {/*    <h1>Ведём блог, делимся <b>многолетним опытом</b> и практической<br/> информацией </h1>*/}

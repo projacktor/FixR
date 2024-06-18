@@ -12,7 +12,7 @@ function ToBlog() {
 
     return (
         <div className="blog">
-            <h1>Ведём блог, делимся <b>многолетним опытом</b> и практической<br/> информацией </h1>
+            <h1>Ведём блог, делимся <b>многолетним опытом</b> <br/> и практической информацией </h1>
             <div className="blog_bullits">
                 <div className="single_blog_bullit blog_bullit_post">
                     <div className="blog_bullit_section">
