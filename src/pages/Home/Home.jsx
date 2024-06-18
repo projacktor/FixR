@@ -197,45 +197,48 @@ function Home() {
                 <Risk />
             </div>
 
-            {/*<div className="response_header">*/}
-            {/*    <p>Но лучше всего о нас расскажут</p>*/}
-            {/*    <h1>Выполненные работы <br/>*/}
-            {/*        и отзывы клиентов </h1>*/}
-            {/*    <div className="response_bullet response_bullet1">*/}
-            {/*        <img src={responseYandex}/>*/}
-            {/*        <a href="https://google.com"><p><u>Смотреть отзывы на Яндекс</u></p></a>*/}
-            {/*    </div>*/}
-            {/*    <div className="response_bullet response_bullet2">*/}
-            {/*        <img src={responseOtzovik}/>*/}
-            {/*        <a><p><u>Смотреть отзывы на Отзовик</u></p></a>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
+            <div className="response_header">
+                <div id="response_names">
+                    <p>Но лучше всего о нас расскажут</p>
+                    <h1>Выполненные работы <br/> и отзывы клиентов </h1>
+                </div>
+                <div id="response_bullets">
+                    <a className="response_bullet" target="_blank">
+                        <img alt="yandex_picture" src={responseYandex}/>
+                        <p><u>Смотреть отзывы на Яндекс</u></p>
+                    </a>
+                    <a className="response_bullet response_bullet2" target="_blank">
+                        <img alt="otzovik_picture" src={responseOtzovik}/>
+                        <p><u>Смотреть отзывы на Отзовик</u></p>
+                    </a>
+                </div>
+            </div>
 
-            {/*<div className="variants_gallery">*/}
-            {/*    <div className="variants_gallery_slideshow">*/}
-            {/*        <div className="variant1">*/}
-            {/*            <img src={work1}/>*/}
-            {/*            <a><p><u>Узнать стоимость</u></p></a>*/}
-            {/*        </div>*/}
-            {/*        <div className="variant2">*/}
-            {/*            <img src={work2}></img>*/}
-            {/*            <a><p><u>Узнать стоимость</u></p></a>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*    <div className="gallery_scroller">*/}
-            {/*        <div className="gallery_arrows">*/}
-            {/*            <button className="moveLeft" onClick={moveLeft}>*/}
-            {/*                <img className="mover leftMover" src={movingArrow}/>*/}
-            {/*            </button>*/}
-            {/*            <button className="moveRight" onClick={moveRight}>*/}
-            {/*                <img className="mover rightMover" src={movingArrow}/>*/}
-            {/*            </button>*/}
-            {/*        </div>*/}
-            {/*        <div className="gallery_pointer">*/}
-            {/*            <img src={scroller}/>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
+            <div className="variants_gallery">
+                <div className="variants_gallery_slideshow">
+                    <div className="variant1">
+                        <img src={work1}/>
+                        <a><p><u>Узнать стоимость</u></p></a>
+                    </div>
+                    <div className="variant2">
+                        <img src={work2}></img>
+                        <a><p><u>Узнать стоимость</u></p></a>
+                    </div>
+                </div>
+                <div className="gallery_scroller">
+                    <div className="gallery_arrows">
+                        <button className="moveLeft" onClick={moveLeft}>
+                            <img className="mover leftMover" src={movingArrow}/>
+                        </button>
+                        <button className="moveRight" onClick={moveRight}>
+                            <img className="mover rightMover" src={movingArrow}/>
+                        </button>
+                    </div>
+                    <div className="gallery_pointer">
+                        <img src={scroller}/>
+                    </div>
+                </div>
+            </div>
 
             {/*<div className="response_gallery">*/}
             {/*    <div className="response_gallery_slideshow">*/}
