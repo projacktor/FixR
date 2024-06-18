@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 25px;
 
   .home_content > * {
     width: 95%;
@@ -237,17 +238,13 @@
     justify-content: space-around;
     align-items: center;
 
-    position: absolute;
     width: 98%;
     height: 11.56rem;
-    left: 1%;
-    top: 103%;
 
     .single_bullet {
       width: 21.69rem;
       height: 11.56rem;
       border-radius: 2.19rem;
-      //background: lightgray;
       margin: 1%;
     }
 

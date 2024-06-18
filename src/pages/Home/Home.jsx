@@ -106,30 +106,28 @@ function Home() {
 
             </div>
 
-            {/*<div className="bullets">*/}
-            {/*    <div className="bullet1 single_bullet">*/}
-            {/*        <p className="bullet1_para">Без визитов <br/> на объект</p>*/}
-            {/*        <img className="contact_img" src={contactIco}/>*/}
-            {/*    </div>*/}
-
-            {/*    <div className="bullet2 single_bullet">*/}
-            {/*        <p className="bullet2_para">100% гарантия фиксированной <br/> сметы</p>*/}
-            {/*        <img className="rubl_img" src={rublIco}/>*/}
-            {/*    </div>*/}
-
-            {/*    <div className="bullet3 single_bullet">*/}
-            {/*        <p className="bullet3_para">Все финансовые риски берем <br/> на себя</p>*/}
-            {/*        <img className="shield_img" src={shieledIco}/>*/}
-            {/*    </div>*/}
-            {/*    <div className="bullet4 single_bullet">*/}
-            {/*        <p className="bullet4_para">36 готовых <br/> дизайн-проектов</p>*/}
-            {/*        <img className="lamp_img" src={lampIco}/>*/}
-            {/*    </div>*/}
-            {/*    <div className="bullet5 single_bullet">*/}
-            {/*        <p className="bullet5_para">Все берем на себя <br/> и работаем под ключ</p>*/}
-            {/*        <img className="flag_img" src={flagIco}/>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
+            <div className="bullets">
+                <div className="bullet1 single_bullet">
+                    <p className="bullet1_para">Без визитов <br/> на объект</p>
+                    <img alt="bullet_img" className="contact_img" src={contactIco}/>
+                </div>
+                <div className="bullet2 single_bullet">
+                    <p className="bullet2_para">100% гарантия фиксированной <br/> сметы</p>
+                    <img alt="bullet_img" className="rubl_img" src={rublIco}/>
+                </div>
+                <div className="bullet3 single_bullet">
+                    <p className="bullet3_para">Все финансовые риски берем <br/> на себя</p>
+                    <img alt="bullet_img" className="shield_img" src={shieledIco}/>
+                </div>
+                <div className="bullet4 single_bullet">
+                    <p className="bullet4_para">36 готовых <br/> дизайн-проектов</p>
+                    <img alt="bullet_img" className="lamp_img" src={lampIco}/>
+                </div>
+                <div className="bullet5 single_bullet">
+                    <p className="bullet5_para">Все берем на себя <br/> и работаем под ключ</p>
+                    <img alt="bullet_img" className="flag_img" src={flagIco}/>
+                </div>
+            </div>
 
             {/*<div className="mega_box2">*/}
             {/*    <h1 className="mega_box2_tagline">Занимайтесь <br/> <b className="bolder">любимыми</b> делами, <br/> а*/}
