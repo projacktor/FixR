@@ -1,25 +1,33 @@
 .responsibility {
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   width: 100%;
-  height: 45rem;
-  b {
-    color: #f9af15;
-  }
-  h1,
-  .responsibility_para {
-    position: relative;
-    left: 1rem;
-  }
-  .responsibility_bullits {
-    position: relative;
-    //left: -1rem;
-    top: -20.5rem;
+  height: 96vh;
+  padding: 3rem 0;
+  #responsibility_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 50%;
+    height: 100%;
+    h1 {
+      margin: 0;
+    }
+    img {
+      transform: translateX(-1rem);
+      width: 100%;
+    }
   }
-  .responsibility_human {
-    position: relative;
-    left: 1rem;
-    top: -20.7rem;
-    width: 45rem;
+
+  #responsibility_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    img {
+
+      width: 97%;
+    }
   }
 }

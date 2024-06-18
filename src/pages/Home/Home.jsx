@@ -261,9 +261,9 @@ function Home() {
                 <Presentation />
             </div>
 
-            {/*<div className="home_responsibility">*/}
-            {/*    <Responsibility/>*/}
-            {/*</div>*/}
+            <div className="home_responsibility">
+                <Responsibility/>
+            </div>
 
             {/*<div className="social_media">*/}
             {/*    <h1>Мы максимально <b>открыты</b> и <br/>*/}
