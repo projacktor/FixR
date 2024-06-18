@@ -1,12 +1,15 @@
-// TODO: replace some imgs to bullits
-// TODO: replace social media by component
-
 import React, {useState} from 'react';
 
 import OrangeButton from "../../components/helpers/Orange_Button/Orange_Button.jsx";
 import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
 import Responsibility from "../../components/page chunks/Responsibility/Responsibility.jsx";
 import Presentation from "../../components/page chunks/Presentation/Presentation.jsx";
+import Risk from "../../components/page chunks/Risk/Risk.jsx";
+import WorksGallery from "../../components/page chunks/Works Gallery/WorksGallery.jsx";
+import CheckFeedbacks from "../../components/page chunks/Check Feedbacks/CheckFeedbacks.jsx";
+import SocialMedia from "../../components/page chunks/Social Media/SocialMedia.jsx";
+import ToBlog from "../../components/page chunks/To Blog/ToBlog.jsx";
+import FAQ from "../../components/page chunks/FAQ/FAQ.jsx";
 
 import "./style.scss";
 
@@ -24,28 +27,10 @@ import solution2 from "./static/icons/solution2.png";
 import solution3 from "./static/icons/solution3.png";
 import solution4 from "./static/icons/solution4.png";
 import creditImg from "../../assets/img/creditImg.png";
-import creditCardImg from "../../assets/img/creditCardImg.png";
-import materialsImg from "../../assets/img/creditCardMaterials.png";
-import creditBullets from "../../assets/img/creditBullets.png";
 import responseYandex from "../../assets/img/responseYandex.png";
 import responseOtzovik from "../../assets/img/responseOtzovik.png";
-import work1 from "./static/works/work1.png";
-import work2 from "./static/works/work2.png";
-import scroller from "./static/icons/scroller.svg";
-import response1 from "./static/responses/response1.png";
-import videoE from "./static/works/videoE.png";
-import videoY from "./static/works/videoY.png";
 import plannerImg1 from "./static/works/plannerImg1.png";
-import vkIco from "./static/icons/vkIco.svg";
-import instagramIco from "./static/icons/instagramIco.svg";
-import telegramIco from "./static/icons/telegramIco.svg";
 import pseudoVid from "./static/works/pseudoVid.png";
-import whatsappIco from "../../assets/svg/whatsappIcon.svg";
-import Risk from "../../components/page chunks/Risk/Risk.jsx";
-import WorksGallery from "../../components/page chunks/Works Gallery/WorksGallery.jsx";
-import CheckFeedbacks from "../../components/page chunks/Check Feedbacks/CheckFeedbacks.jsx";
-import SocialMedia from "../../components/page chunks/Social Media/SocialMedia.jsx";
-import ToBlog from "../../components/page chunks/To Blog/ToBlog.jsx";
 
 
 function Home() {
@@ -279,87 +264,13 @@ function Home() {
                 <ToBlog/>
             </div>
 
-            {/*<div className="blog">*/}
-            {/*    <h1>Ведём блог, делимся <b>многолетним опытом</b> и практической<br/> информацией </h1>*/}
-            {/*    <div className="blog_bullits">*/}
-            {/*        <div className="single_blog_bullit blog_bullit_post">*/}
-            {/*            <div className="blog_bullit_section">*/}
-            {/*                <p>Ремонт</p>*/}
-            {/*            </div>*/}
-            {/*            <a>*/}
-            {/*                <p>Как рассчитать стоимость через <br/> онлайн-калькулятор FIX-ремонт?</p>*/}
-            {/*            </a>*/}
-            {/*        </div>*/}
-            {/*        <div className="single_blog_bullit blog_bullit_post">*/}
-            {/*            <div className="blog_bullit_section">*/}
-            {/*                <p>Строительство</p>*/}
-            {/*            </div>*/}
-            {/*            <a>*/}
-            {/*                <p>Как рассчитать стоимость через <br/> онлайн-калькулятор FIX-ремонт?</p>*/}
-            {/*            </a>*/}
-            {/*        </div>*/}
-            {/*        <div className="single_blog_bullit blog_bullit_vid"></div>*/}
-            {/*    </div>*/}
-            {/*    <div className="blog_buttons">*/}
-            {/*        <button className="to_blog check_button">*/}
-            {/*            Перейти в блог*/}
-            {/*        </button>*/}
-            {/*        <button className="to_youtube check_button"*/}
-            {/*                onClick={openLink("https://www.youtube.com/@director_stroyki")}>*/}
-            {/*            Перейти в YouTube*/}
-            {/*        </button>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
+            <div id="home_faq">
+                <FAQ/>
+            </div>
 
-            {/*<div className="section_faq">*/}
-            {/*    <div className="section_faq_head">*/}
-            {/*        <h1>Отвечаем на <b>самые частые<br/> вопросы</b> наших клиентов </h1>*/}
-            {/*        <div className="section_faq_CEO">*/}
-            {/*            <h4>Фанис Хасанов</h4>*/}
-            {/*            <p>Основатель и руководитель FIX-ремонт <br/><br/>*/}
-            {/*                Не нашли свой вопрос? Свяжитесь с нами!</p>*/}
-            {/*            <div className="section_faq_contacts">*/}
-            {/*                <a href="tel:8 (800) 000-00-00"><h4>8 (800) 000-00-00</h4></a>*/}
-            {/*                <a>*/}
-            {/*                    <img className="section_faq_whatsapp" src={whatsappIco}/>*/}
-            {/*                </a>*/}
-            {/*                <a>*/}
-            {/*                    <img className="section_faq_telegram" src={telegramIco}/>*/}
-            {/*                </a>*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*    <div className="section_faq_box">*/}
-            {/*        <a className="section_faq_single_bullit">*/}
-            {/*            <h4>Какой срок службы?</h4>*/}
-            {/*            <img src={linkImg}/>*/}
-            {/*        </a>*/}
-            {/*        <a className="section_faq_single_bullit">*/}
-            {/*            <h4>Какой срок службы?</h4>*/}
-            {/*            <img src={linkImg}/>*/}
-            {/*        </a>*/}
-            {/*        <a className="section_faq_single_bullit">*/}
-            {/*            <h4>Какой срок службы?</h4>*/}
-            {/*            <img src={linkImg}/>*/}
-            {/*        </a>*/}
-            {/*        <a className="section_faq_single_bullit">*/}
-            {/*            <h4>Какой срок службы?</h4>*/}
-            {/*            <img src={linkImg}/>*/}
-            {/*        </a>*/}
-            {/*        <a className="section_faq_single_bullit">*/}
-            {/*            <h4>Какой срок службы?</h4>*/}
-            {/*            <img src={linkImg}/>*/}
-            {/*        </a>*/}
-            {/*        <a className="section_faq_single_bullit">*/}
-            {/*            <h4>Какой срок службы?</h4>*/}
-            {/*            <img src={linkImg}/>*/}
-            {/*        </a>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
-
-            {/*<div className="home_seo">*/}
-            {/*    <SeoDiv/>*/}
-            {/*</div>*/}
+            <div className="home_seo">
+                <SeoDiv/>
+            </div>
         </main>
     );
 }
