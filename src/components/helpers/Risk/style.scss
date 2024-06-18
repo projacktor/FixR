@@ -1,0 +1,45 @@
+.risk {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  height: 93vh;
+
+  #risk_left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //gap: 105px;
+
+    #credit_card_block,
+    #credit_bullets {
+      margin-top: 15px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  #risk_right {
+    width: 49%;
+    img {
+      margin-top: 6rem;
+      z-index: 1;
+      width: 100%;
+    }
+
+    #button_controller {
+      z-index: 2;
+      transform: translate(15%, -138%);
+      width: 47%;
+      height: 35%;
+      button {
+        padding: 25px;
+      }
+    }
+  }
+}
+

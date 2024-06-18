@@ -41,6 +41,7 @@ import instagramIco from "./static/icons/instagramIco.svg";
 import telegramIco from "./static/icons/telegramIco.svg";
 import pseudoVid from "./static/works/pseudoVid.png";
 import whatsappIco from "../../assets/svg/whatsappIcon.svg";
+import Risk from "../../components/helpers/Risk/Risk.jsx";
 
 
 function Home() {
@@ -129,78 +130,73 @@ function Home() {
                 </div>
             </div>
 
-            {/*<div className="mega_box2">*/}
-            {/*    <h1 className="mega_box2_tagline">Занимайтесь <br/> <b className="bolder">любимыми</b> делами, <br/> а*/}
-            {/*        ремонт мы <br/> возьмём на себя.</h1>*/}
-            {/*    <div className="home_gallery">*/}
-            {/*        <img className="sofa_img" src={currentImg}/>*/}
-            {/*        <div className="move_bar">*/}
-            {/*            <button className="moveLeft" onClick={moveLeft}>*/}
-            {/*                <img className="mover leftMover" src={movingArrow}/>*/}
-            {/*            </button>*/}
-            {/*            <button className="moveRight" onClick={moveRight}>*/}
-            {/*                <img className="mover rightMover" src={movingArrow}/>*/}
-            {/*            </button>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*    <div className="packet_solutions">*/}
-            {/*        <p className="solutions_sections">4 пакетных решения. <b><u>Выбирайте</u></b> для себя лучшее:</p>*/}
-            {/*        <div className="row_gallery">*/}
-            {/*            <div className="solution1 solutions_img">*/}
-            {/*                <button className="solutions_button">*/}
-            {/*                    <img src={solution1}/>*/}
-            {/*                </button>*/}
-            {/*            </div>*/}
-            {/*            <div className="solution2 solutions_img">*/}
-            {/*                <button className="solutions_button">*/}
-            {/*                    <img src={solution2}/>*/}
-            {/*                </button>*/}
-            {/*            </div>*/}
-            {/*            <div className="solution3 solutions_img">*/}
-            {/*                <button className="solutions_button">*/}
-            {/*                    <img src={solution3}/>*/}
-            {/*                </button>*/}
-            {/*            </div>*/}
-            {/*            <div className="solution4 solutions_img">*/}
-            {/*                <button className="solutions_button">*/}
-            {/*                    <img src={solution4}/>*/}
-            {/*                </button>*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
+            <div className="mega_box2">
+                <div id="mega_box2_left">
+                    <h1 className="mega_box2_tagline">Занимайтесь <br/> <b>любимыми</b> делами, <br/> а
+                        ремонт мы <br/> возьмём на себя.
+                    </h1>
+                    <div className="solutions">
+                        <p className="solutions_sections">4 пакетных решения. <b><u>Выбирайте</u></b> для себя лучшее:
+                        </p>
+                        <div className="solutions_gallery">
+                            <div className="row_gallery">
+                                <button className="solutions_button">
+                                    <img alt="solution_background" src={solution1}/>
+                                </button>
+                                <button className="solutions_button">
+                                    <img alt="solution_background" src={solution2}/>
+                                </button>
+                                <button className="solutions_button">
+                                    <img alt="solution_background" src={solution3}/>
+                                </button>
+                                <button className="solutions_button">
+                                    <img alt="solution_background" src={solution4}/>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
 
-            {/*    <div className="solutions_description">*/}
-            {/*        <div className="solutions_description_text">*/}
-            {/*            <h1 className="solution_tag">Комфорт</h1>*/}
-            {/*            <p className="solution_tag_description">Для ценителей дорогого <br/> минималистичного стиля</p>*/}
-            {/*        </div>*/}
+                </div>
 
-            {/*        <div className="solutions_description_text solution_cost_fix">*/}
-            {/*            <p className="solution_cost">Стоимость:</p>*/}
-            {/*            <h1 className="solution_tag">Фикс</h1>*/}
-            {/*            <OrangeButton text={"Онлайн-калькулятор"}/>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
+                <div id="mega_box2_right">
+                    <div className="home_gallery">
+                        <img alt="worl_picture" className="sofa_img" src={currentImg}/>
+                        <div className="move_bar">
+                            <button className="moveLeft" onClick={moveLeft}>
+                                <img className="mover leftMover" src={movingArrow}/>
+                            </button>
+                            <button className="moveRight" onClick={moveRight}>
+                                <img className="mover rightMover" src={movingArrow}/>
+                            </button>
+                        </div>
+                    </div>
 
-            {/*<div className="credit">*/}
-            {/*    <a href="node-releases">*/}
-            {/*        <img src={creditImg}/>*/}
-            {/*    </a>*/}
-            {/*</div>*/}
+                    <div className="solutions_description">
+                        <div className="solutions_description_text">
+                            <h2 className="solution_tag">Комфорт</h2>
+                            <p className="solution_tag_description">Для ценителей дорогого <br/> минималистичного стиля
+                            </p>
+                        </div>
 
-            {/*<img src={creditCardImg} className="credit_card_block"/>*/}
+                        <div className="solution_cost_fix">
+                            <p className="solution_tag_description">Стоимость:</p>
+                            <h2 className="solution_tag">Фикс</h2>
+                            <OrangeButton text={"Онлайн-калькулятор"}/>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            {/*<div className="credit_card_materials">*/}
-            {/*    <img className="credit_card_materials_img" src={materialsImg}/>*/}
-            {/*    <div className="button_controller">*/}
-            {/*        <OrangeButton text={"Рассчитать стоимость"} className={"orange_button"}/>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
+            <div id="credit">
+                <a href="node-releases">
+                    <img alt="credit" src={creditImg}/>
+                </a>
+            </div>
 
-            {/*<div className="credit_bullets">*/}
-            {/*    <img src={creditBullets}/>*/}
-            {/*</div>*/}
+            <div id="home_risk">
+                <Risk />
+            </div>
+
             {/*<div className="response_header">*/}
             {/*    <p>Но лучше всего о нас расскажут</p>*/}
             {/*    <h1>Выполненные работы <br/>*/}
