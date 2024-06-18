@@ -1,18 +1,25 @@
 .seo_part {
-  //overflow: ;
   position: relative;
   width: 90rem;
   height: 55%;
-  //left: 1%;
+  p , li {
+    font-size: 14px;
+    line-height: 171%;
+  }
+  h3, h4, h5, h6 {
+    margin: 1px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 22px;
+  }
   h4 {
-    all: initial;
+    font-size: 16px;
   }
-  ul, h3, h4, h5, h6, button {
-    font-family: var(--font-family);
-    --font-family: "Inter", sans-serif;
-    --second-family: "Manrope", sans-serif;
-    --third-family: "Stolzl", sans-serif;
-  }
+
   button {
     position: relative;
     left: -0.5%;
@@ -24,7 +31,6 @@
   .toggle_button_seo {
     background: transparent;
     border-color: transparent;
-    //position: absolute;
   }
 
   .seo_content {
@@ -43,7 +49,6 @@
 
   .closed::after {
     content: "";
-    //position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
