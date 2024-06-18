@@ -84,16 +84,22 @@ function Home() {
                     <div className="sections">
                         <button className="section_renovation section_box">
                             <p className="renovation_para">Ремонт</p>
-                            <img className="linkImg revertImg" src={linkImg}/>
+                            <p className="hidden_text">Без визитов на объект. <br/>
+                                Заезжайте на готовую <br/> квартиру уже через <br/> 6-8 месяцев</p>
+                            <img className="linkImg revertImg" src={linkImg} alt="section_background"/>
                         </button>
-
                         <button className="section_building section_box">
                             <p className="building_para">Строительство</p>
-                            <img className="linkImg revertImg" src={linkImg}/>
+                            <p className="hidden_text">Без визитов на объект. <br/>
+
+                                Заезжайте на готовую <br/> квартиру уже через <br/> 6-8 месяцев</p>
+                            <img className="linkImg revertImg" src={linkImg} alt="section_background"/>
                         </button>
-                        <button className="section_partnership section_box">
+                        <button className="section_box" id="section_partnership">
                             <p className="building_para">Партнерская программа</p>
-                            <img className="linkImg revertImg" src={linkImg}/>
+                            <p className="hidden_text">Без визитов на объект. <br/>
+                                Заезжайте на готовую <br/> квартиру уже через <br/> 6-8 месяцев</p>
+                            <img className="linkImg revertImg" src={linkImg} alt="section_background"/>
                         </button>
                     </div>
                 </div>
