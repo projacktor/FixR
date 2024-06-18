@@ -1,14 +1,13 @@
 .home_content {
-  //overflow: hidden;
-  position: absolute;
-  width: 98%;
-  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
   display: flex;
+  align-items: center;
   flex-direction: column;
 
   .home_content > * {
     width: 95%;
-    left: 1%;
   }
 
   b {
@@ -42,41 +41,52 @@
     }
   }
 
+  .intro_container {
+    width: 100%;
+    min-height: 87vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    #right_part {
+      order: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50%;
+      height: 87vh;
+    }
+  }
+
   .mega_box {
-    position: absolute;
-    width: 52%;
-    height: 95%;
-    //left: 3%;
-    top: 4%;
+    order: 1;
+    width: 50%;
+    height: 87vh;
     background-image: url("../../assets/img/megaBoxBackground.png");
     background-size: cover;
     border-radius: 2.19rem;
 
-    margin: 1rem 0;
 
     .mega_box_tagline {
       position: relative;
       width: 26.75rem;
       height: 22.5rem;
-      left: 4.44rem;
-      top: 35%;
+      left: 7%;
+      top: 30%;
       display: flex;
       flex-direction: row;
       align-items: center;
       font-weight: 500;
-      font-size: 50px;
-      line-height: 125%;
+      font-size: 45px;
+      line-height: 110%;
       letter-spacing: -0.06em;
       color: #fff;
     }
   }
 
   .work_station {
-    position: absolute;
-    width: 45%;
-    height: 65%;
-    left: 55%;
-    top: 6%;
+    width: 96%;
+    height: 60vh;
 
     border-radius: 3vh;
     background: rgb(22, 22, 22);
@@ -90,7 +100,7 @@
       align-items: center;
 
       font-weight: 500;
-      font-size: 32px;
+      font-size: 27px;
       line-height: 131%;
       letter-spacing: -0.06em;
       color: #fff;
@@ -99,23 +109,25 @@
     .buttons {
       position: relative;
       width: 90%;
-      top: 20vh;
+      top: 15vh;
       left: 2.59vw;
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: space-between;
+      gap: 32px;
 
+      button {
+        padding: 28px 1rem;
+      }
 
       .button_partnership {
         flex: 1;
         width: 50%;
         height: 30%;
-        padding: 1rem;
         align-items: center;
-        margin: 0.5rem;
+        //margin: 0.5rem;
         font-size: 1rem;
-        border-radius: 2rem;
+        border-radius: 40px;
         color: #fff;
       }
 
@@ -127,11 +139,8 @@
   }
 
   .sections {
-    position: absolute;
     width: 44%;
     height: 22%;
-    left: 55%;
-    top: 76%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
