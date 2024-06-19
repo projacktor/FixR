@@ -1,26 +1,21 @@
 import React from 'react';
 
+import WriteUs from "../../helpers/Write us/WriteUs.jsx";
+
 import "./style.scss";
 
 import headerLogo from "../../../assets/svg/headerLogo.svg";
 import clockIcon from "../../../assets/svg/headerClockIcon.svg";
 import phoneIcon from "../../../assets/svg/headerPhone.svg";
-import onlineCircle from "../../../assets/svg/onlineCircleHeader.svg";
-import whatsapp from "../../../assets/svg/whatsappIcon.svg";
-import telegram from "../../../assets/svg/telegramIcon.svg";
 import profileIcon from "../../../assets/svg/profileIcon.svg";
 import menuBar from "../../../assets/svg/menuBar.svg";
-import WriteUs from "../../helpers/Write us/WriteUs.jsx";
+import Symbol from "../../helpers/Symbol/Symbol.jsx";
 
 function Header() {
     return (
         <header>
             <div className="contacts">
-                <a target="_blank">
-                    <img alt="FIX-remont_logo" className="contacts_header_logo" src={headerLogo}/>
-                </a>
-                <div className="contacts_header_line line1"></div>
-                <p className="tagline"> Первый онлайн-сервис по ремонту и строительству <b>c фикс стоимостью</b></p>
+                <Symbol/>
                 <div className="contacts_header_line line2"></div>
                 <div className="worktime_container">
                     <img alt="clock_icon" className="clock" src={clockIcon}/>

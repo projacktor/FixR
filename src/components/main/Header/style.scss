@@ -20,23 +20,7 @@ b {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  //justify-content: space-around;
   align-items: center;
-
-  .contacts_header_logo {
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-  }
-
-  .contacts_header_line {
-    flex: none;
-    flex-grow: 0;
-    width: 1px;
-    height: 50px;
-    border-left: 1px dashed rgba(0, 0, 0, 0.5);
-    opacity: 0.25;
-  }
 
   .line1 {
     order: 2;
@@ -46,25 +30,6 @@ b {
   }
   .line3 {
     order: 6;
-  }
-
-  .tagline {
-    width: 145px;
-    height: 59px;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-
-    text-align: left;
-    font-weight: 500;
-    letter-spacing: -0.04em;
-    color: #2b2a29;
-    font-size: 12px;
-    line-height: 142%;
   }
 
   .worktime_container {
