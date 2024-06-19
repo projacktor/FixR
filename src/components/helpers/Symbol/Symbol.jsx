@@ -2,7 +2,6 @@ import React from 'react';
 
 import "./style.scss";
 
-
 function Symbol({header_src, lineColor}) {
     const lineStyle = {
         borderLeft: `1px dashed ${lineColor}`,
