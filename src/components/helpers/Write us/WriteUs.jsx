@@ -10,7 +10,7 @@ function WriteUs() {
         <div className="write_us">
             <div id="write_us_text_container">
                 <img alt="online" className="online_circle" src={onlineCircle}/>
-                <p id="write_us_text">Напишите нам, <br/> мы сейчас онлайн</p>
+                <p>Напишите нам, <br/> мы сейчас онлайн</p>
             </div>
             <address className="messenger_container">
                 <a target="_blank">
