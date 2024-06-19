@@ -10,7 +10,7 @@ function Presentation() {
         <div className="presentation">
             <h1>Над вашим объектом будет работать команда <b>настоящих фанатов</b> своего дела </h1>
             <img src={groupPhoto}/>
-            <CheckButton text="Оставить заявку на консультацию от специалиста"/>
+            <CheckButton text="Оставить заявку на консультацию от специалиста" link="/contacts"/>
         </div>
     );
 }

@@ -43,12 +43,6 @@ function Home() {
         //     logic
     }
 
-    function openLink(link) {
-        return () => {
-            window.open(link, '_blank', 'noopener,noreferrer');
-        }
-    }
-
     return (
         <main className="home_content">
 
