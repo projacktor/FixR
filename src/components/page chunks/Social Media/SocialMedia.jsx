@@ -14,17 +14,23 @@ function SocialMedia() {
             <div id="social_media_block">
                 <img className="vid_temp" src={videoY} alt="video"/>
                 <div className="social_media_enum">
-                    <a className="social_media_single social_media1">
+                    <a className="social_media_single social_media1"
+                    href="https://vk.com/fix.remoont?from=search"
+                    target="_blank">
                         <img src={vkIco}/>
                         <h4>Вконтакте</h4>
                         <p>1 500 подписчиков</p>
                     </a>
-                    <a className="social_media_single social_media2">
+                    <a className="social_media_single social_media2"
+                    href="https://instagram.com/fix_remont.ru"
+                    target="_blank">
                         <img src={instagramIco}/>
                         <h4>Instagram</h4>
                         <p>15 500 подписчиков</p>
                     </a>
-                    <a className="social_media_single social_media3">
+                    <a className="social_media_single social_media3"
+                    href="https://t.me/FIX_REMONT_bot"
+                    target="_blank">
                         <img src={telegramIco}/>
                         <h4>Telegram</h4>
                         <p>500 подписчиков</p>
