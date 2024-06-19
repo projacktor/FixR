@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Symbol from "../../helpers/Symbol/Symbol.jsx";
 import WriteUs from "../../helpers/Write us/WriteUs.jsx";
 
 import "./style.scss";
@@ -9,13 +10,12 @@ import clockIcon from "../../../assets/svg/headerClockIcon.svg";
 import phoneIcon from "../../../assets/svg/headerPhone.svg";
 import profileIcon from "../../../assets/svg/profileIcon.svg";
 import menuBar from "../../../assets/svg/menuBar.svg";
-import Symbol from "../../helpers/Symbol/Symbol.jsx";
 
 function Header() {
     return (
         <header>
             <div className="contacts">
-                <Symbol/>
+                <Symbol header_src={headerLogo}/>
                 <div className="contacts_header_line line2"></div>
                 <div className="worktime_container">
                     <img alt="clock_icon" className="clock" src={clockIcon}/>
