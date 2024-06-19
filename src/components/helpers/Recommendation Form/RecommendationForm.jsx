@@ -18,7 +18,7 @@ function RecommendationForm() {
                 <input type="tel" placeholder="Ваш номер телефона" className="input-field phone_number_input" />
                 <button type="submit" className="submit-button">Записаться на консультацию</button>
                 <div id="privacypolicy_container">
-                    <PrivacyPolicy/>
+                    <PrivacyPolicy color="#fff"/>
                 </div>
             </form>
         </div>
