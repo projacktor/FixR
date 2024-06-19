@@ -1,11 +1,12 @@
 .consent {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  margin-top: 1rem;
-  font-size: 0.8rem;
+  //margin-top: 1rem;
+  font-size: 12px;
   text-align: center;
   //color: #999;
-  color: #161616;
+  color: #ffffff;
 
   input[type="checkbox"] {
     width: 18px;
