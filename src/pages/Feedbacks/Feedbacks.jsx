@@ -19,7 +19,7 @@ function Feedbacks() {
                 <h1>Отзывы наших клиентов </h1>
             </div>
             <div className="feedbacks_content">
-                <CheckButton text="Оставить свой отзыв"/>
+                <CheckButton text="Оставить свой отзыв" link="/feedbacks"/>
                 <div className="feedbacks_gallery">
                     <div className="pseudo_vid3"></div>
                     <div className="pseudo_vid3"></div>
@@ -43,7 +43,7 @@ function Feedbacks() {
                     <WorksGallery />
                 </div>
                 <div id="feedbacks_works_gallery_CB_container">
-                    <CheckButton text="Смотреть все работы"/>
+                    <CheckButton text="Смотреть все работы" link="/portfolio"/>
                 </div>
             </div>
 

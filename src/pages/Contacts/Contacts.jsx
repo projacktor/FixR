@@ -93,7 +93,7 @@ function Contacts() {
                         <BlackBtn text="Отправить сообщение"/>
                     </div>
                     <div id="send_message_form_privacy_container">
-                        <PrivacyPolicy />
+                        <PrivacyPolicy color="#000"/>
                     </div>
                 </form>
 
