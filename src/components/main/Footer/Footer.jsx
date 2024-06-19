@@ -12,7 +12,7 @@ function Footer() {
     return (
         <footer className={styles.footer}>
             <div id={styles.symbol_container}>
-                <Symbol header_src={footerLogo} lineColor="rgba(255, 255, 255б 1.25)"/>
+                <Symbol header_src={footerLogo} lineColor="rgba(255, 255, 255, 1.25)"/>
             </div>
             <p id={styles.copyright_text}>Copyright 2024. Все права защищены</p>
             <a id={styles.privacy_footer}>Политика конфиденциальности</a>
