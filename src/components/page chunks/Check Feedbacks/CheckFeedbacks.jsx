@@ -3,19 +3,11 @@ import React from 'react';
 import "./style.scss";
 
 import response1 from "../../../pages/Home/static/responses/response1.png";
-import movingArrow from "../../../assets/svg/moveArrow.svg";
-import scroller from "../../../pages/Home/static/icons/scroller.svg";
 import videoE from "../../../pages/Home/static/works/videoE.png";
 import Scroller from "../../helpers/Scroller/Scroller.jsx";
 import CheckButton from "../../helpers/CheckButton/CheckButton.jsx";
 
 function CheckFeedbacks() {
-    const moveLeft = () => {
-        //     logic
-    }
-    const moveRight = () => {
-        //     logic
-    }
     return (
         <div className="check_feedbacks">
             <div id="check_feedbacks_galleries">
@@ -27,7 +19,7 @@ function CheckFeedbacks() {
                         <Scroller/>
                     </div>
                 </div>
-                <div className="video_gallery">
+                <div className="feedbacks_video_gallery">
                     <div className="video_gallery_slideshow">
                         <img alt="pseudo_vid" src={videoE} id="vid"/>
                     </div>
