@@ -10,6 +10,7 @@ import Responsibility from "../../components/page chunks/Responsibility/Responsi
 import "./style.scss";
 import work1 from "../Home/static/works/work1.png";
 import work2 from "../Home/static/works/work2.png";
+import CheckButton from "../../components/helpers/CheckButton/CheckButton.jsx";
 
 function Portfolio() {
     return (
@@ -32,24 +33,30 @@ function Portfolio() {
                 <div className="portfolio_gallery">
                     <div className="portfolio_variant">
                         <img src={work1}/>
-                        <a><p><u>Узнать стоимость</u></p></a>
+                        <a href="/portfolio/work1">
+                            <p><u>Узнать стоимость</u></p>
+                        </a>
                     </div>
                     <div className="portfolio_variant">
                         <img src={work1}/>
-                        <a><p><u>Узнать стоимость</u></p></a>
+                        <a href="/portfolio/work1">
+                            <p><u>Узнать стоимость</u></p>
+                        </a>
                     </div>
                     <div className="portfolio_variant">
                         <img src={work2}></img>
-                        <a><p><u>Узнать стоимость</u></p></a>
+                        <a href="/portfolio/work1">
+                            <p><u>Узнать стоимость</u></p>
+                        </a>
                     </div>
                     <div className="portfolio_variant">
                         <img src={work2}></img>
-                        <a><p><u>Узнать стоимость</u></p></a>
+                        <a href="/portfolio/work1">
+                            <p><u>Узнать стоимость</u></p>
+                        </a>
                     </div>
                 </div>
-                <button className="main_portfolio_show_more check_button">
-                    Показать больше
-                </button>
+                <CheckButton text="Показать больше" link="/portfolio/work1"/>
             </div>
 
             <div className="portfolio_consulting">
