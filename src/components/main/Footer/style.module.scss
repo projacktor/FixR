@@ -1,7 +1,8 @@
 .footer {
   display: flex;
   flex-direction: row;
-  //gap: ;
+  align-items: center;
+  gap: 3rem;
   width: 100%;
   height: 13vh;
   z-index: 1000;
@@ -15,6 +16,28 @@
     p {
       color: #ffffff;
     }
+  }
 
+  #copyright_text,
+  #privacy_footer {
+    font-weight: 100;
+    opacity: 0.95;
+    font-size: 13px;
+    letter-spacing: -0.03em;
+  }
+
+  #copyright_text {
+    order: 2;
+    color: #ffffff;
+  }
+
+  #privacy_footer {
+    order: 3;
+    color: #f9af15;
+    text-decoration: underline;
+  }
+
+  #contacts_container {
+    order: 4;
   }
 }
