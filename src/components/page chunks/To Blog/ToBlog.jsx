@@ -1,15 +1,12 @@
 import React from 'react';
+
 import CheckButton from "../../helpers/CheckButton/CheckButton.jsx";
+
+import openLink from "../../functions/openLink.js";
 
 import "./style.scss";
 
 function ToBlog() {
-    function openLink(link) {
-        return () => {
-            window.open(link, '_blank', 'noopener,noreferrer');
-        }
-    }
-
     return (
         <div className="blog">
             <h1>Ведём блог, делимся <b>многолетним опытом</b> <br/> и практической информацией </h1>
@@ -34,7 +31,7 @@ function ToBlog() {
                 </div>
             </div>
             <div className="blog_buttons">
-                <CheckButton text="Перейти в блог"/>
+                <CheckButton text="Перейти в блог" link="/blog"/>
                 <button className="to_youtube check_button"
                         onClick={openLink("https://www.youtube.com/@director_stroyki")}>
                     Перейти в YouTube

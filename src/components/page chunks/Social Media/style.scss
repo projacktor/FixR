@@ -6,23 +6,15 @@
     color: #f9af15;
   }
 
-  h1 {
-    position: relative;
-    left: -5%;
-  }
-
   #social_media_block {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-direction: row;
-
+    gap: 2rem;
+    width: 204vh;
 
     .vid_temp {
-      position: relative;
-      left: -5%;
-      top: 4%;
-      width: 55%;
+      width: 100%;
     }
 
     .social_media_enum {
@@ -32,7 +24,7 @@
       top: -57%;
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
 
       .social_media_single {
