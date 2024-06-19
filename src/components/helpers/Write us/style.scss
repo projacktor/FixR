@@ -1,0 +1,38 @@
+.write_us {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+
+  order: 2;
+  width: 250px;
+  height: 60px;
+}
+
+#write_us_text_container,
+.messenger_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#write_us_text_container img,
+.messenger_container img {
+  margin-right: 10px;
+}
+
+#write_us_text {
+  width: 8rem;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  white-space: pre-line;
+}
+
+.online_circle {
+  width: 10px;
+  margin: 0 3px;
+}
