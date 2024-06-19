@@ -1,10 +1,17 @@
 .contacts_container {
   border-radius: 20px;
-  background: rgb(255, 255, 255);
+  background: inherit;
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 12px;
   align-items: center;
+
+  p {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+  }
 
   .worktime_container {
     //order: 5;
@@ -19,18 +26,16 @@
     }
 
     .worktime {
-      width: 175px;
-      height: 18px;
       display: flex;
       flex-direction: row;
       align-items: center;
+      min-width: 152px;
       order: 2;
-      margin: 0 10px;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-right: 0;
+      margin-left:10px;
 
-      font-weight: 500;
-      font-size: 15px;
-      line-height: 120%;
-      letter-spacing: -0.04em;
       color: #2b2a29;
     }
   }

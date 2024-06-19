@@ -6,6 +6,7 @@ import styles from "./style.module.scss";
 
 import footerLogo from "../../../assets/svg/footerLogo.svg";
 import WriteUs from "../../helpers/Write us/WriteUs.jsx";
+import ContactsContainer from "../../helpers/Contacts Container/ContactsContainer.jsx";
 
 function Footer() {
     return (
@@ -15,8 +16,11 @@ function Footer() {
             </div>
             <p id={styles.copyright_text}>Copyright 2024. Все права защищены</p>
             <a id={styles.privacy_footer}>Политика конфиденциальности</a>
-            <div id={styles.contacts_container}>
+            <div id={styles.write_us_container}>
                 <WriteUs/>
+            </div>
+            <div id={styles.contacts_container}>
+                <ContactsContainer/>
             </div>
         </footer>
     );
