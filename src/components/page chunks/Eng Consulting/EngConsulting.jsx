@@ -32,7 +32,7 @@ function EngConsulting() {
                         <option>Написать в Telegram</option>
                         <option>Отправить на Email</option>
                     </select>
-                    <input type="tel" placeholder="Ваш номер телефона" className="row_bullet eng_phone_input"/>
+                    <input name="phone_number" autoComplete="tel" type="tel" placeholder="Ваш номер телефона" className="row_bullet eng_phone_input"/>
                     <BlackBtn text="Записаться на консультацию"/>
                 </div>
             </div>
