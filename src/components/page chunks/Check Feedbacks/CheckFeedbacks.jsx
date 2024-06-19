@@ -29,7 +29,7 @@ function CheckFeedbacks() {
                 </div>
             </div>
             <div id="check_feedbacks_checkbutton_container">
-                <CheckButton text="Смотреть все отзывы"/>
+                <CheckButton text="Смотреть все отзывы" link="/feedbacks"/>
             </div>
         </div>
     );

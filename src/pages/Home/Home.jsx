@@ -177,7 +177,7 @@ function Home() {
             </div>
 
             <div id="credit">
-                <a href="node-releases">
+                <a href="/">
                     <img alt="credit" src={creditImg}/>
                 </a>
             </div>
@@ -192,7 +192,8 @@ function Home() {
                         <h1>Выполненные работы <br/> и отзывы клиентов </h1>
                     </div>
                     <div id="response_bullets">
-                        <a className="response_bullet" target="_blank">
+                        <a className="response_bullet" target="_blank"
+                           href="https://yandex.ru/maps/org/fix_remont/110403249402/features/?ll=49.192026%2C55.826770&mode=search&sll=48.744609%2C55.752080&sspn=0.090294%2C0.027834&tab=features&text=%D1%84%D0%B8%D0%BA%D1%81%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82&z=12">
                             <img alt="yandex_picture" src={responseYandex}/>
                             <p><u>Смотреть отзывы на Яндекс</u></p>
                         </a>
