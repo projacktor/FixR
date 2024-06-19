@@ -82,7 +82,7 @@ function Work1() {
             <div id="project_gallery">
                 <h1>Другие реализованные проекты</h1>
                 <WorksGallery />
-                <CheckButton text="Смотреть все портфолио"/>
+                <CheckButton text="Смотреть все портфолио" link="/portfolio"/>
             </div>
             <div id="project_eng_consulting">
                 <EngConsulting />
