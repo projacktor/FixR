@@ -15,7 +15,7 @@ function Header() {
         <header>
             <div className="header_left">
                 <div id="symbol_part">
-                    <Symbol header_src={headerLogo}/>
+                    <Symbol header_src={headerLogo} lineColor="rgba(0, 0, 0, 0.5)"/>
                 </div>
                 <div className="contacts_header_line line2"></div>
                 <div id="contacts_part">
