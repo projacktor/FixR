@@ -3,12 +3,12 @@
   background: inherit;
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 20px;
   align-items: center;
 
   p {
     font-weight: 500;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 120%;
     letter-spacing: -0.04em;
   }
@@ -29,7 +29,7 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      min-width: 152px;
+      min-width: 165px;
       order: 2;
       margin-top: 0;
       margin-bottom: 0;
