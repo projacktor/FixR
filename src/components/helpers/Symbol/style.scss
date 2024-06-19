@@ -17,21 +17,18 @@
 
 
   .tagline {
-    width: 145px;
-    height: 59px;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    width: 130px;
+    height: 43px;
 
+    margin-top: 10px;
     flex: none;
     order: 3;
-    flex-grow: 0;
 
     text-align: left;
-    font-weight: 500;
-    letter-spacing: -0.04em;
     color: #2b2a29;
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 11px;
     line-height: 142%;
+    letter-spacing: -0.04em;
   }
 }
