@@ -1,0 +1,57 @@
+.contacts_container {
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+
+  .worktime_container {
+    //order: 5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .clock {
+      width: 17px;
+      height: 25px;
+      order: 1;
+    }
+
+    .worktime {
+      width: 175px;
+      height: 18px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      order: 2;
+      margin: 0 10px;
+
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 120%;
+      letter-spacing: -0.04em;
+      color: #2b2a29;
+    }
+  }
+
+  .phone_container {
+    order: 7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .phone {
+      width: 17px;
+      height: 25px;
+      order: 1;
+    }
+
+    .phone_number {
+      flex: none;
+      color: rgb(43, 42, 41);
+      order: 2;
+      margin: 0 4px;
+    }
+  }
+}
