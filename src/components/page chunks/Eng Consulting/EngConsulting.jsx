@@ -33,7 +33,7 @@ function EngConsulting() {
                         <option>Отправить на Email</option>
                     </select>
                     <input type="tel" placeholder="Ваш номер телефона" className="row_bullet eng_phone_input"/>
-                    <BlackBtn/>
+                    <BlackBtn text="Записаться на консультацию"/>
                 </div>
             </div>
         </div>
