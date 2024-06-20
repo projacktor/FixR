@@ -171,7 +171,7 @@ function Home() {
             </div>
 
             <div id="credit">
-                <a href="/">
+                <a href="">
                     <img alt="credit" src={creditImg}/>
                 </a>
             </div>
