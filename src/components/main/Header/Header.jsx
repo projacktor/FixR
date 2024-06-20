@@ -26,7 +26,7 @@ function Header() {
             <WriteUs/>
 
             <button className="profile">
-                <img className="profile_icon" src={profileIcon}/>
+                <img alt="profile_icon" className="profile_icon" src={profileIcon}/>
                 <p className="to_profile_tagline">Личный кабинет</p>
             </button>
 

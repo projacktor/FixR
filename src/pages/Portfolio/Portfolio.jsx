@@ -33,25 +33,25 @@ function Portfolio() {
                 <div className="portfolio_gallery">
                     <div className="portfolio_variant">
                         <img src={work1}/>
-                        <a href="/FixR/portfolio/work1">
+                        <a href="/portfolio/work1">
                             <p><u>Узнать стоимость</u></p>
                         </a>
                     </div>
                     <div className="portfolio_variant">
                         <img src={work1}/>
-                        <a href="/FixR/portfolio/work1">
+                        <a href="/portfolio/work1">
                             <p><u>Узнать стоимость</u></p>
                         </a>
                     </div>
                     <div className="portfolio_variant">
                         <img src={work2}></img>
-                        <a href="/FixR/portfolio/work1">
+                        <a href="/portfolio/work1">
                             <p><u>Узнать стоимость</u></p>
                         </a>
                     </div>
                     <div className="portfolio_variant">
                         <img src={work2}></img>
-                        <a href="/FixR/portfolio/work1">
+                        <a href="/portfolio/work1">
                             <p><u>Узнать стоимость</u></p>
                         </a>
                     </div>
