@@ -8,6 +8,7 @@ import Portfolio from "./pages/Portfolio/Portfolio.jsx";
 import Work1 from "./pages/Portfolio work_1/Work1.jsx";
 import Blog from "./pages/Blog/Blog.jsx";
 import Contacts from "./pages/Contacts/Contacts.jsx";
+import About from "./pages/About/About.jsx";
 import Footer from "./components/main/Footer/Footer.jsx";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
                     <Route path="/portfolio/work1" element={<Work1 />}/>
                     <Route path="/blog" element={<Blog />}/>
                     <Route path="/feedbacks" element={<Feedbacks/>}/>
+                    <Route path="/about" element={<About/>}/>a
                 </Routes>
             </BrowserRouter>
             <Footer />

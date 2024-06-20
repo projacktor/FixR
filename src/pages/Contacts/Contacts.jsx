@@ -17,7 +17,7 @@ import instaIcon from "../../assets/svg/instaIcon.svg";
 function Contacts() {
     return (
         <main className="contacts_page">
-            <h1 className="head">Контакты FIX-ремонт</h1>
+            <h1 className="main_header">Контакты FIX-ремонт</h1>
             <div className="map_box">
                 <div className="map">
                     <div className="map_make_route">
