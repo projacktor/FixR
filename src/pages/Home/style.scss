@@ -1,12 +1,5 @@
 .home_content {
-  width: 100%;
-  min-height: 100vh;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   gap: 25px;
-
 
   b {
     color: #f9af15;
@@ -303,7 +296,7 @@
       .mega_box2_tagline {
         font-size: 50px;
         font-weight: 600;
-        line-height: 4rem ;
+        line-height: 4rem;
         text-align: left;
         margin-top: -10px;
       }
@@ -338,6 +331,7 @@
             .solutions_button {
               background: transparent;
               border-color: transparent;
+
               img {
                 width: 90%;
               }
@@ -406,9 +400,11 @@
         left: 10%;
         height: 28vh;
         width: 40%;
+
         p {
           margin-top: 41px;
         }
+
         h2 {
           margin-top: 30px;
         }
@@ -458,21 +454,25 @@
       gap: 50px;
       align-items: center;
       font-weight: 500;
+
       #response_names {
         width: 50%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 15px;
+
         p, h1 {
           letter-spacing: -0.06em;
-          margin:0 0;
+          margin: 0 0;
         }
       }
+
       #response_bullets {
         display: flex;
         flex-direction: row;
         gap: 40px;
+
         .response_bullet {
           display: flex;
           flex-direction: row;
@@ -506,9 +506,6 @@
     height: 80vh;
     align-content: center;
   }
-
-
-
 
 
   .planner {
@@ -663,6 +660,7 @@
 
   #home_presentation {
     width: 100%;
+
     img {
       width: 100%;
     }

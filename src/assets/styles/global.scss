@@ -9,6 +9,15 @@ body {
   }
 }
 
+main {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 h1, h4 {
   color: rgb(22, 22, 22);
   font-size: 3.13rem;
