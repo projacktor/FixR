@@ -14,7 +14,7 @@ function App() {
     return (
         <div className="App">
             <Header />
-            <BrowserRouter basename="/FixR/">
+            <BrowserRouter>
                 <Routes>
                     <Route path="" element={<Home />}/>
                     <Route path="/contacts" element={<Contacts />}/>
