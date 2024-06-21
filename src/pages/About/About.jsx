@@ -8,6 +8,8 @@ import src1 from "../../assets/svg/15000.svg"
 import src2 from "../../assets/svg/998.svg"
 import src3 from "../../assets/svg/10.svg"
 import BlackBullet from "../../components/helpers/Black bullet/BlackBullet.jsx";
+import pseudoVid from "../Home/static/works/pseudoVid.png";
+import CEOgreeting from "../../components/page chunks/CEO greeting/CEOgreeting.jsx";
 
 function About() {
     const blackBullet1 = <p id="description">Ремонт, строительство и обслуживание квартир, жилых домов под ключ</p>;
@@ -32,7 +34,13 @@ function About() {
                 <BlackBullet head="Цели" description={blackBullet3}/>
             </div>
 
+            <div className="pseudo_vid">
+                <img src={pseudoVid} alt="pseudo_video"/>
+            </div>
 
+            <div id="CEO_greeting">
+                <CEOgreeting/>
+            </div>
         </main>
     );
 }

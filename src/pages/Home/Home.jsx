@@ -9,10 +9,10 @@ import WorksGallery from "../../components/page chunks/Works Gallery/WorksGaller
 import CheckFeedbacks from "../../components/page chunks/Check Feedbacks/CheckFeedbacks.jsx";
 import SocialMedia from "../../components/page chunks/Social Media/SocialMedia.jsx";
 import ToBlog from "../../components/page chunks/To Blog/ToBlog.jsx";
+import WhiteBullet from "../../components/helpers/White bullet/WhiteBullet.jsx";
 import FAQ from "../../components/page chunks/FAQ/FAQ.jsx";
 
 import "./style.scss";
-
 import "../../assets/img/megaBoxBackground.png";
 import linkImg from "../../assets/svg/linkImg.svg";
 import contactIco from "./static/icons/contactIcon.svg";
@@ -31,7 +31,6 @@ import responseYandex from "../../assets/img/responseYandex.png";
 import responseOtzovik from "../../assets/img/responseOtzovik.png";
 import plannerImg1 from "./static/works/plannerImg1.png";
 import pseudoVid from "./static/works/pseudoVid.png";
-import WhiteBullet from "../../components/helpers/White bullet/WhiteBullet.jsx";
 
 
 function Home() {

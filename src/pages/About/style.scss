@@ -1,4 +1,7 @@
 .about_page {
+  gap: 52px;
+
+
   .main_header {
     left: -1%;
   }
@@ -9,6 +12,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+
     p {
       font-size: 18px;
     }
@@ -20,6 +24,20 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-top: 3rem;
+    //margin-top: 3rem;
+  }
+
+  #CEO_greeting {
+    width: 100%;
+  }
+}
+
+.pseudo_vid {
+  //margin-top: 5%;
+  width: 100%;
+  height: 100%;
+
+  img {
+    width: 100%;
   }
 }
