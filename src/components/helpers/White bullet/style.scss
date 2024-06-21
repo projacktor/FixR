@@ -1,25 +1,23 @@
 .single_bullet {
-  width: 21.69rem;
-  height: 11.56rem;
+  width: 21rem;
+  min-height: 10rem;
+  display: flex;
   border-radius: 2.19rem;
   margin: 1%;
-}
 
-p {
-  position: relative;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 139%;
-  letter-spacing: -0.06em;
-  color: #161616;
-  left: 1vw;
-  top: 13vh;
+  p {
+    flex: 1;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 139%;
+    letter-spacing: -0.06em;
+    color: #161616;
+    align-self: flex-end;
+    margin-bottom: 10px;
+  }
 
-}
-
-img {
-  position: relative;
-  left: 14vw;
-  top: -8vh;
-
+  img {
+    align-self: flex-start;
+    margin-top: 10px;
+  }
 }

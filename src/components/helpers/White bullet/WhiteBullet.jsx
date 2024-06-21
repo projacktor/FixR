@@ -1,6 +1,6 @@
 import React from 'react';
 
-import contactIco from "../../../pages/Home/static/icons/contactIcon.svg";
+import "./style.scss";
 
 function WhiteBullet({line1, line2, src}) {
     return (

@@ -1,3 +1,13 @@
 .about_page {
+  .main_header {
+    left: -1%;
+  }
 
+  #white_bullets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
 }

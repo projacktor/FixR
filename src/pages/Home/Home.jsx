@@ -31,6 +31,7 @@ import responseYandex from "../../assets/img/responseYandex.png";
 import responseOtzovik from "../../assets/img/responseOtzovik.png";
 import plannerImg1 from "./static/works/plannerImg1.png";
 import pseudoVid from "./static/works/pseudoVid.png";
+import WhiteBullet from "../../components/helpers/White bullet/WhiteBullet.jsx";
 
 
 function Home() {
@@ -91,26 +92,11 @@ function Home() {
             </div>
 
             <div className="bullets">
-                <div className="bullet1 single_bullet">
-                    <p className="bullet1_para">Без визитов <br/> на объект</p>
-                    <img alt="bullet_img" className="contact_img" src={contactIco}/>
-                </div>
-                <div className="bullet2 single_bullet">
-                    <p className="bullet2_para">100% гарантия фиксированной <br/> сметы</p>
-                    <img alt="bullet_img" className="rubl_img" src={rublIco}/>
-                </div>
-                <div className="bullet3 single_bullet">
-                    <p className="bullet3_para">Все финансовые риски берем <br/> на себя</p>
-                    <img alt="bullet_img" className="shield_img" src={shieledIco}/>
-                </div>
-                <div className="bullet4 single_bullet">
-                    <p className="bullet4_para">36 готовых <br/> дизайн-проектов</p>
-                    <img alt="bullet_img" className="lamp_img" src={lampIco}/>
-                </div>
-                <div className="bullet5 single_bullet">
-                    <p className="bullet5_para">Все берем на себя <br/> и работаем под ключ</p>
-                    <img alt="bullet_img" className="flag_img" src={flagIco}/>
-                </div>
+                <WhiteBullet line1="Без визитов" line2="на объект" src={contactIco}/>
+                <WhiteBullet line1="100% гарантия фиксированной" line2="сметы" src={rublIco}/>
+                <WhiteBullet line1="Все финансовые риски берем" line2="на себя" src={shieledIco}/>
+                <WhiteBullet line1="36 готовых" line2="дизайн-проектов" src={lampIco}/>
+                <WhiteBullet line1="Все берем на себя" line2="и работаем под ключ" src={flagIco}/>
             </div>
 
             <div className="mega_box2">

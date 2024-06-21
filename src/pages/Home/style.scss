@@ -227,36 +227,9 @@
     justify-content: space-around;
     align-items: center;
 
-    width: 98%;
-    height: 11.56rem;
-
-    .single_bullet {
-      width: 21.69rem;
-      height: 11.56rem;
-      border-radius: 2.19rem;
-      margin: 1%;
-    }
-
-    p {
-      position: relative;
-      font-family: var(--font-family);
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 139%;
-      letter-spacing: -0.06em;
-      color: #161616;
-      left: 1vw;
-      top: 13vh;
-
-    }
-
-    img {
-      position: relative;
-      left: 14vw;
-      top: -8vh;
-
-    }
-
+    width: 100%;
+    height: 11rem;
+    margin-bottom: 2rem;
     .bullet1 {
       order: 1;
     }

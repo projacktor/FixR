@@ -1,3 +1,4 @@
 1) replace mount of the <a> tags before deploy to server
 2) change openLink function before deploy
 3) change BrowserRouter baselink
+4) Cross browsing
