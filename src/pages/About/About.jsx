@@ -17,6 +17,12 @@ function About() {
                 <WhiteBullet line1="Довольных" line2="клиентов" src={src2}/>
                 <WhiteBullet line1="Лет на" line2="рынке РФ" src={src3}/>
             </div>
+
+            <div id="black_bullets">
+
+            </div>
+
+
         </main>
     );
 }
