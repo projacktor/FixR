@@ -7,8 +7,16 @@ import "./style.scss";
 import src1 from "../../assets/svg/15000.svg"
 import src2 from "../../assets/svg/998.svg"
 import src3 from "../../assets/svg/10.svg"
+import BlackBullet from "../../components/helpers/Black bullet/BlackBullet.jsx";
 
 function About() {
+    const blackBullet1 = <p id="description">Ремонт, строительство и обслуживание квартир, жилых домов под ключ</p>;
+    const blackBullet2 = <p id="description">Повысить культуру и сервис сферы строительства, чтобы каждый заказчик мог получить качество без переделок и контроля исполнителей</p>;
+    const blackBullet3 = <ul id="description">
+        <li>Создание управляющей компании-регулятора</li>
+        <li>Повышение качеств услуг за счёт разработки единых стандартов</li>
+        <li>Перемены в сфере, чтобы для людей ремонт перестал быть больной темой</li>
+    </ul>
     return (
         <main className="about_page">
             <h1 className="main_header">О компании FIX-ремонт</h1>
@@ -19,7 +27,9 @@ function About() {
             </div>
 
             <div id="black_bullets">
-
+                <BlackBullet head="Сфера деятельности" description={blackBullet1}/>
+                <BlackBullet head="Миссия" description={blackBullet2}/>
+                <BlackBullet head="Цели" description={blackBullet3}/>
             </div>
 
 

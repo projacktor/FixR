@@ -13,4 +13,13 @@
       font-size: 18px;
     }
   }
+
+  #black_bullets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 3rem;
+  }
 }
