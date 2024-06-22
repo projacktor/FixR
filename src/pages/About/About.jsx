@@ -14,6 +14,10 @@ import russia from "../../assets/img/Russia.png";
 import Inviting from "../../components/page chunks/Inviting/Inviting.jsx";
 import Presentation from "../../components/page chunks/Presentation/Presentation.jsx";
 import Responsibility from "../../components/page chunks/Responsibility/Responsibility.jsx";
+import Risk from "../../components/page chunks/Risk/Risk.jsx";
+import SocialMedia from "../../components/page chunks/Social Media/SocialMedia.jsx";
+import EngConsulting from "../../components/page chunks/Eng Consulting/EngConsulting.jsx";
+import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
 
 function About() {
     const blackBullet1 = <p id="description">Ремонт, строительство и обслуживание квартир, жилых домов под ключ</p>;
@@ -56,12 +60,28 @@ function About() {
                 <Inviting/>
             </div>
 
-            <div id="about_presentation">
+            <div id="presentation">
                 <Presentation/>
             </div>
 
-            <div id="about_responsibility">
+            <div id="responsibility">
                 <Responsibility/>
+            </div>
+
+            <div id="risk">
+                <Risk/>
+            </div>
+
+            <div id="social_media">
+                <SocialMedia/>
+            </div>
+
+            <div id="eng_consulting">
+                <EngConsulting/>
+            </div>
+
+            <div id="seo">
+                <SeoDiv/>
             </div>
         </main>
     );
