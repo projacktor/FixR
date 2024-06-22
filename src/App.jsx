@@ -10,6 +10,7 @@ import Blog from "./pages/Blog/Blog.jsx";
 import Contacts from "./pages/Contacts/Contacts.jsx";
 import About from "./pages/About/About.jsx";
 import Footer from "./components/main/Footer/Footer.jsx";
+import Services from "./pages/Services/Services.jsx";
 
 function App() {
     return (
@@ -23,7 +24,8 @@ function App() {
                     <Route path="/portfolio/work1" element={<Work1 />}/>
                     <Route path="/blog" element={<Blog />}/>
                     <Route path="/feedbacks" element={<Feedbacks/>}/>
-                    <Route path="/about" element={<About/>}/>a
+                    <Route path="/about" element={<About/>}/>
+                    <Route path="/services" element={<Services/>}/>
                 </Routes>
             </BrowserRouter>
             <Footer />
