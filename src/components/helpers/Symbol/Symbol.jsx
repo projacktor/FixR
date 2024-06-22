@@ -8,7 +8,7 @@ function Symbol({header_src, lineColor}) {
     }
     return (
         <div className="symbol_block">
-            <a href="">
+            <a href="/">
                 <img alt="FIX-remont_logo" className="contacts_header_logo" src={header_src}/>
             </a>
             <div className="contacts_header_line line1" style={lineStyle}></div>
