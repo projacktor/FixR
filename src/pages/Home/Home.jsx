@@ -65,7 +65,7 @@ function Home() {
                             </button>
                         </div>
                     </div>
-                    <div className="sections">
+                    <div className="home_sections">
                         <button className="section_renovation section_box">
                             <p className="renovation_para">Ремонт</p>
                             <p className="hidden_text">Без визитов на объект. <br/>
