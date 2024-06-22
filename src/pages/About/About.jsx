@@ -1,15 +1,16 @@
 import React from 'react';
 
 import WhiteBullet from "../../components/helpers/White bullet/WhiteBullet.jsx";
+import CEOgreeting from "../../components/page chunks/CEO greeting/CEOgreeting.jsx";
+import BlackBullet from "../../components/helpers/Black bullet/BlackBullet.jsx";
 
 import "./style.scss";
 
 import src1 from "../../assets/svg/15000.svg"
 import src2 from "../../assets/svg/998.svg"
 import src3 from "../../assets/svg/10.svg"
-import BlackBullet from "../../components/helpers/Black bullet/BlackBullet.jsx";
 import pseudoVid from "../Home/static/works/pseudoVid.png";
-import CEOgreeting from "../../components/page chunks/CEO greeting/CEOgreeting.jsx";
+import russia from "../../assets/img/Russia.png";
 
 function About() {
     const blackBullet1 = <p id="description">Ремонт, строительство и обслуживание квартир, жилых домов под ключ</p>;
@@ -41,6 +42,14 @@ function About() {
             <div id="CEO_greeting">
                 <CEOgreeting/>
             </div>
+
+            <div className="Russia_slider">
+                <h2>Работаем с клиентами по всей <br/> территории Российской Федерации</h2>
+                <p>Несколько бригад в каждом регионе страны</p>
+                <img alt="Russia" src={russia}/>
+            </div>
+
+
         </main>
     );
 }
