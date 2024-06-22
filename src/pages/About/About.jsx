@@ -49,7 +49,9 @@ function About() {
                 <img alt="Russia" src={russia}/>
             </div>
 
+            <div id="inviting">
 
+            </div>
         </main>
     );
 }

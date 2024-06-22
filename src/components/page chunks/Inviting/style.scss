@@ -1,0 +1,38 @@
+.inviting {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+
+  #left {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+
+  #right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    border-radius: 35px;
+    border: 5px solid #161616;
+    background-image: url(../../../assets/img/invitingRight.png);
+    background-size: cover;
+
+    h2 {
+      width: 30%;
+      font-size: 52px;
+    }
+
+    #buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 40%;
+    }
+  }
+}
