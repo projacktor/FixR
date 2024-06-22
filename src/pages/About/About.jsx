@@ -11,6 +11,7 @@ import src2 from "../../assets/svg/998.svg"
 import src3 from "../../assets/svg/10.svg"
 import pseudoVid from "../Home/static/works/pseudoVid.png";
 import russia from "../../assets/img/Russia.png";
+import Inviting from "../../components/page chunks/Inviting/Inviting.jsx";
 
 function About() {
     const blackBullet1 = <p id="description">Ремонт, строительство и обслуживание квартир, жилых домов под ключ</p>;
@@ -50,7 +51,7 @@ function About() {
             </div>
 
             <div id="inviting">
-
+                <Inviting/>
             </div>
         </main>
     );

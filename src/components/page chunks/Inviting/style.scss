@@ -4,12 +4,12 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: auto;
+  //height: 660px;
 
   #left {
     width: 50%;
     img {
-      width: 100%;
+      width: 95%;
     }
   }
 
@@ -17,22 +17,30 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 50%;
+    //width: 50%;
+    padding: 2.5rem 4rem ;
     border-radius: 35px;
-    border: 5px solid #161616;
+    border: 3px solid #161616;
     background-image: url(../../../assets/img/invitingRight.png);
     background-size: cover;
 
     h2 {
-      width: 30%;
+      width: 24rem;
       font-size: 52px;
+      margin-bottom: 2rem;
+      margin-top: 0;
     }
 
     #buttons {
       display: flex;
       flex-direction: column;
       gap: 10px;
-      width: 40%;
+      width: 35rem;
+
+      button {
+        width: 100%;
+        border: 2px solid #161616;
+      }
     }
   }
 }
