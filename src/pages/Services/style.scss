@@ -1,7 +1,13 @@
 .services {
+  gap: 70px;
 
-
-  #sections {
+  #sections, #services_works_gallery {
     width: 100%;
   }
+  #services_works_gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
 }
