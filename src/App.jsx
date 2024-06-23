@@ -11,6 +11,7 @@ import Contacts from "./pages/Contacts/Contacts.jsx";
 import About from "./pages/About/About.jsx";
 import Footer from "./components/main/Footer/Footer.jsx";
 import Services from "./pages/Services/Services.jsx";
+import Post1 from "./pages/Blog page_1/Post1.jsx";
 
 // TODO: change photo on About page
 
@@ -25,6 +26,7 @@ function App() {
                     <Route path="/portfolio" element={<Portfolio />}/>
                     <Route path="/portfolio/work1" element={<Work1 />}/>
                     <Route path="/blog" element={<Blog />}/>
+                    <Route path="/blog/post1" element={<Post1/>}/>
                     <Route path="/feedbacks" element={<Feedbacks/>}/>
                     <Route path="/about" element={<About/>}/>
                     <Route path="/services" element={<Services/>}/>
