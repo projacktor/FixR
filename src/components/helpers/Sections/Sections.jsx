@@ -7,7 +7,7 @@ function Sections(props) {
     return (
         <div className="sections">
             <button className="section_renovation section_box">
-                <p className="sections_description">Ремонт</p>
+                <p className="sections_name">Ремонт</p>
                 <ul className="hidden_text">
                     <li>Квартиры</li>
                     <li>Жилые дома</li>
@@ -17,7 +17,7 @@ function Sections(props) {
                 <img className="linkImg revertImg" src={linkImg} alt="section_background"/>
             </button>
             <button className="section_building section_box">
-                <p className="sections_description">Строительство</p>
+                <p className="sections_name">Строительство</p>
                 <ul className="hidden_text">
                     <li>Квартиры</li>
                     <li>Жилые дома</li>
@@ -26,8 +26,8 @@ function Sections(props) {
                 </ul>
                 <img className="linkImg revertImg" src={linkImg} alt="section_background"/>
             </button>
-            <button className="section_box" id="section_partnership">
-                <p className="sections_description">Партнерская программа</p>
+            <button className="section_box">
+                <p className="sections_name">Партнерская программа</p>
                 <ul className="hidden_text">
                     <li>Квартиры</li>
                     <li>Жилые дома</li>

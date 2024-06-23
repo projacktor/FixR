@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 1rem;
+  justify-content: space-between;
 
   .hidden_text {
     display: none;
@@ -16,25 +16,41 @@
     font-size: 16px;
     letter-spacing: -0.02em;
     color: #fff;
-  }
-
-
-  .sections_description {
-    position: relative;
-    top: -30px;
-    left: 1px;
+    width: 6rem;
+    li {
+      text-align: start;
+      min-width: 6rem;
+    }
   }
 
   .section_box {
-    width: 30rem;
+    width: 29rem;
     height: 14rem;
-    margin: 0 1%;
-    border-radius: 1rem;
+    border-radius: 2rem;
     border-color: transparent;
     background: rgba(239, 239, 239, 1);
 
+    p {
+      padding: 0 7%;
+      font-weight: 545;
+      font-size: 24px;
+      line-height: 133%;
+      letter-spacing: -0.06em;
+      color: #161616;
+      text-align: left;
+    }
+
+    img {
+      display: flex;
+      position: relative;
+      width: 10%;
+      top: 13%;
+      left: 85%;
+    }
+
     &:hover {
       background-image: url("../../../assets/img/bigSectionActiveBackground.png");
+      background-size: cover;
 
       .hidden_text {
         display: block;
@@ -48,42 +64,13 @@
         content: url("../../../assets/svg/revertLinkImg.svg");
       }
     }
-  }
 
-  #section_partnership {
-    p {
-      top: -20px;
-    }
-
-    .hidden_text {
-      top: -40px;
-    }
-
-    .linkImg {
-      top: -2%;
+    .sections_name {
+      position: relative;
+      top: -50px;
+      left: 1px;
+      font-weight: bolder;
     }
   }
-}
 
-.sections p {
-  padding: 0 7%;
-  font-weight: 545;
-  font-size: 24px;
-  line-height: 133%;
-  letter-spacing: -0.06em;
-  color: #161616;
-  text-align: left;
-  //margin: 10%;
-}
-
-.sections img {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0 10%;
-  width: 20%;
-  top: 6%;
-  left: 60%;
 }

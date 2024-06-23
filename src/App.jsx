@@ -12,6 +12,8 @@ import About from "./pages/About/About.jsx";
 import Footer from "./components/main/Footer/Footer.jsx";
 import Services from "./pages/Services/Services.jsx";
 
+// TODO: change photo on About page
+
 function App() {
     return (
         <div className="App">
