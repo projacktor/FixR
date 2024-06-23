@@ -30,7 +30,6 @@ function EngConsulting() {
                     <select id="contact-method" className="row_bullet eng_chose_contact">
                         <option>Написать в WhatsApp</option>
                         <option>Написать в Telegram</option>
-                        <option>Отправить на Email</option>
                     </select>
                     <input name="phone_number" autoComplete="tel" type="tel" placeholder="Ваш номер телефона" className="row_bullet eng_phone_input"/>
                     <BlackBtn text="Записаться на консультацию"/>

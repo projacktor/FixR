@@ -69,15 +69,15 @@
       left: 1%;
     }
     .get_contact_rower_bullets {
-      position: relative;
-      margin-top: 1rem;
-      height: 50%;
-      width: 90%;
-      margin-left: -2rem;
-      padding-left: 2%;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      position: relative;
+      height: 50%;
+      width: 90%;
+      margin-top: 1rem;
+      margin-left: -2rem;
+      padding-left: 2%;
     }
 
     .eng_phone_input {
@@ -92,8 +92,8 @@
       position: relative;
 
       &::after {
-        content: "▼"; /* Можно заменить на любой символ стрелочки или иконку */
-        right: 10px; /* Позиция справа */
+        content: "▼";
+        right: 10px;
         transform: translateX(-100%); /* Подвинуть стрелочку влево */
         pointer-events: none; /* Стрелочка не перехватывает события клика */
       }

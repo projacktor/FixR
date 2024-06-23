@@ -1,21 +1,23 @@
-.recommendation-form {
-  background-color: #000;
+.recommendation_form {
+  background-color: #161616;
   color: #fff;
   padding: 2rem;
-  border-radius: 1rem;
+  border-radius: 30px;
   width: 90%;
   max-width: 400px;
   margin: 2rem auto;
-  //text-align: center;
 
-  .free-file {
+  .free_file {
+    font-size: 13px;
+    text-align: center;
     margin-bottom: 1rem;
-    //margin-left: -12em;
   }
 
   h3 {
-    font-size: 30px;
-    justify-content: left;
+    font-size: 35px;
+    text-align: left;
+    line-height: 119%;
+    letter-spacing: -0.05em;
     b {
       color: #f9af15;
     }
@@ -27,34 +29,49 @@
     align-items: center;
 
     #contact_method {
-      margin-left: -17em;
+      margin-left: -19em;
     }
 
     #contact_method {
-      margin-bottom: 0.5rem;
-      font-size: 0.9rem;
+      font-size: 13px;
+      margin-bottom: 16px;
     }
 
     .input-field {
       width: 100%;
-      padding: 1rem;
+      position: relative;
+      padding: 28px;
       margin-bottom: 1rem;
       border: none;
       border-radius: 5rem;
-      background-color: #333;
+      background-color: #4a4a4a;
       color: #fff;
-      font-size: 1rem;
+      font-size: 14px;
+      text-align: left;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
 
       &:focus {
         outline: none;
         border: 1px solid #f9af15;
       }
+
+      &:after {
+        content: "▼";
+        right: 10px;
+        transform: translateX(-10%);
+        pointer-events: none;
+      }
     }
 
     .phone_number_input {
-      width: 93%;
-      //border-radius: 4rem;
-      padding: 1rem 1em;
+      width: 85%;
+      padding: 28px;
+      &::placeholder {
+        color: #fff;
+      }
+
     }
 
     .submit-button {
@@ -87,5 +104,9 @@
         }
       }
     }
+  }
+  button {
+    width: 100%;
+    padding: 1.5rem;
   }
 }
