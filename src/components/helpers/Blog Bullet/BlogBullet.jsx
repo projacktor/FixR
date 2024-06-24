@@ -4,8 +4,8 @@ import "./style.scss";
 
 function BlogBullet({section, link, text}) {
     return (
-        <div className="single_blog_bullit blog_bullit_post">
-            <div className="blog_bullit_section">
+        <div className="single_blog_bullet blog_bullet_post">
+            <div className="blog_bullet_section">
                 <p>{section}</p>
             </div>
             <a href={`/blog/${link}`}>
