@@ -109,19 +109,8 @@
             padding: 28px 1rem;
           }
 
-          .button_partnership {
-            flex: 1;
-            width: 50%;
-            height: 30%;
-            align-items: center;
-            //margin: 0.5rem;
-            font-size: 1rem;
-            border-radius: 40px;
-            color: #fff;
-          }
-
-          .button_partnership {
-            background: #000;
+          .black_button {
+            width: 48%;
             border: 1px solid #fff;
           }
         }
@@ -229,6 +218,7 @@
     width: 100%;
     height: 11rem;
     margin-bottom: 2rem;
+
     .bullet1 {
       order: 1;
     }

@@ -31,6 +31,7 @@ import responseYandex from "../../assets/img/responseYandex.png";
 import responseOtzovik from "../../assets/img/responseOtzovik.png";
 import plannerImg1 from "./static/works/plannerImg1.png";
 import pseudoVid from "./static/works/pseudoVid.png";
+import BlackButton from "../../components/helpers/buttons/Consulting Black Btn/BlackButton.jsx";
 
 
 function Home() {
@@ -59,10 +60,8 @@ function Home() {
                         <p className="work_station_tagline">Воплотим вашу<br/>
                             мечту в реальность<br/> без визитов на<br/> объект</p>
                         <div className="buttons">
-                            <OrangeButton text={"Онлайн-калькулятор"}/>
-                            <button className="button_partnership">
-                                Стать партнером
-                            </button>
+                            <OrangeButton text="Онлайн-калькулятор"/>
+                            <BlackButton text="Стать партнёром"/>
                         </div>
                     </div>
                     <div className="home_sections">

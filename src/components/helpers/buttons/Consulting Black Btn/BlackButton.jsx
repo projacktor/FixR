@@ -6,7 +6,7 @@ import openLink from "../../../functions/openLink.js";
 
 function BlackButton({text, link}) {
     return (
-        <button className="to_consulting_btn" onClick={openLink(link)}>
+        <button className="black_button" onClick={openLink(link)}>
             {text}
         </button>
     );
