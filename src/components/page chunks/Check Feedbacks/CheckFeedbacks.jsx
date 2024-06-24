@@ -5,7 +5,7 @@ import "./style.scss";
 import response1 from "../../../pages/Home/static/responses/response1.png";
 import videoE from "../../../pages/Home/static/works/videoE.png";
 import Scroller from "../../helpers/Scroller/Scroller.jsx";
-import CheckButton from "../../helpers/CheckButton/CheckButton.jsx";
+import CheckButton from "../../helpers/buttons/CheckButton/CheckButton.jsx";
 
 function CheckFeedbacks() {
     return (

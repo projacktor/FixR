@@ -1,6 +1,6 @@
 import React from 'react';
 
-import openLink from "../../functions/openLink.js";
+import openLink from "../../../functions/openLink.js";
 
 import "./style.scss";
 

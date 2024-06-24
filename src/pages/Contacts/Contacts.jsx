@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Orange_Button from "../../components/helpers/Orange_Button/Orange_Button.jsx";
-import CheckButton from "../../components/helpers/CheckButton/CheckButton.jsx";
-import BlackBtn from "../../components/helpers/Consulting Black Btn/BlackBtn.jsx";
+import Orange_Button from "../../components/helpers/buttons/Orange_Button/Orange_Button.jsx";
+import CheckButton from "../../components/helpers/buttons/CheckButton/CheckButton.jsx";
+import BlackBtn from "../../components/helpers/buttons/Consulting Black Btn/BlackBtn.jsx";
 import PrivacyPolicy from "../../components/helpers/PrivacyPolicy Checkbox/PrivacyPolicy.jsx";
 import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
 

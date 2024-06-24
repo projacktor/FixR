@@ -4,7 +4,7 @@ import "./style.scss"
 
 import mainEng from "../../../assets/img/mainEngPhoto.png"
 import RowBullet from "../../helpers/Row Bullet/RowBullet.jsx";
-import BlackBtn from "../../helpers/Consulting Black Btn/BlackBtn.jsx";
+import BlackBtn from "../../helpers/buttons/Consulting Black Btn/BlackBtn.jsx";
 
 function EngConsulting() {
     return (

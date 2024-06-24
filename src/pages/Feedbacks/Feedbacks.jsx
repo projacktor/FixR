@@ -2,7 +2,7 @@ import React from 'react';
 
 import "./style.scss";
 
-import CheckButton from "../../components/helpers/CheckButton/CheckButton.jsx";
+import CheckButton from "../../components/helpers/buttons/CheckButton/CheckButton.jsx";
 import Scroller from "../../components/helpers/Scroller/Scroller.jsx";
 import WorksGallery from "../../components/page chunks/Works Gallery/WorksGallery.jsx";
 import ToBlog from "../../components/page chunks/To Blog/ToBlog.jsx";

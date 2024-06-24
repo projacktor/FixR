@@ -10,7 +10,7 @@ import Responsibility from "../../components/page chunks/Responsibility/Responsi
 import "./style.scss";
 import work1 from "../Home/static/works/work1.png";
 import work2 from "../Home/static/works/work2.png";
-import CheckButton from "../../components/helpers/CheckButton/CheckButton.jsx";
+import CheckButton from "../../components/helpers/buttons/CheckButton/CheckButton.jsx";
 
 function Portfolio() {
     return (

@@ -6,7 +6,7 @@ import "./style.scss";
 
 import blog1_main from "../../assets/img/blog1_calculator.png"
 import blog1_2 from "../../assets/img/blog2_calculator.png"
-import CheckButton from "../../components/helpers/CheckButton/CheckButton.jsx";
+import CheckButton from "../../components/helpers/buttons/CheckButton/CheckButton.jsx";
 import PostsGallery from "../../components/helpers/Posts Gallery/PostsGallery.jsx";
 import EngConsulting from "../../components/page chunks/Eng Consulting/EngConsulting.jsx";
 import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CheckButton from "../../helpers/CheckButton/CheckButton.jsx";
+import CheckButton from "../../helpers/buttons/CheckButton/CheckButton.jsx";
 
 import openLink from "../../functions/openLink.js";
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import "./style.scss";
-import BlackBtn from "../../components/helpers/Consulting Black Btn/BlackBtn.jsx";
+import BlackBtn from "../../components/helpers/buttons/Consulting Black Btn/BlackBtn.jsx";
 
 function Gratitude() {
     return (

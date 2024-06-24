@@ -3,7 +3,7 @@ import React from 'react';
 import "./style.scss"
 
 import groupPhoto from "../../../pages/Home/static/works/groupPhoto.png";
-import CheckButton from "../../helpers/CheckButton/CheckButton.jsx";
+import CheckButton from "../../helpers/buttons/CheckButton/CheckButton.jsx";
 
 function Presentation() {
     return (

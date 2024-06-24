@@ -10,7 +10,7 @@ import "./style.scss";
 import projPic1 from "./static/projPicture1.png"
 import projPic2 from "./static/projPicture2.png"
 import WorksGallery from "../../components/page chunks/Works Gallery/WorksGallery.jsx";
-import CheckButton from "../../components/helpers/CheckButton/CheckButton.jsx";
+import CheckButton from "../../components/helpers/buttons/CheckButton/CheckButton.jsx";
 import EngConsulting from "../../components/page chunks/Eng Consulting/EngConsulting.jsx";
 import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
 

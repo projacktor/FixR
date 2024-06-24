@@ -1,7 +1,7 @@
 import React from 'react';
 
 import "./style.scss";
-import CheckButton from "../CheckButton/CheckButton.jsx";
+import CheckButton from "../buttons/CheckButton/CheckButton.jsx";
 import Scroller from "../Scroller/Scroller.jsx";
 
 function PostsGallery() {
