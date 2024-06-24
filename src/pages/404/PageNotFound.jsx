@@ -12,7 +12,7 @@ function PageNotFound()
             <div id="container">
                 <h1>Такой страницы не существует!</h1>
                 <p>Возможно, страница устарела или была удалена</p>
-                <Orange_Button text="Перейти на главную"/>
+                <Orange_Button text="Перейти на главную" link="/"/>
             </div>
             <img src={cloud} alt="cloud_picture"/>
         </main>
