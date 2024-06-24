@@ -37,16 +37,11 @@
       .map_make_route {
         position: absolute;
         left: 6rem;
-        width: 18vw;
-        height: 45vh;
         background: #fff;
         border-radius: 32px;
         z-index: 2;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        //gap: 20px;
-        //justify-content: center;
         h2, p {
           margin-left: 2rem;
           line-height: 1.25;
@@ -54,6 +49,7 @@
 
         h2 {
           margin-top: 2rem;
+          margin-bottom: 1re,;
         }
 
         p {
@@ -67,7 +63,6 @@
 
           button {
             margin-left: 2rem;
-            margin-top: 1.5rem;
             height: 80%;
             font-size: 14px;
           }
