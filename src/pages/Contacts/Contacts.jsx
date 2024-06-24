@@ -2,7 +2,7 @@ import React from 'react';
 
 import Orange_Button from "../../components/helpers/buttons/Orange_Button/OrangeButton.jsx";
 import CheckButton from "../../components/helpers/buttons/CheckButton/CheckButton.jsx";
-import BlackBtn from "../../components/helpers/buttons/Consulting Black Btn/BlackBtn.jsx";
+import BlackButton from "../../components/helpers/buttons/Consulting Black Btn/BlackButton.jsx";
 import PrivacyPolicy from "../../components/helpers/PrivacyPolicy Checkbox/PrivacyPolicy.jsx";
 import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
 
@@ -90,7 +90,7 @@ function Contacts() {
                     <input type="tel" placeholder="Ваш номер телефона" className="tel_input" name="telephone" autoComplete="tel"/>
                     <input type="email" placeholder="Ваш e-mail" className="email_input" name="email" autoComplete="email"/>
                     <div id="send_message_form_black_btn_container">
-                        <BlackBtn text="Отправить сообщение"/>
+                        <BlackButton text="Отправить сообщение"/>
                     </div>
                     <div id="send_message_form_privacy_container">
                         <PrivacyPolicy color="#000"/>

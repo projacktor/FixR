@@ -4,7 +4,7 @@ import "./style.scss"
 
 import mainEng from "../../../assets/img/mainEngPhoto.png"
 import RowBullet from "../../helpers/Row Bullet/RowBullet.jsx";
-import BlackBtn from "../../helpers/buttons/Consulting Black Btn/BlackBtn.jsx";
+import BlackButton from "../../helpers/buttons/Consulting Black Btn/BlackButton.jsx";
 
 function EngConsulting() {
     return (
@@ -32,7 +32,7 @@ function EngConsulting() {
                         <option>Написать в Telegram</option>
                     </select>
                     <input name="phone_number" autoComplete="tel" type="tel" placeholder="Ваш номер телефона" className="row_bullet eng_phone_input"/>
-                    <BlackBtn text="Записаться на консультацию"/>
+                    <BlackButton text="Записаться на консультацию"/>
                 </div>
             </div>
         </div>

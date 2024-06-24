@@ -1,7 +1,7 @@
 import React from 'react';
 
 import "./style.scss";
-import BlackBtn from "../../components/helpers/buttons/Consulting Black Btn/BlackBtn.jsx";
+import BlackButton from "../../components/helpers/buttons/Consulting Black Btn/BlackButton.jsx";
 
 function Gratitude() {
     return (
@@ -11,7 +11,7 @@ function Gratitude() {
                     <br/>
                     за обращение!</h1>
                 <h2>Ожидайте звонка с номера +375 (800)-00-00</h2>
-                <BlackBtn text="Вернуться на сайт"/>
+                <BlackButton text="Вернуться на сайт"/>
             </div>
         </main>
     );
