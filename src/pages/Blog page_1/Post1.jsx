@@ -7,6 +7,9 @@ import "./style.scss";
 import blog1_main from "../../assets/img/blog1_calculator.png"
 import blog1_2 from "../../assets/img/blog2_calculator.png"
 import CheckButton from "../../components/helpers/CheckButton/CheckButton.jsx";
+import PostsGallery from "../../components/helpers/Posts Gallery/PostsGallery.jsx";
+import EngConsulting from "../../components/page chunks/Eng Consulting/EngConsulting.jsx";
+import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
 
 function Post1() {
     return (
@@ -61,12 +64,22 @@ function Post1() {
                 </div>
                 <div id="post_recommendation_form_wrapper">
                     <RecommendationForm/>
-                    {/*<div id="post_recommendation_form">*/}
-                    {/*</div>*/}
                 </div>
-                </div>
+            </div>
+
+            <div id="blog_posts_container">
+                <PostsGallery/>
+            </div>
+
+            <div id="eng_consulting_container">
+                <EngConsulting/>
+            </div>
+
+            <div id="seo_container">
+                <SeoDiv/>
+            </div>
         </main>
-);
+    );
 }
 
 export default Post1;

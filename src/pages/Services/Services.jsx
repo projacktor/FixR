@@ -13,16 +13,6 @@ import responseYandex from "../../assets/img/responseYandex.png";
 import responseOtzovik from "../../assets/img/responseOtzovik.png";
 
 function Services() {
-    // useEffect(() => {
-    //     const elements = document.querySelectorAll('*');
-    //     elements.forEach(element => {
-    //         const rect = element.getBoundingClientRect();
-    //         if (rect.right > window.innerWidth) {
-    //             console.log('Element is overflowing:', element);
-    //             element.style.border = '2px solid red'; // временно добавляем рамку для наглядности
-    //         }
-    //     });
-    // }, []);
     return (
         <main className="services">
             <div id="sections">

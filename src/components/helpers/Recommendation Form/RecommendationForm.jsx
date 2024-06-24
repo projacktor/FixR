@@ -16,7 +16,8 @@ function RecommendationForm() {
                     <option>Написать в WhatsApp</option>
                     <option>Написать в Telegram</option>
                 </select>
-                <input type="tel" placeholder="Ваш номер телефона" className="input-field phone_number_input"/>
+                <input type="tel" placeholder="Ваш номер телефона" className="input-field phone_number_input" name="tel"
+                       autoComplete="tel"/>
                 <Orange_Button text="Записаться на консультацию"/>
                 <div id="privacypolicy_container">
                     <PrivacyPolicy color="#fff"/>
