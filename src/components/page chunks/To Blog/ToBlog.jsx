@@ -5,28 +5,15 @@ import CheckButton from "../../helpers/buttons/CheckButton/CheckButton.jsx";
 import openLink from "../../functions/openLink.js";
 
 import "./style.scss";
+import BlogBullet from "../../helpers/Blog Bullet/BlogBullet.jsx";
 
 function ToBlog() {
     return (
         <div className="blog">
             <h1>Ведём блог, делимся <b>многолетним опытом</b> <br/> и практической информацией </h1>
             <div className="blog_bullits">
-                <div className="single_blog_bullit blog_bullit_post">
-                    <div className="blog_bullit_section">
-                        <p>Ремонт</p>
-                    </div>
-                    <a>
-                        <p>Как рассчитать стоимость через <br/> онлайн-калькулятор FIX-ремонт?</p>
-                    </a>
-                </div>
-                <div className="single_blog_bullit blog_bullit_post">
-                    <div className="blog_bullit_section">
-                        <p>Строительство</p>
-                    </div>
-                    <a>
-                        <p>Как рассчитать стоимость через <br/> онлайн-калькулятор FIX-ремонт?</p>
-                    </a>
-                </div>
+                <BlogBullet section="Ремонт" link="post1" text="Как рассчитать стоимость через онлайн-калькулятор FIX-ремонт?"/>
+                <BlogBullet section="Строительство" link="post1" text="Как рассчитать стоимость через онлайн-калькулятор FIX-ремонт?"/>
                 <div className="single_blog_bullit blog_bullit_vid">
                 </div>
             </div>

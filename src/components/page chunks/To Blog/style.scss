@@ -16,7 +16,8 @@
     height: 20rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    gap: 55px;
+    //justify-content: space-around;
     align-items: center;
 
     .single_blog_bullit {
@@ -63,10 +64,6 @@
           color: #fff;
         }
       }
-    }
-
-    .blog_bullit_post {
-      background-image: url(../../../pages/Home/static/works/blog1.png);
     }
 
     .blog_bullit_vid {

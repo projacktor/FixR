@@ -33,7 +33,7 @@ function Blog() {
                     <BlogGallery/>
                     <RecommendationForm/>
                 </div>
-                <CheckButton text="Показать больше"/>
+                <CheckButton text="Показать больше" link="/blog"/>
             </div>
 
             <div id="blog_social_media">
@@ -45,15 +45,15 @@ function Blog() {
             </div>
 
             <div id="blog_faq">
-                <FAQ />
+                <FAQ/>
             </div>
 
             <div id="blog_eng_consulting">
-                <EngConsulting />
+                <EngConsulting/>
             </div>
 
             <div id="blog_seoo">
-                <SeoDiv />
+                <SeoDiv/>
             </div>
         </main>
     );
