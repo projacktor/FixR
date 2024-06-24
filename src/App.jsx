@@ -20,14 +20,14 @@ import PageNotFound from "./pages/404/PageNotFound.jsx";
 function App() {
     return (
         <div className="App">
-            <Header />
+            <Header/>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<Home />}/>
-                    <Route path="/contacts" element={<Contacts />}/>
-                    <Route path="/portfolio" element={<Portfolio />}/>
-                    <Route path="/portfolio/work1" element={<Work1 />}/>
-                    <Route path="/blog" element={<Blog />}/>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/contacts" element={<Contacts/>}/>
+                    <Route path="/portfolio" element={<Portfolio/>}/>
+                    <Route path="/portfolio/work1" element={<Work1/>}/>
+                    <Route path="/blog" element={<Blog/>}/>
                     <Route path="/blog/post1" element={<Post1/>}/>
                     <Route path="/feedbacks" element={<Feedbacks/>}/>
                     <Route path="/about" element={<About/>}/>
@@ -36,7 +36,7 @@ function App() {
                     <Route path="*" element={<PageNotFound/>}/>
                 </Routes>
             </BrowserRouter>
-            <Footer />
+            <Footer/>
         </div>
     )
 }
