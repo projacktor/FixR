@@ -56,7 +56,7 @@ function Portfolio() {
                         </a>
                     </div>
                 </div>
-                <CheckButton text="Показать больше" link="/portfolio/work1"/>
+                <CheckButton text="Показать больше" link="/portfolio"/>
             </div>
 
             <div className="portfolio_consulting">
