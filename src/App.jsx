@@ -12,6 +12,7 @@ import About from "./pages/About/About.jsx";
 import Footer from "./components/main/Footer/Footer.jsx";
 import Services from "./pages/Services/Services.jsx";
 import Post1 from "./pages/Blog page_1/Post1.jsx";
+import ThankYou from "./pages/Thank You/ThankYou.jsx";
 
 // TODO: change photo on About page
 
@@ -30,6 +31,7 @@ function App() {
                     <Route path="/feedbacks" element={<Feedbacks/>}/>
                     <Route path="/about" element={<About/>}/>
                     <Route path="/services" element={<Services/>}/>
+                    <Route path="/gratitude" element={<ThankYou/>}/>
                 </Routes>
             </BrowserRouter>
             <Footer />
