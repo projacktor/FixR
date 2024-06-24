@@ -3,7 +3,7 @@ import React from 'react';
 import "./style.scss";
 import BlackBtn from "../../components/helpers/Consulting Black Btn/BlackBtn.jsx";
 
-function ThankYou(props) {
+function Gratitude() {
     return (
         <main className="thank_you">
             <div id="container">
@@ -17,4 +17,4 @@ function ThankYou(props) {
     );
 }
 
-export default ThankYou;
+export default Gratitude;

@@ -12,7 +12,8 @@ import About from "./pages/About/About.jsx";
 import Footer from "./components/main/Footer/Footer.jsx";
 import Services from "./pages/Services/Services.jsx";
 import Post1 from "./pages/Blog page_1/Post1.jsx";
-import ThankYou from "./pages/Thank You/ThankYou.jsx";
+import Gratitude from "./pages/Gratitude/Gratitude.jsx";
+import PageNotFound from "./pages/404/PageNotFound.jsx";
 
 // TODO: change photo on About page
 
@@ -22,7 +23,7 @@ function App() {
             <Header />
             <BrowserRouter>
                 <Routes>
-                    <Route path="" element={<Home />}/>
+                    <Route path="/" element={<Home />}/>
                     <Route path="/contacts" element={<Contacts />}/>
                     <Route path="/portfolio" element={<Portfolio />}/>
                     <Route path="/portfolio/work1" element={<Work1 />}/>
@@ -31,7 +32,8 @@ function App() {
                     <Route path="/feedbacks" element={<Feedbacks/>}/>
                     <Route path="/about" element={<About/>}/>
                     <Route path="/services" element={<Services/>}/>
-                    <Route path="/gratitude" element={<ThankYou/>}/>
+                    <Route path="/gratitude" element={<Gratitude/>}/>
+                    <Route path="*" element={<PageNotFound/>}/>
                 </Routes>
             </BrowserRouter>
             <Footer />
