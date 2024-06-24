@@ -28,11 +28,8 @@
     flex-direction: column;
     align-items: center;
 
-    #contact_method {
+    #contact_method_label, #contact_method {
       margin-left: -19em;
-    }
-
-    #contact_method {
       font-size: 13px;
       margin-bottom: 16px;
     }
@@ -55,13 +52,6 @@
       &:focus {
         outline: none;
         border: 1px solid #f9af15;
-      }
-
-      &:after {
-        content: "▼";
-        right: 10px;
-        transform: translateX(-10%);
-        pointer-events: none;
       }
     }
 

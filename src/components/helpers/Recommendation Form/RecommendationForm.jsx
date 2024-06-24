@@ -11,7 +11,7 @@ function RecommendationForm() {
             <h3><b>ТОП-7 рекомендаций</b> <br/> от наших специалистов<br/> по выбору материалов<br/> для
                 внутренней <br/>отделки вашего жилья</h3>
             <form>
-                <label htmlFor="contact-method" id="contact_method">Куда выслать файл?</label>
+                <label htmlFor="contact-method" id="contact_method_label">Куда выслать файл?</label>
                 <select id="contact-method" className="input-field">
                     <option>Написать в WhatsApp</option>
                     <option>Написать в Telegram</option>

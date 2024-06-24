@@ -4,16 +4,26 @@
   .post {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    //align-items: center;
     gap: 64px;
     width: 100%;
-    //height: 250vh;
 
-    #post_recommendation_form {
-      display: flex;
-      align-items: flex-start;
-      justify-content: flex-start;
-      //height: 200vh;
+    #post_recommendation_form_wrapper {
+      position: relative;
+      height: 360vh;
+      width: 33%;
+      flex-shrink: 0;
+
+      .recommendation_form {
+        position: sticky;
+        top: 20px;
+      }
+
+      //#post_recommendation_form {
+      //  display: flex;
+      //  align-items: flex-start;
+      //  justify-content: flex-start;
+      //}
     }
 
     #post_content_gallery_1, #post_content_gallery_2 {
@@ -24,6 +34,7 @@
 
     #post_content_gallery_1 {
       justify-content: space-between;
+
       img {
         width: 48%;
       }
@@ -31,6 +42,7 @@
 
     #post_content_gallery_2 {
       gap: 18px;
+
       img {
         width: 32%;
       }
@@ -38,6 +50,7 @@
 
     #post_content_button_container {
       width: 55rem;
+
       button {
         width: 100%;
       }

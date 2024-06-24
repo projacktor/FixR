@@ -59,12 +59,14 @@ function Post1() {
                         <CheckButton text="Вернуться в блог" link={"/blog"}/>
                     </div>
                 </div>
-                <div id="post_recommendation_form">
+                <div id="post_recommendation_form_wrapper">
                     <RecommendationForm/>
+                    {/*<div id="post_recommendation_form">*/}
+                    {/*</div>*/}
                 </div>
-            </div>
+                </div>
         </main>
-    );
+);
 }
 
 export default Post1;
