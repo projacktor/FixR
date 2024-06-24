@@ -11,7 +11,7 @@ function Gratitude() {
                     <br/>
                     за обращение!</h1>
                 <h2>Ожидайте звонка с номера +375 (800)-00-00</h2>
-                <BlackButton text="Вернуться на сайт"/>
+                <BlackButton text="Вернуться на сайт" link="/"/>
             </div>
         </main>
     );
