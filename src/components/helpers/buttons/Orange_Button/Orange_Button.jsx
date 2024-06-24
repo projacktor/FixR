@@ -2,9 +2,11 @@ import React from 'react';
 
 import styles from "./style.module.scss";
 
-function OrangeButton({ text }) {
+import openLink from "../../../functions/openLink.js";
+
+function OrangeButton({ text, link }) {
     return (
-        <button className={styles.button_online_calculator}>
+        <button className={styles.button_online_calculator} onClick={openLink(link)}>
             { text }
         </button>
     );
