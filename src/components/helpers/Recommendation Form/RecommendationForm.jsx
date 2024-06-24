@@ -2,7 +2,7 @@ import React from 'react';
 
 import './style.scss';
 import PrivacyPolicy from "../PrivacyPolicy Checkbox/PrivacyPolicy.jsx";
-import Orange_Button from "../buttons/Orange_Button/Orange_Button.jsx";
+import Orange_Button from "../buttons/Orange_Button/OrangeButton.jsx";
 
 function RecommendationForm() {
     return (

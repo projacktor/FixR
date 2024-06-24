@@ -3,7 +3,7 @@ import React from 'react';
 import "./style.scss";
 
 import cloud from "../../assets/svg/404.svg";
-import Orange_Button from "../../components/helpers/buttons/Orange_Button/Orange_Button.jsx";
+import Orange_Button from "../../components/helpers/buttons/Orange_Button/OrangeButton.jsx";
 
 function PageNotFound()
 {

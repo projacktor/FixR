@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-import OrangeButton from "../../components/helpers/buttons/Orange_Button/Orange_Button.jsx";
+import OrangeButton from "../../components/helpers/buttons/Orange_Button/OrangeButton.jsx";
 import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
 import Responsibility from "../../components/page chunks/Responsibility/Responsibility.jsx";
 import Presentation from "../../components/page chunks/Presentation/Presentation.jsx";

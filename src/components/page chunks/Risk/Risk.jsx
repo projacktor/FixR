@@ -2,7 +2,7 @@ import React from 'react';
 
 import "./style.scss";
 
-import OrangeButton from "../../helpers/buttons/Orange_Button/Orange_Button.jsx";
+import OrangeButton from "../../helpers/buttons/Orange_Button/OrangeButton.jsx";
 
 import creditCardImg from "../../../assets/img/creditCardImg.png";
 import materialsImg from "../../../assets/img/creditCardMaterials.png";

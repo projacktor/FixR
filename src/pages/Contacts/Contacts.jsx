@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Orange_Button from "../../components/helpers/buttons/Orange_Button/Orange_Button.jsx";
+import Orange_Button from "../../components/helpers/buttons/Orange_Button/OrangeButton.jsx";
 import CheckButton from "../../components/helpers/buttons/CheckButton/CheckButton.jsx";
 import BlackBtn from "../../components/helpers/buttons/Consulting Black Btn/BlackBtn.jsx";
 import PrivacyPolicy from "../../components/helpers/PrivacyPolicy Checkbox/PrivacyPolicy.jsx";
