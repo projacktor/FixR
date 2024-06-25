@@ -152,7 +152,7 @@
           background: rgba(239, 239, 239, 1);
 
           &:hover {
-            background-image: url("../../assets/img/sectionBackground.png");
+            background-image: url("../../../public/assets/img/sectionBackground.png");
 
             .hidden_text {
               display: block;
@@ -163,7 +163,7 @@
             }
 
             .revertImg {
-              content: url("../../assets/svg/revertLinkImg.svg");
+              content: url("../../../public/assets/svg/revertLinkImg.svg");
             }
           }
         }
