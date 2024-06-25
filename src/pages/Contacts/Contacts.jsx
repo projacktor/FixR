@@ -8,11 +8,11 @@ import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
 
 import "./style.scss"
 
-import telegramIcon from "../../assets/svg/telegramIcon.svg";
-import whatsappIcon from "../../assets/svg/whatsappIcon.svg";
-import youtubeIcon from "../../assets/svg/youtubeIcon.svg";
-import vkIcon from "../../assets/svg/vkIcon.svg";
-import instaIcon from "../../assets/svg/instaIcon.svg";
+import telegramIcon from "../../../public/assets/svg/telegramIcon.svg";
+import whatsappIcon from "../../../public/assets/svg/whatsappIcon.svg";
+import youtubeIcon from "../../../public/assets/svg/youtubeIcon.svg";
+import vkIcon from "../../../public/assets/svg/vkIcon.svg";
+import instaIcon from "../../../public/assets/svg/instaIcon.svg";
 
 function Contacts() {
     return (

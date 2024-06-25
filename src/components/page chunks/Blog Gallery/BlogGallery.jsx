@@ -1,8 +1,8 @@
 import React from 'react';
 
-import "./style.scss";
-
 import BlogBullet from "../../helpers/Blog Bullet/BlogBullet.jsx";
+
+import "./style.scss";
 
 function BlogGallery() {
     return (

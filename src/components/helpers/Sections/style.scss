@@ -49,7 +49,7 @@
     }
 
     &:hover {
-      background-image: url("../../../assets/img/bigSectionActiveBackground.png");
+      background-image: url("../../../../public/assets/img/bigSectionActiveBackground.png");
       background-size: cover;
 
       .hidden_text {
@@ -61,7 +61,7 @@
       }
 
       .revertImg {
-        content: url("../../../assets/svg/revertLinkImg.svg");
+        content: url("../../../../public/assets/svg/revertLinkImg.svg");
       }
     }
 

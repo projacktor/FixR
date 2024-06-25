@@ -94,8 +94,8 @@
       &::after {
         content: "▼";
         right: 10px;
-        transform: translateX(-100%); /* Подвинуть стрелочку влево */
-        pointer-events: none; /* Стрелочка не перехватывает события клика */
+        transform: translateX(-100%);
+        pointer-events: none;
       }
     }
 

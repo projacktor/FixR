@@ -1,10 +1,10 @@
 import React from 'react';
 
+import BlackButton from "../../helpers/buttons/Consulting Black Btn/BlackButton.jsx";
+
 import "./style.scss"
 
-import mainEng from "../../../assets/img/mainEngPhoto.png"
-import RowBullet from "../../helpers/Row Bullet/RowBullet.jsx";
-import BlackButton from "../../helpers/buttons/Consulting Black Btn/BlackButton.jsx";
+import mainEng from "../../../../public/assets/img/mainEngPhoto.png"
 
 function EngConsulting() {
     return (

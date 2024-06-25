@@ -3,7 +3,7 @@ import React from 'react';
 import "./style.scss";
 
 import SingleFAQ from "./SingleFAQ.jsx";
-import whatsappIco from "../../../assets/svg/whatsappIcon.svg";
+import whatsappIco from "../../../../public/assets/svg/whatsappIcon.svg";
 import telegramIco from "../../../pages/Home/static/icons/telegramIco.svg";
 
 function Faq() {

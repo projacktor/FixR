@@ -11,27 +11,26 @@ import SocialMedia from "../../components/page chunks/Social Media/SocialMedia.j
 import ToBlog from "../../components/page chunks/To Blog/ToBlog.jsx";
 import WhiteBullet from "../../components/helpers/White bullet/WhiteBullet.jsx";
 import FAQ from "../../components/page chunks/FAQ/FAQ.jsx";
+import BlackButton from "../../components/helpers/buttons/Consulting Black Btn/BlackButton.jsx";
 
 import "./style.scss";
-import "../../assets/img/megaBoxBackground.png";
-import linkImg from "../../assets/svg/linkImg.svg";
+import linkImg from "../../../public/assets/svg/linkImg.svg";
 import contactIco from "./static/icons/contactIcon.svg";
 import rublIco from "./static/icons/rublIcon.svg";
 import shieledIco from "./static/icons/shiledIcon.svg";
 import lampIco from "./static/icons/lampIcon.svg";
 import flagIco from "./static/icons/flagIcon.svg";
-import sofaImg from "../../assets/img/sofaPhotoHome.png";
-import movingArrow from "../../assets/svg/moveArrow.svg";
+import sofaImg from "../../../public/assets/img/sofaPhotoHome.png";
+import movingArrow from "../../../public/assets/svg/moveArrow.svg";
 import solution1 from "./static/icons/solution1.png";
 import solution2 from "./static/icons/solution2.png";
 import solution3 from "./static/icons/solution3.png";
 import solution4 from "./static/icons/solution4.png";
-import creditImg from "../../assets/img/creditImg.png";
+import creditImg from "../../../public/assets/img/creditImg.png";
 import responseYandex from "../../../public/assets/img/responseYandex.png";
 import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";
 import plannerImg1 from "./static/works/plannerImg1.png";
 import pseudoVid from "./static/works/pseudoVid.png";
-import BlackButton from "../../components/helpers/buttons/Consulting Black Btn/BlackButton.jsx";
 
 
 function Home() {

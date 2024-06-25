@@ -3,14 +3,6 @@ import React from 'react';
 import WhiteBullet from "../../components/helpers/White bullet/WhiteBullet.jsx";
 import CEOgreeting from "../../components/page chunks/CEO greeting/CEOgreeting.jsx";
 import BlackBullet from "../../components/helpers/Black bullet/BlackBullet.jsx";
-
-import "./style.scss";
-
-import src1 from "../../assets/svg/15000.svg"
-import src2 from "../../assets/svg/998.svg"
-import src3 from "../../assets/svg/10.svg"
-import pseudoVid from "../Home/static/works/pseudoVid.png";
-import russia from "../../assets/img/Russia.png";
 import Inviting from "../../components/page chunks/Inviting/Inviting.jsx";
 import Presentation from "../../components/page chunks/Presentation/Presentation.jsx";
 import Responsibility from "../../components/page chunks/Responsibility/Responsibility.jsx";
@@ -18,6 +10,14 @@ import Risk from "../../components/page chunks/Risk/Risk.jsx";
 import SocialMedia from "../../components/page chunks/Social Media/SocialMedia.jsx";
 import EngConsulting from "../../components/page chunks/Eng Consulting/EngConsulting.jsx";
 import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
+
+import "./style.scss";
+
+import src1 from "../../../public/assets/svg/15000.svg"
+import src2 from "../../../public/assets/svg/998.svg"
+import src3 from "../../../public/assets/svg/10.svg"
+import pseudoVid from "../Home/static/works/pseudoVid.png";
+import russia from "../../../public/assets/img/Russia.png";
 
 function About() {
     const blackBullet1 = <p id="description">Ремонт, строительство и обслуживание квартир, жилых домов под ключ</p>;

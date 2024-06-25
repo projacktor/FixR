@@ -1,14 +1,14 @@
 import React from 'react';
 
 import Symbol from "../../helpers/Symbol/Symbol.jsx";
+import ContactsContainer from "../../helpers/Contacts Container/ContactsContainer.jsx";
 import WriteUs from "../../helpers/Write us/WriteUs.jsx";
 
 import "./style.scss";
 
-import headerLogo from "../../../assets/svg/headerLogo.svg";
-import profileIcon from "../../../assets/svg/profileIcon.svg";
-import menuBar from "../../../assets/svg/menuBar.svg";
-import ContactsContainer from "../../helpers/Contacts Container/ContactsContainer.jsx";
+import headerLogo from "../../../../public/assets/svg/headerLogo.svg";
+import profileIcon from "../../../../public/assets/svg/profileIcon.svg";
+import menuBar from "../../../../public/assets/svg/menuBar.svg";
 
 function Header() {
     return (

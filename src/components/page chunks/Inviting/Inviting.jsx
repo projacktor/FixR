@@ -5,7 +5,7 @@ import "./style.scss";
 import BlackButton from "../../helpers/buttons/Consulting Black Btn/BlackButton.jsx";
 import CheckButton from "../../helpers/buttons/CheckButton/CheckButton.jsx";
 
-import inviteL from "../../../assets/img/invitingLeft.png";
+import inviteL from "../../../../public/assets/img/invitingLeft.png";
 
 function Inviting() {
     return (

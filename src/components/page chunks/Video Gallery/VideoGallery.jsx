@@ -3,7 +3,7 @@ import React from 'react';
 import "./style.scss";
 
 import pseudoVid1 from "../../../pages/Home/static/works/videoE.png";
-import pseudoVid2 from "../../../assets/img/pseudoVideo2.png";
+import pseudoVid2 from "../../../../public/assets/img/pseudoVideo2.png";
 
 function VideoGallery() {
     return (

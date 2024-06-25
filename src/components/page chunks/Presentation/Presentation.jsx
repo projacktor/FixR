@@ -1,9 +1,10 @@
 import React from 'react';
 
+import CheckButton from "../../helpers/buttons/CheckButton/CheckButton.jsx";
+
 import "./style.scss"
 
 import groupPhoto from "../../../pages/Home/static/works/groupPhoto.png";
-import CheckButton from "../../helpers/buttons/CheckButton/CheckButton.jsx";
 
 function Presentation() {
     return (

@@ -1,8 +1,8 @@
 import React from 'react';
 
 import "./style.scss";
-import clockIcon from "../../../assets/svg/headerClockIcon.svg";
-import phoneIcon from "../../../assets/svg/headerPhone.svg";
+import clockIcon from "../../../../public/assets/svg/headerClockIcon.svg";
+import phoneIcon from "../../../../public/assets/svg/headerPhone.svg";
 
 function ContactsContainer() {
     return (

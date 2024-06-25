@@ -1,8 +1,8 @@
 import React from 'react';
-import responsibilityBullits from "../../../assets/img/responsibilityBullits.png";
-import ceoPhoto from "../../../pages/Home/static/works/ceoPhoto.png";
-
 import "./style.scss";
+
+import responsibilityBullits from "../../../../public/assets/img/responsibilityBullits.png";
+import ceoPhoto from "../../../pages/Home/static/works/ceoPhoto.png";
 
 function Responsibility() {
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import "./style.scss";
-import linkImg from "../../../assets/svg/linkImg.svg";
+import linkImg from "../../../../public/assets/svg/linkImg.svg";
 
 function Sections(props) {
     return (

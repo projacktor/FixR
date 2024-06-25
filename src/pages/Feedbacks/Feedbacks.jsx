@@ -9,7 +9,7 @@ import ToBlog from "../../components/page chunks/To Blog/ToBlog.jsx";
 import EngConsulting from "../../components/page chunks/Eng Consulting/EngConsulting.jsx";
 import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
 
-import feedbacks from "../../assets/img/feedbacks.png";
+import feedbacks from "../../../public/assets/img/feedbacks.png";
 
 function Feedbacks() {
     return (

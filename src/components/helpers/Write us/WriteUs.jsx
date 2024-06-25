@@ -1,9 +1,9 @@
 import React from 'react';
 
 import "./style.scss";
-import onlineCircle from "../../../assets/svg/onlineCircleHeader.svg";
-import whatsapp from "../../../assets/svg/whatsappIcon.svg";
-import telegram from "../../../assets/svg/telegramIcon.svg";
+import onlineCircle from "../../../../public/assets/svg/onlineCircleHeader.svg";
+import whatsapp from "../../../../public/assets/svg/whatsappIcon.svg";
+import telegram from "../../../../public/assets/svg/telegramIcon.svg";
 
 function WriteUs() {
     return (

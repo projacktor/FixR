@@ -1,9 +1,10 @@
 import React from 'react';
 
+import Orange_Button from "../../components/helpers/buttons/Orange_Button/OrangeButton.jsx";
+
 import "./style.scss";
 
-import cloud from "../../assets/svg/404.svg";
-import Orange_Button from "../../components/helpers/buttons/Orange_Button/OrangeButton.jsx";
+import cloud from "../../../public/assets/svg/404.svg";
 
 function PageNotFound()
 {

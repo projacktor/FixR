@@ -9,8 +9,8 @@ import CheckFeedbacks from "../../components/page chunks/Check Feedbacks/CheckFe
 import EngConsulting from "../../components/page chunks/Eng Consulting/EngConsulting.jsx";
 import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
 
-import responseYandex from "../../assets/img/responseYandex.png";
-import responseOtzovik from "../../assets/img/responseOtzovik.png";
+import responseYandex from "../../../public/assets/img/responseYandex.png";
+import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";
 
 function Services() {
     return (

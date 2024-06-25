@@ -4,9 +4,9 @@ import "./style.scss";
 
 import OrangeButton from "../../helpers/buttons/Orange_Button/OrangeButton.jsx";
 
-import creditCardImg from "../../../assets/img/creditCardImg.png";
-import materialsImg from "../../../assets/img/creditCardMaterials.png";
-import creditBullets from "../../../assets/img/creditBullets.png";
+import creditCardImg from "../../../../public/assets/img/creditCardImg.png";
+import materialsImg from "../../../../public/assets/img/creditCardMaterials.png";
+import creditBullets from "../../../../public/assets/img/creditBullets.png";
 
 
 function Risk() {

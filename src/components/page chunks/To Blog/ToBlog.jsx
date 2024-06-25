@@ -1,10 +1,9 @@
 import React from 'react';
 
-import CheckButton from "../../helpers/buttons/CheckButton/CheckButton.jsx";
-
-import openLink from "../../functions/openLink.js";
-
 import "./style.scss";
+
+import CheckButton from "../../helpers/buttons/CheckButton/CheckButton.jsx";
+import openLink from "../../functions/openLink.js";
 import BlogBullet from "../../helpers/Blog Bullet/BlogBullet.jsx";
 
 function ToBlog() {

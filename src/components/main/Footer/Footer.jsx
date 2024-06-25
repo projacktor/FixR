@@ -1,12 +1,12 @@
 import React from 'react';
 
+import WriteUs from "../../helpers/Write us/WriteUs.jsx";
+import ContactsContainer from "../../helpers/Contacts Container/ContactsContainer.jsx";
 import Symbol from "../../helpers/Symbol/Symbol.jsx";
 
 import styles from "./style.module.scss";
 
-import footerLogo from "../../../assets/svg/footerLogo.svg";
-import WriteUs from "../../helpers/Write us/WriteUs.jsx";
-import ContactsContainer from "../../helpers/Contacts Container/ContactsContainer.jsx";
+import footerLogo from "../../../../public/assets/svg/footerLogo.svg";
 
 function Footer() {
     return (
