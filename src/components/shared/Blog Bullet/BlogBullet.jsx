@@ -8,7 +8,7 @@ function BlogBullet({section, link, text}) {
             <div className="blog_bullet_section">
                 <p>{section}</p>
             </div>
-            <a href={`/blog/${link}`}>
+            <a href={`/FixR/blog/${link}`}>
                 <p>{text}</p>
             </a>
         </div>

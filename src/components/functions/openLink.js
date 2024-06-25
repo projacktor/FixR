@@ -1,6 +1,6 @@
 function openLink(link) {
     return () => {
-        window.open(link, '_blank', 'noopener,noreferrer');
+        window.open("/FixR" + link, '_blank', 'noopener,noreferrer');
     }
 }
 
