@@ -2,7 +2,7 @@ import React from 'react';
 
 import "./style.scss"
 
-import Scroller from "../../helpers/Scroller/Scroller.jsx";
+import Scroller from "../../shared/Scroller/Scroller.jsx";
 
 import work1 from "../../../pages/Home/static/works/work1.png";
 import work2 from "../../../pages/Home/static/works/work2.png";

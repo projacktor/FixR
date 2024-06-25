@@ -1,7 +1,8 @@
 import React from "react";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
-import Header from "./components/main/Header/Header.jsx";
+import Header from "./components/widgets/Header/Header.jsx";
+import Footer from "./components/widgets/Footer/Footer.jsx";
 import Home from "./pages/Home/Home.jsx";
 import Feedbacks from "./pages/Feedbacks/Feedbacks.jsx";
 import Portfolio from "./pages/Portfolio/Portfolio.jsx";
@@ -9,7 +10,6 @@ import Work1 from "./pages/Portfolio work_1/Work1.jsx";
 import Blog from "./pages/Blog/Blog.jsx";
 import Contacts from "./pages/Contacts/Contacts.jsx";
 import About from "./pages/About/About.jsx";
-import Footer from "./components/main/Footer/Footer.jsx";
 import Services from "./pages/Services/Services.jsx";
 import Post1 from "./pages/Blog page_1/Post1.jsx";
 import Gratitude from "./pages/Gratitude/Gratitude.jsx";

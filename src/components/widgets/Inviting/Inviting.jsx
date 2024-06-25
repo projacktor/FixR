@@ -2,8 +2,8 @@ import React from 'react';
 
 import "./style.scss";
 
-import BlackButton from "../../helpers/buttons/Consulting Black Btn/BlackButton.jsx";
-import CheckButton from "../../helpers/buttons/CheckButton/CheckButton.jsx";
+import BlackButton from "../../shared/buttons/Consulting Black Btn/BlackButton.jsx";
+import CheckButton from "../../shared/buttons/CheckButton/CheckButton.jsx";
 
 import inviteL from "../../../../public/assets/img/invitingLeft.png";
 

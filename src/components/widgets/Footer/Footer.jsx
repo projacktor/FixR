@@ -1,8 +1,8 @@
 import React from 'react';
 
-import WriteUs from "../../helpers/Write us/WriteUs.jsx";
-import ContactsContainer from "../../helpers/Contacts Container/ContactsContainer.jsx";
-import Symbol from "../../helpers/Symbol/Symbol.jsx";
+import WriteUs from "../../shared/Write us/WriteUs.jsx";
+import ContactsContainer from "../../shared/Contacts Container/ContactsContainer.jsx";
+import Symbol from "../../shared/Symbol/Symbol.jsx";
 
 import styles from "./style.module.scss";
 

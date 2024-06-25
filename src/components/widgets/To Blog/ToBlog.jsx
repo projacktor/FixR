@@ -2,9 +2,9 @@ import React from 'react';
 
 import "./style.scss";
 
-import CheckButton from "../../helpers/buttons/CheckButton/CheckButton.jsx";
+import CheckButton from "../../shared/buttons/CheckButton/CheckButton.jsx";
 import openLink from "../../functions/openLink.js";
-import BlogBullet from "../../helpers/Blog Bullet/BlogBullet.jsx";
+import BlogBullet from "../../shared/Blog Bullet/BlogBullet.jsx";
 
 function ToBlog() {
     return (

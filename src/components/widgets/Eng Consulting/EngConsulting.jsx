@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BlackButton from "../../helpers/buttons/Consulting Black Btn/BlackButton.jsx";
+import BlackButton from "../../shared/buttons/Consulting Black Btn/BlackButton.jsx";
 
 import "./style.scss"
 

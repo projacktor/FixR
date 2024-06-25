@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Minibar from "../../components/page chunks/Minibar/Minibar.jsx";
-import MinibarVideo from "../../components/page chunks/Minibar/MinibarVideo.jsx";
-import Die from "../../components/helpers/Die/Die.jsx";
-import VideoGallery from "../../components/page chunks/Video Gallery/VideoGallery.jsx";
-import WorksGallery from "../../components/page chunks/Works Gallery/WorksGallery.jsx";
-import CheckButton from "../../components/helpers/buttons/CheckButton/CheckButton.jsx";
-import EngConsulting from "../../components/page chunks/Eng Consulting/EngConsulting.jsx";
-import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
+import Minibar from "../../components/widgets/Minibar/Minibar.jsx";
+import MinibarVideo from "../../components/widgets/Minibar/MinibarVideo.jsx";
+import Die from "../../components/shared/Die/Die.jsx";
+import VideoGallery from "../../components/widgets/Video Gallery/VideoGallery.jsx";
+import WorksGallery from "../../components/widgets/Works Gallery/WorksGallery.jsx";
+import CheckButton from "../../components/shared/buttons/CheckButton/CheckButton.jsx";
+import EngConsulting from "../../components/widgets/Eng Consulting/EngConsulting.jsx";
+import SeoDiv from "../../components/widgets/SEO part/seo_div.jsx";
 
 import "./style.scss";
 

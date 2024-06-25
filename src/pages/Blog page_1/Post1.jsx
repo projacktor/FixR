@@ -1,15 +1,15 @@
 import React from 'react';
 
-import RecommendationForm from "../../components/helpers/Recommendation Form/RecommendationForm.jsx";
+import RecommendationForm from "../../components/shared/Recommendation Form/RecommendationForm.jsx";
 
 import "./style.scss";
 
 import blog1_main from "../../../public/assets/img/blog1_calculator.png"
 import blog1_2 from "../../../public/assets/img/blog2_calculator.png"
-import CheckButton from "../../components/helpers/buttons/CheckButton/CheckButton.jsx";
-import PostsGallery from "../../components/helpers/Posts Gallery/PostsGallery.jsx";
-import EngConsulting from "../../components/page chunks/Eng Consulting/EngConsulting.jsx";
-import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
+import CheckButton from "../../components/shared/buttons/CheckButton/CheckButton.jsx";
+import PostsGallery from "../../components/shared/Posts Gallery/PostsGallery.jsx";
+import EngConsulting from "../../components/widgets/Eng Consulting/EngConsulting.jsx";
+import SeoDiv from "../../components/widgets/SEO part/seo_div.jsx";
 
 function Post1() {
     return (

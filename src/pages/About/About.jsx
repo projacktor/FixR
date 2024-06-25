@@ -1,17 +1,17 @@
 import React from 'react';
 
-import WhiteBullet from "../../components/helpers/White bullet/WhiteBullet.jsx";
-import CEOgreeting from "../../components/page chunks/CEO greeting/CEOgreeting.jsx";
-import BlackBullet from "../../components/helpers/Black bullet/BlackBullet.jsx";
-import Inviting from "../../components/page chunks/Inviting/Inviting.jsx";
-import Presentation from "../../components/page chunks/Presentation/Presentation.jsx";
-import Responsibility from "../../components/page chunks/Responsibility/Responsibility.jsx";
-import Risk from "../../components/page chunks/Risk/Risk.jsx";
-import SocialMedia from "../../components/page chunks/Social Media/SocialMedia.jsx";
-import EngConsulting from "../../components/page chunks/Eng Consulting/EngConsulting.jsx";
-import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
-
 import "./style.scss";
+
+import WhiteBullet from "../../components/shared/White bullet/WhiteBullet.jsx";
+import CEOgreeting from "../../components/widgets/CEO greeting/CEOgreeting.jsx";
+import BlackBullet from "../../components/shared/Black bullet/BlackBullet.jsx";
+import Inviting from "../../components/widgets/Inviting/Inviting.jsx";
+import Presentation from "../../components/widgets/Presentation/Presentation.jsx";
+import Responsibility from "../../components/widgets/Responsibility/Responsibility.jsx";
+import Risk from "../../components/widgets/Risk/Risk.jsx";
+import SocialMedia from "../../components/widgets/Social Media/SocialMedia.jsx";
+import EngConsulting from "../../components/widgets/Eng Consulting/EngConsulting.jsx";
+import SeoDiv from "../../components/widgets/SEO part/seo_div.jsx";
 
 import src1 from "../../../public/assets/svg/15000.svg"
 import src2 from "../../../public/assets/svg/998.svg"

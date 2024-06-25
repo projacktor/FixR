@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BlogBullet from "../../helpers/Blog Bullet/BlogBullet.jsx";
+import BlogBullet from "../../shared/Blog Bullet/BlogBullet.jsx";
 
 import "./style.scss";
 

@@ -2,12 +2,12 @@ import React from 'react';
 
 import "./style.scss";
 
-import CheckButton from "../../components/helpers/buttons/CheckButton/CheckButton.jsx";
-import Scroller from "../../components/helpers/Scroller/Scroller.jsx";
-import WorksGallery from "../../components/page chunks/Works Gallery/WorksGallery.jsx";
-import ToBlog from "../../components/page chunks/To Blog/ToBlog.jsx";
-import EngConsulting from "../../components/page chunks/Eng Consulting/EngConsulting.jsx";
-import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
+import CheckButton from "../../components/shared/buttons/CheckButton/CheckButton.jsx";
+import Scroller from "../../components/shared/Scroller/Scroller.jsx";
+import WorksGallery from "../../components/widgets/Works Gallery/WorksGallery.jsx";
+import ToBlog from "../../components/widgets/To Blog/ToBlog.jsx";
+import EngConsulting from "../../components/widgets/Eng Consulting/EngConsulting.jsx";
+import SeoDiv from "../../components/widgets/SEO part/seo_div.jsx";
 
 import feedbacks from "../../../public/assets/img/feedbacks.png";
 

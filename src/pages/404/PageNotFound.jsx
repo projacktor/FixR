@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Orange_Button from "../../components/helpers/buttons/Orange_Button/OrangeButton.jsx";
+import Orange_Button from "../../components/shared/buttons/Orange_Button/OrangeButton.jsx";
 
 import "./style.scss";
 

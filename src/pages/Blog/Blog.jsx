@@ -1,13 +1,13 @@
 import React from 'react';
 
-import ContentFilter from "../../components/helpers/Content Filter/ContentFilter.jsx";
-import BlogGallery from "../../components/page chunks/Blog Gallery/BlogGallery.jsx";
-import RecommendationForm from "../../components/helpers/Recommendation Form/RecommendationForm.jsx";
-import SocialMedia from "../../components/page chunks/Social Media/SocialMedia.jsx";
-import CheckButton from "../../components/helpers/buttons/CheckButton/CheckButton.jsx";
-import EngConsulting from "../../components/page chunks/Eng Consulting/EngConsulting.jsx";
-import FAQ from "../../components/page chunks/FAQ/FAQ.jsx";
-import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
+import ContentFilter from "../../components/shared/Content Filter/ContentFilter.jsx";
+import BlogGallery from "../../components/widgets/Blog Gallery/BlogGallery.jsx";
+import RecommendationForm from "../../components/shared/Recommendation Form/RecommendationForm.jsx";
+import SocialMedia from "../../components/widgets/Social Media/SocialMedia.jsx";
+import CheckButton from "../../components/shared/buttons/CheckButton/CheckButton.jsx";
+import EngConsulting from "../../components/widgets/Eng Consulting/EngConsulting.jsx";
+import FAQ from "../../components/widgets/FAQ/FAQ.jsx";
+import SeoDiv from "../../components/widgets/SEO part/seo_div.jsx";
 
 import "./style.scss";
 import pseudoVid from "../Home/static/works/pseudoVid.png";

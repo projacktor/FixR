@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Orange_Button from "../../components/helpers/buttons/Orange_Button/OrangeButton.jsx";
-import CheckButton from "../../components/helpers/buttons/CheckButton/CheckButton.jsx";
-import BlackButton from "../../components/helpers/buttons/Consulting Black Btn/BlackButton.jsx";
-import PrivacyPolicy from "../../components/helpers/PrivacyPolicy Checkbox/PrivacyPolicy.jsx";
-import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
+import Orange_Button from "../../components/shared/buttons/Orange_Button/OrangeButton.jsx";
+import CheckButton from "../../components/shared/buttons/CheckButton/CheckButton.jsx";
+import BlackButton from "../../components/shared/buttons/Consulting Black Btn/BlackButton.jsx";
+import PrivacyPolicy from "../../components/shared/PrivacyPolicy Checkbox/PrivacyPolicy.jsx";
+import SeoDiv from "../../components/widgets/SEO part/seo_div.jsx";
 
 import "./style.scss"
 

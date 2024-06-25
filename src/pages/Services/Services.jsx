@@ -2,12 +2,12 @@ import React, {useEffect} from 'react';
 
 import "./style.scss";
 
-import Sections from "../../components/helpers/Sections/Sections.jsx";
-import Risk from "../../components/page chunks/Risk/Risk.jsx";
-import WorksGallery from "../../components/page chunks/Works Gallery/WorksGallery.jsx";
-import CheckFeedbacks from "../../components/page chunks/Check Feedbacks/CheckFeedbacks.jsx";
-import EngConsulting from "../../components/page chunks/Eng Consulting/EngConsulting.jsx";
-import SeoDiv from "../../components/page chunks/SEO part/seo_div.jsx";
+import Sections from "../../components/shared/Sections/Sections.jsx";
+import Risk from "../../components/widgets/Risk/Risk.jsx";
+import WorksGallery from "../../components/widgets/Works Gallery/WorksGallery.jsx";
+import CheckFeedbacks from "../../components/widgets/Check Feedbacks/CheckFeedbacks.jsx";
+import EngConsulting from "../../components/widgets/Eng Consulting/EngConsulting.jsx";
+import SeoDiv from "../../components/widgets/SEO part/seo_div.jsx";
 
 import responseYandex from "../../../public/assets/img/responseYandex.png";
 import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";

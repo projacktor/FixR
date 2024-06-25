@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CheckButton from "../../helpers/buttons/CheckButton/CheckButton.jsx";
+import CheckButton from "../../shared/buttons/CheckButton/CheckButton.jsx";
 
 import "./style.scss"
 
