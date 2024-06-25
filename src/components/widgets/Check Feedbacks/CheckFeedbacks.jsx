@@ -2,10 +2,11 @@ import React from 'react';
 
 import "./style.scss";
 
-import response1 from "../../../pages/Home/static/responses/response1.png";
-import videoE from "../../../pages/Home/static/works/videoE.png";
 import Scroller from "../../shared/Scroller/Scroller.jsx";
 import CheckButton from "../../shared/buttons/CheckButton/CheckButton.jsx";
+
+import response1 from "../../../pages/Home/static/responses/response1.png";
+import videoE from "../../../pages/Home/static/works/videoE.png";
 
 function CheckFeedbacks() {
     return (

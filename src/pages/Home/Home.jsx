@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 
-import OrangeButton from "../../components/shared/buttons/Orange_Button/OrangeButton.jsx";
 import SeoDiv from "../../components/widgets/SEO part/seo_div.jsx";
 import Responsibility from "../../components/widgets/Responsibility/Responsibility.jsx";
 import Presentation from "../../components/widgets/Presentation/Presentation.jsx";
@@ -9,11 +8,13 @@ import WorksGallery from "../../components/widgets/Works Gallery/WorksGallery.js
 import CheckFeedbacks from "../../components/widgets/Check Feedbacks/CheckFeedbacks.jsx";
 import SocialMedia from "../../components/widgets/Social Media/SocialMedia.jsx";
 import ToBlog from "../../components/widgets/To Blog/ToBlog.jsx";
-import WhiteBullet from "../../components/shared/White bullet/WhiteBullet.jsx";
 import FAQ from "../../components/widgets/FAQ/FAQ.jsx";
+import WhiteBullet from "../../components/shared/White bullet/WhiteBullet.jsx";
 import BlackButton from "../../components/shared/buttons/Consulting Black Btn/BlackButton.jsx";
+import OrangeButton from "../../components/shared/buttons/Orange_Button/OrangeButton.jsx";
 
 import "./style.scss";
+
 import linkImg from "../../../public/assets/svg/linkImg.svg";
 import contactIco from "./static/icons/contactIcon.svg";
 import rublIco from "./static/icons/rublIcon.svg";

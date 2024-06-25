@@ -42,7 +42,7 @@
       order: 1;
       width: 50%;
       height: 87vh;
-      background-image: url("../../assets/img/megaBoxBackground.png");
+      background-image: url("../../../public/assets/img/megaBoxBackground.png");
       background-size: cover;
       border-radius: 2.19rem;
 
@@ -152,7 +152,7 @@
           background: rgba(239, 239, 239, 1);
 
           &:hover {
-            background-image: url("../../assets/img/sectionBackground.png");
+            background-image: url("../../../public/assets/img/sectionBackground.png");
 
             .hidden_text {
               display: block;
@@ -163,7 +163,7 @@
             }
 
             .revertImg {
-              content: url("../../assets/svg/revertLinkImg.svg");
+              content: url("../../../public/assets/svg/revertLinkImg.svg");
             }
           }
         }
@@ -288,7 +288,6 @@
             display: flex;
             flex-direction: row;
             align-items: center;
-            //gap: 12px;
 
             .solutions_button {
               background: transparent;

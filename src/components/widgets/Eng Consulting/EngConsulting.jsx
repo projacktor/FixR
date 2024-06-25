@@ -1,8 +1,9 @@
 import React from 'react';
 
-import BlackButton from "../../shared/buttons/Consulting Black Btn/BlackButton.jsx";
-
 import "./style.scss"
+import "../../shared/Row Bullet/style.scss";
+
+import BlackButton from "../../shared/buttons/Consulting Black Btn/BlackButton.jsx";
 
 import mainEng from "../../../../public/assets/img/mainEngPhoto.png"
 

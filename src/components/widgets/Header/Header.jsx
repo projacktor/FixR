@@ -1,10 +1,10 @@
 import React from 'react';
 
+import "./style.scss";
+
 import Symbol from "../../shared/Symbol/Symbol.jsx";
 import ContactsContainer from "../../shared/Contacts Container/ContactsContainer.jsx";
 import WriteUs from "../../shared/Write us/WriteUs.jsx";
-
-import "./style.scss";
 
 import headerLogo from "../../../../public/assets/svg/headerLogo.svg";
 import profileIcon from "../../../../public/assets/svg/profileIcon.svg";
