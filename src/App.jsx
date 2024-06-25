@@ -21,7 +21,7 @@ function App() {
     return (
         <div className="App">
             <Header/>
-            <BrowserRouter basename="/FixR">
+            <BrowserRouter basename="/FixR/">
                 <Routes>
                     <Route path="/" element={<Home/>}/>
                     <Route path="/contacts" element={<Contacts/>}/>
@@ -33,7 +33,7 @@ function App() {
                     <Route path="/about" element={<About/>}/>
                     <Route path="/services" element={<Services/>}/>
                     <Route path="/gratitude" element={<Gratitude/>}/>
-                    <Route path="*" element={<PageNotFound/>}/>
+                    <Route path="/*" element={<PageNotFound/>}/>
                 </Routes>
             </BrowserRouter>
             <Footer/>
