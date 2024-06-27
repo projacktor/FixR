@@ -209,12 +209,8 @@
 
   }
 
-  #credit {
+  #credit, #credit img {
     width: 100%;
-
-    img {
-      width: 100%;
-    }
   }
 
   #home_risk {
@@ -234,155 +230,7 @@
   }
 
 
-  .planner {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100vh;
-    padding-top: 60px;
-    padding-bottom: 20px;
-    border-radius: 2.19rem;
-    background: rgb(22, 22, 22);
 
-    #planner_right {
-      width: 50%;
-      display: flex;
-      flex-direction: column;
-      padding-left: 3rem;
-
-      .planner_textbox {
-        width: 100%;
-        height: 33%;
-        display: flex;
-        flex-direction: column;
-
-        h2 {
-          position: relative;
-          top: -18%;
-          font-size: 55px;
-          font-weight: 600;
-          line-height: 123%;
-          letter-spacing: -0.06em;
-          text-align: left;
-          color: white;
-
-          b {
-            color: #f9af15;
-          }
-        }
-
-        p {
-          position: relative;
-          top: -37%;
-          color: white;
-          font-weight: 500;
-          font-size: 20px;
-          line-height: 150%;
-          letter-spacing: -0.04em;
-          text-align: left;
-        }
-      }
-
-      .planner_steps {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: flex-start;
-
-        .planner_single_step {
-          position: static;
-          width: 100%;
-          height: 20%;
-          flex: none;
-          flex-grow: 0;
-          margin: 0.5vh 0;
-          opacity: 0.35;
-          box-sizing: border-box;
-          border: 0.06rem solid #d3d3d3;
-          border-radius: 1.25rem;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-
-          p {
-            color: rgb(255, 255, 255);
-            font-size: 1.25rem;
-            font-weight: 500;
-            line-height: 1.88rem;
-            letter-spacing: -4%;
-            text-align: left;
-            position: relative;
-            top: 7%;
-          }
-
-          .planner_steps_t1 {
-            order: 1;
-            position: relative;
-            left: 8%;
-          }
-
-          .planner_steps_t2 {
-            order: 2;
-            position: relative;
-            left: -10%;
-          }
-
-          &:hover {
-            p {
-              color: black;
-            }
-
-            background: white;
-            opacity: 100;
-          }
-        }
-
-        #planner_step1 {
-          order: 1;
-        }
-
-        #planner_step2 {
-          order: 2;
-        }
-
-        #planner_step3 {
-          order: 3;
-        }
-
-        #planner_step4 {
-          order: 4;
-        }
-
-        #planner_step5 {
-          order: 5;
-        }
-      }
-    }
-
-
-    #planner_left {
-      display: flex;
-      flex-direction: column;
-      width: 50%;
-      height: 95%;
-
-
-      img {
-        width: 93%;
-      }
-
-      p {
-        position: relative;
-        top: -2%;
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 130%;
-        letter-spacing: -0.04em;
-        color: #fff;
-      }
-    }
-  }
 
   #home_presentation {
     width: 100%;
