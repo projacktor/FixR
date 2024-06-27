@@ -6,20 +6,10 @@ import RenovationHeader from "../../components/widgets/Renovation Header/Renovat
 import WhiteBullet from "../../components/shared/White bullet/WhiteBullet.jsx";
 import SelfRenovation from "../../components/widgets/Self-renovation/SelfRenovation.jsx";
 import ReasonsList from "../../components/widgets/Reasons List/ReasonsList.jsx";
-
-import contactIco from "../Home/static/icons/contactIcon.svg";
-import rublIco from "../Home/static/icons/rublIcon.svg";
-import shieledIco from "../Home/static/icons/shiledIcon.svg";
-import lampIco from "../Home/static/icons/lampIcon.svg";
-import flagIco from "../Home/static/icons/flagIcon.svg";
 import Risk from "../../components/widgets/Risk/Risk.jsx";
 import Comparison from "../../components/widgets/Comparison/Comparison.jsx";
 import FavoriteBusiness from "../../components/widgets/Favorite business/FavoriteBusiness.jsx";
-import creditImg from "../../../public/assets/img/creditImg.png";
 import WorksGallery from "../../components/widgets/Works Gallery/WorksGallery.jsx";
-import responseYandex from "../../../public/assets/img/responseYandex.png";
-import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";
-import plannerImg1 from "../../pages/Home/static/works/plannerImg1.png";
 import CheckFeedbacks from "../../components/widgets/Check Feedbacks/CheckFeedbacks.jsx";
 import Planner from "../../components/widgets/Planner/Planner.jsx";
 import Presentation from "../../components/widgets/Presentation/Presentation.jsx";
@@ -27,16 +17,28 @@ import Responsibility from "../../components/widgets/Responsibility/Responsibili
 import SocialMedia from "../../components/widgets/Social Media/SocialMedia.jsx";
 import SelfRenovationGallery from "../../components/widgets/Self-renovation Gallery/SelfRenovationGallery.jsx";
 import LongBlock from "../../components/widgets/Long block/LongBlock.jsx";
-import pseudoVid from "../Home/static/works/pseudoVid.png";
 import ToBlog from "../../components/widgets/To Blog/ToBlog.jsx";
 import FAQ from "../../components/widgets/FAQ/FAQ.jsx";
 import EngConsulting from "../../components/widgets/Eng Consulting/EngConsulting.jsx";
 import SeoDiv from "../../components/widgets/SEO part/seo_div.jsx";
 
+import contactIco from "../Home/static/icons/contactIcon.svg";
+import rublIco from "../Home/static/icons/rublIcon.svg";
+import shieledIco from "../Home/static/icons/shiledIcon.svg";
+import lampIco from "../Home/static/icons/lampIcon.svg";
+import flagIco from "../Home/static/icons/flagIcon.svg";
+import creditImg from "../../../public/assets/img/creditImg.png";
+import responseYandex from "../../../public/assets/img/responseYandex.png";
+import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";
+import plannerImg1 from "../../pages/Home/static/works/plannerImg1.png";
+import pseudoVid from "../Home/static/works/pseudoVid.png";
+import renovationHeaderBackground from "../../../public/assets/img/headBannerRenovationService.png";
+
 function RenovationService() {
     return (
         <main className="renovation-service">
-            <RenovationHeader header1="Ремонт квартир под ключ по готовым проектам и с фиксированной ценой"
+            <RenovationHeader image={renovationHeaderBackground}
+                              header1="Ремонт квартир под ключ по готовым проектам и с фиксированной ценой"
                               header2="Заселитесь в квартиру мечты с мебелью в течение 3-х месяцев"/>
             <div className="bullets">
                 <WhiteBullet line1="Без визитов" line2="на объект" src={contactIco}/>

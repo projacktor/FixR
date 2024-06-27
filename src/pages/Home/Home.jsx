@@ -15,6 +15,7 @@ import FAQ from "../../components/widgets/FAQ/FAQ.jsx";
 import WhiteBullet from "../../components/shared/White bullet/WhiteBullet.jsx";
 import BlackButton from "../../components/shared/buttons/Consulting Black Btn/BlackButton.jsx";
 import OrangeButton from "../../components/shared/buttons/Orange_Button/OrangeButton.jsx";
+import Planner from "../../components/widgets/Planner/Planner.jsx";
 
 import linkImg from "../../../public/assets/svg/linkImg.svg";
 import contactIco from "./static/icons/contactIcon.svg";
@@ -27,7 +28,6 @@ import responseYandex from "../../../public/assets/img/responseYandex.png";
 import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";
 import plannerImg1 from "./static/works/plannerImg1.png";
 import pseudoVid from "./static/works/pseudoVid.png";
-import Planner from "../../components/widgets/Planner/Planner.jsx";
 
 
 function Home() {
