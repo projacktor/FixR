@@ -12,7 +12,8 @@ import flagIco from "../Home/static/icons/flagIcon.svg";
 function RenovationService() {
     return (
         <main className="renovation-service">
-            <RenovationHeader header1="Ремонт квартир под ключ по готовым проектам и с фиксированной ценой"/>
+            <RenovationHeader header1="Ремонт квартир под ключ по готовым проектам и с фиксированной ценой"
+            header2="Заселитесь в квартиру мечты с мебелью в течение 3-х месяцев"/>
             <div className="bullets">
                 <WhiteBullet line1="Без визитов" line2="на объект" src={contactIco}/>
                 <WhiteBullet line1="100% гарантия фиксированной" line2="сметы" src={rublIco}/>
