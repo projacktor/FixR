@@ -25,6 +25,7 @@ import Planner from "../../components/widgets/Planner/Planner.jsx";
 import Presentation from "../../components/widgets/Presentation/Presentation.jsx";
 import Responsibility from "../../components/widgets/Responsibility/Responsibility.jsx";
 import SocialMedia from "../../components/widgets/Social Media/SocialMedia.jsx";
+import SelfRenovationGallery from "../../components/widgets/Self-renovation Gallery/SelfRenovationGallery.jsx";
 
 function RenovationService() {
     return (
@@ -89,6 +90,8 @@ function RenovationService() {
             <Responsibility/>
 
             <SocialMedia/>
+
+            <SelfRenovationGallery/>
         </main>
     );
 }
