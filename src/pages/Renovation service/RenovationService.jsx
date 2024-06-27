@@ -27,6 +27,11 @@ import Responsibility from "../../components/widgets/Responsibility/Responsibili
 import SocialMedia from "../../components/widgets/Social Media/SocialMedia.jsx";
 import SelfRenovationGallery from "../../components/widgets/Self-renovation Gallery/SelfRenovationGallery.jsx";
 import LongBlock from "../../components/widgets/Long block/LongBlock.jsx";
+import pseudoVid from "../Home/static/works/pseudoVid.png";
+import ToBlog from "../../components/widgets/To Blog/ToBlog.jsx";
+import FAQ from "../../components/widgets/FAQ/FAQ.jsx";
+import EngConsulting from "../../components/widgets/Eng Consulting/EngConsulting.jsx";
+import SeoDiv from "../../components/widgets/SEO part/seo_div.jsx";
 
 function RenovationService() {
     return (
@@ -95,6 +100,18 @@ function RenovationService() {
             <SelfRenovationGallery/>
 
             <LongBlock/>
+
+            <div className="pseudo_vid">
+                <img alt="pseudo_video" src={pseudoVid}/>
+            </div>
+
+            <ToBlog/>
+
+            <FAQ/>
+
+            <EngConsulting/>
+
+            <SeoDiv/>
         </main>
     );
 }
