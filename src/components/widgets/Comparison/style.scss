@@ -1,0 +1,64 @@
+.comparison {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  h1 {
+    margin-top: 0;
+    letter-spacing: -0.04em;
+  }
+
+  #blocks {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+
+    #left, #right {
+      padding: 3rem 4rem;
+      border-radius: 32px;
+
+      h1, h2, p {
+        letter-spacing: -0.04em;
+      }
+
+      h2 {
+        margin-bottom: 0;
+      }
+
+      h1 {
+        margin-bottom: 1rem;
+      }
+
+      ul {
+        padding-left: 1rem;
+        margin-top: 0.5rem;
+        line-height: 150%;
+        letter-spacing: -0.04em;
+      }
+
+      li {
+        max-width: 30rem;
+      }
+    }
+
+    #left {
+      width: 50%;
+      background: #EFEFEF;
+
+      li {
+        color: #808080;
+      }
+    }
+
+    #right {
+      width: 50%;
+      background: #161616;
+
+      h1, h2, li {
+        color: white;
+      }
+    }
+  }
+}
+
