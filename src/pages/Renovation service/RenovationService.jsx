@@ -22,6 +22,7 @@ import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";
 import plannerImg1 from "../../pages/Home/static/works/plannerImg1.png";
 import CheckFeedbacks from "../../components/widgets/Check Feedbacks/CheckFeedbacks.jsx";
 import Planner from "../../components/widgets/Planner/Planner.jsx";
+import Presentation from "../../components/widgets/Presentation/Presentation.jsx";
 
 function RenovationService() {
     return (
@@ -80,6 +81,8 @@ function RenovationService() {
             <CheckFeedbacks/>
 
             <Planner planner_img={plannerImg1}/>
+
+            <Presentation/>
         </main>
     );
 }
