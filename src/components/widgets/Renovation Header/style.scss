@@ -1,0 +1,40 @@
+.head_banner {
+  width: 100%;
+  height: 620px;
+  background-image: url(../../../../public/assets/img/headBannerRenovationService.png);
+  background-size: cover  ;
+
+  h1 {
+    position: relative;
+    top: 20rem;
+    left: 5rem;
+    width: 29rem;
+    color: white;
+    font-size: 40px;
+    letter-spacing: -0.06rem;
+    line-height: 120%;
+  }
+
+  #to_calculator {
+    position: relative;
+    top: 1rem;
+    left: 61.5rem;
+    width: 24rem;
+    padding: 38px;
+    background: #161616;
+    border-radius: 32px;
+    h2 {
+      width: 15rem;
+      margin-top:0;
+      color: white;
+      font-weight: 500;
+      line-height: 131%;
+      letter-spacing: 0.02em
+    }
+
+    button {
+      margin-top: 68px;
+      width: 100%;
+    }
+  }
+}
