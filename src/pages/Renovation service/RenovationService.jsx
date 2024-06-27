@@ -10,6 +10,7 @@ import rublIco from "../Home/static/icons/rublIcon.svg";
 import shieledIco from "../Home/static/icons/shiledIcon.svg";
 import lampIco from "../Home/static/icons/lampIcon.svg";
 import flagIco from "../Home/static/icons/flagIcon.svg";
+import ReasonsList from "../../components/widgets/Reasons List/ReasonsList.jsx";
 
 function RenovationService() {
     return (
@@ -25,6 +26,9 @@ function RenovationService() {
             </div>
             <div id="self-renovation">
                 <SelfRenovation/>
+            </div>
+            <div id="reasons_list">
+                <ReasonsList/>
             </div>
         </main>
     );

@@ -1,0 +1,19 @@
+.reasons_list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+ #left {
+    width: 50%;
+   button {
+     width: 476px;
+     padding: 1.5rem;
+   }
+ }
+
+  #right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
