@@ -1,4 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
+
+import "./style.scss";
 
 import SeoDiv from "../../components/widgets/SEO part/seo_div.jsx";
 import Responsibility from "../../components/widgets/Responsibility/Responsibility.jsx";
@@ -8,12 +10,11 @@ import WorksGallery from "../../components/widgets/Works Gallery/WorksGallery.js
 import CheckFeedbacks from "../../components/widgets/Check Feedbacks/CheckFeedbacks.jsx";
 import SocialMedia from "../../components/widgets/Social Media/SocialMedia.jsx";
 import ToBlog from "../../components/widgets/To Blog/ToBlog.jsx";
+import FavoriteBusiness from "../../components/widgets/Favorite business/FavoriteBusiness.jsx";
 import FAQ from "../../components/widgets/FAQ/FAQ.jsx";
 import WhiteBullet from "../../components/shared/White bullet/WhiteBullet.jsx";
 import BlackButton from "../../components/shared/buttons/Consulting Black Btn/BlackButton.jsx";
 import OrangeButton from "../../components/shared/buttons/Orange_Button/OrangeButton.jsx";
-
-import "./style.scss";
 
 import linkImg from "../../../public/assets/svg/linkImg.svg";
 import contactIco from "./static/icons/contactIcon.svg";
@@ -21,12 +22,6 @@ import rublIco from "./static/icons/rublIcon.svg";
 import shieledIco from "./static/icons/shiledIcon.svg";
 import lampIco from "./static/icons/lampIcon.svg";
 import flagIco from "./static/icons/flagIcon.svg";
-import sofaImg from "../../../public/assets/img/sofaPhotoHome.png";
-import movingArrow from "../../../public/assets/svg/moveArrow.svg";
-import solution1 from "./static/icons/solution1.png";
-import solution2 from "./static/icons/solution2.png";
-import solution3 from "./static/icons/solution3.png";
-import solution4 from "./static/icons/solution4.png";
 import creditImg from "../../../public/assets/img/creditImg.png";
 import responseYandex from "../../../public/assets/img/responseYandex.png";
 import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";
@@ -35,14 +30,6 @@ import pseudoVid from "./static/works/pseudoVid.png";
 
 
 function Home() {
-    const [currentImg, setCurrentImg] = useState(sofaImg);
-
-    const moveLeft = () => {
-        //     logic
-    }
-    const moveRight = () => {
-        //     logic
-    }
 
     return (
         <main className="home_content">
@@ -97,62 +84,7 @@ function Home() {
                 <WhiteBullet line1="Все берем на себя" line2="и работаем под ключ" src={flagIco}/>
             </div>
 
-            <div className="mega_box2">
-                <div id="mega_box2_left">
-                    <h1 className="mega_box2_tagline">Занимайтесь <br/> <b>любимыми</b> делами, <br/> а
-                        ремонт мы <br/> возьмём на себя.
-                    </h1>
-                    <div className="solutions">
-                        <p className="solutions_sections">4 пакетных решения. <b><u>Выбирайте</u></b> для себя лучшее:
-                        </p>
-                        <div className="solutions_gallery">
-                            <div className="row_gallery">
-                                <button className="solutions_button">
-                                    <img alt="solution_background" src={solution1}/>
-                                </button>
-                                <button className="solutions_button">
-                                    <img alt="solution_background" src={solution2}/>
-                                </button>
-                                <button className="solutions_button">
-                                    <img alt="solution_background" src={solution3}/>
-                                </button>
-                                <button className="solutions_button">
-                                    <img alt="solution_background" src={solution4}/>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div id="mega_box2_right">
-                    <div className="home_gallery">
-                        <img alt="worl_picture" className="sofa_img" src={currentImg}/>
-                        <div className="move_bar">
-                            <button className="moveLeft" onClick={moveLeft}>
-                                <img className="mover leftMover" src={movingArrow}/>
-                            </button>
-                            <button className="moveRight" onClick={moveRight}>
-                                <img className="mover rightMover" src={movingArrow}/>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div className="solutions_description">
-                        <div className="solutions_description_text">
-                            <h2 className="solution_tag">Комфорт</h2>
-                            <p className="solution_tag_description">Для ценителей дорогого <br/> минималистичного стиля
-                            </p>
-                        </div>
-
-                        <div className="solution_cost_fix">
-                            <p className="solution_tag_description">Стоимость:</p>
-                            <h2 className="solution_tag">Фикс</h2>
-                            <OrangeButton text={"Онлайн-калькулятор"}/>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <FavoriteBusiness/>
 
             <div id="credit">
                 <a href="">
