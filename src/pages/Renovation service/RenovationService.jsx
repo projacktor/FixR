@@ -26,6 +26,7 @@ import Presentation from "../../components/widgets/Presentation/Presentation.jsx
 import Responsibility from "../../components/widgets/Responsibility/Responsibility.jsx";
 import SocialMedia from "../../components/widgets/Social Media/SocialMedia.jsx";
 import SelfRenovationGallery from "../../components/widgets/Self-renovation Gallery/SelfRenovationGallery.jsx";
+import LongBlock from "../../components/widgets/Long block/LongBlock.jsx";
 
 function RenovationService() {
     return (
@@ -92,6 +93,8 @@ function RenovationService() {
             <SocialMedia/>
 
             <SelfRenovationGallery/>
+
+            <LongBlock/>
         </main>
     );
 }
