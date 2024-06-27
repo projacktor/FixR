@@ -28,6 +28,7 @@ import responseYandex from "../../../public/assets/img/responseYandex.png";
 import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";
 import plannerImg1 from "./static/works/plannerImg1.png";
 import pseudoVid from "./static/works/pseudoVid.png";
+import openLink from "../../components/functions/openLink.js";
 
 
 function Home() {
@@ -53,13 +54,13 @@ function Home() {
                         </div>
                     </div>
                     <div className="home_sections">
-                        <button className="section_renovation section_box">
+                        <button className="section_renovation section_box" onClick={openLink("/services/renovation")}>
                             <p className="renovation_para">Ремонт</p>
                             <p className="hidden_text">Без визитов на объект. <br/>
                                 Заезжайте на готовую <br/> квартиру уже через <br/> 6-8 месяцев</p>
                             <img className="linkImg revertImg" src={linkImg} alt="section_background"/>
                         </button>
-                        <button className="section_building section_box">
+                        <button className="section_building section_box" onClick={openLink("/services/building")}>
                             <p className="building_para">Строительство</p>
                             <p className="hidden_text">Без визитов на объект. <br/>
 
