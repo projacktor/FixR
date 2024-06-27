@@ -23,6 +23,8 @@ import plannerImg1 from "../../pages/Home/static/works/plannerImg1.png";
 import CheckFeedbacks from "../../components/widgets/Check Feedbacks/CheckFeedbacks.jsx";
 import Planner from "../../components/widgets/Planner/Planner.jsx";
 import Presentation from "../../components/widgets/Presentation/Presentation.jsx";
+import Responsibility from "../../components/widgets/Responsibility/Responsibility.jsx";
+import SocialMedia from "../../components/widgets/Social Media/SocialMedia.jsx";
 
 function RenovationService() {
     return (
@@ -83,6 +85,10 @@ function RenovationService() {
             <Planner planner_img={plannerImg1}/>
 
             <Presentation/>
+
+            <Responsibility/>
+
+            <SocialMedia/>
         </main>
     );
 }
