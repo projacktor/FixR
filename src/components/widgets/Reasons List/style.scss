@@ -3,13 +3,17 @@
   flex-direction: row;
   width: 100%;
 
- #left {
+  #left {
     width: 50%;
-   button {
-     width: 476px;
-     padding: 1.5rem;
-   }
- }
+    #content_wrapper {
+      position: sticky;
+      top: 10px;
+    }
+    button {
+      width: 476px;
+      padding: 1.5rem;
+    }
+  }
 
   #right {
     display: flex;
