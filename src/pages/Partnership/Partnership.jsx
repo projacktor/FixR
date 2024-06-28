@@ -1,9 +1,9 @@
 import React from 'react';
 
 import "./style.scss";
-import OrangeButton from "../../components/shared/buttons/Orange_Button/OrangeButton.jsx";
-import Sections from "../../components/shared/Sections/Sections.jsx";
 import openLink from "../../components/functions/openLink.js";
+import OrangeButton from "../../components/shared/buttons/Orange_Button/OrangeButton.jsx";
+import HomeBullets from "../../components/widgets/Home Bullets/HomeBullets.jsx";
 import linkImg from "../../../public/assets/svg/linkImg.svg";
 
 function Partnership() {
@@ -42,6 +42,8 @@ function Partnership() {
                     </div>
                 </div>
             </div>
+
+            <HomeBullets/>
 
 
         </main>

@@ -1,6 +1,10 @@
 .partnership {
+  gap: 52px;
+
   .partnership_header {
     width: 100%;
+    height: 41rem;
+
     .flex_content {
       display: flex;
       flex-direction: row;
@@ -12,6 +16,7 @@
         height: 40rem;
         background-image: url(../../../public/assets/img/partnershipBackground.png);
         background-size: cover;
+
         h1 {
           position: relative;
           top: 26rem;
@@ -46,6 +51,7 @@
         }
       }
     }
+
     #bottom {
       position: relative;
       left: 46.5rem;
