@@ -1,0 +1,90 @@
+.suit_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+
+  #left, #right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #left {
+    align-items: flex-start;
+    gap: 5rem;
+    width: 50%;
+
+    #choice_container {
+      p {
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+        text-decoration: underline;
+      }
+
+      #choice_content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
+        width: 24rem;
+
+        .single_choice {
+          width: 6.5rem;
+          height: 6.5rem;
+          padding: 0;
+          font-weight: 600;
+          background: white;
+          border: #161616 solid 1px;
+          border-radius: 20px;
+
+          &:hover {
+            background: #161616;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  #right {
+    width: 40%;
+    padding: 3.5rem;
+    background: #EFEFEF;
+    border-radius: 32px;
+
+    h2 {
+      margin-top: 0;
+      font-size: 39px;
+    }
+
+    ul {
+      font-size: 17px;
+      line-height: 175%;
+      letter-spacing: -0.04em;
+      padding-inline-start: 28px;
+    }
+
+    li {
+      max-width: 29rem;
+    }
+
+    #button_boxes {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+
+      button {
+        padding: 1.5rem;
+      }
+      #button_wrapper1 button {
+        width: 20rem;
+        height: inherit;
+      }
+
+      #button_wrapper2 button {
+        width: 15rem;
+      }
+    }
+  }
+}

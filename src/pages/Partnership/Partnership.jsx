@@ -4,6 +4,7 @@ import "./style.scss";
 import openLink from "../../components/functions/openLink.js";
 import OrangeButton from "../../components/shared/buttons/Orange_Button/OrangeButton.jsx";
 import HomeBullets from "../../components/widgets/Home Bullets/HomeBullets.jsx";
+import Suit from "../../components/widgets/Suit/Suit.jsx";
 import linkImg from "../../../public/assets/svg/linkImg.svg";
 
 function Partnership() {
@@ -45,7 +46,7 @@ function Partnership() {
 
             <HomeBullets/>
 
-
+            <Suit/>
         </main>
     );
 }
