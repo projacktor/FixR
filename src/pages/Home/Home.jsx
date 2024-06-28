@@ -29,6 +29,7 @@ import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";
 import plannerImg1 from "./static/works/plannerImg1.png";
 import pseudoVid from "./static/works/pseudoVid.png";
 import openLink from "../../components/functions/openLink.js";
+import HomeBullets from "../../components/widgets/Home Bullets/HomeBullets.jsx";
 
 
 function Home() {
@@ -78,13 +79,7 @@ function Home() {
 
             </div>
 
-            <div className="bullets">
-                <WhiteBullet line1="Без визитов" line2="на объект" src={contactIco}/>
-                <WhiteBullet line1="100% гарантия фиксированной" line2="сметы" src={rublIco}/>
-                <WhiteBullet line1="Все финансовые риски берем" line2="на себя" src={shieledIco}/>
-                <WhiteBullet line1="36 готовых" line2="дизайн-проектов" src={lampIco}/>
-                <WhiteBullet line1="Все берем на себя" line2="и работаем под ключ" src={flagIco}/>
-            </div>
+            <HomeBullets/>
 
             <FavoriteBusiness/>
 

@@ -1,55 +1,57 @@
 .partnership {
-  width: 100%;
   .partnership_header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
     width: 100%;
-    #left {
-      width: 68%;
-      height: 40rem;
-      background-image: url(../../../public/assets/img/partnershipBackground.png);
-      background-size: cover;
-      h1 {
-        position: relative;
-        top: 26rem;
-        left: 5rem;
-        width: 25rem;
-        color: white;
-        font-size: 40px;
-        //font-weight: 500;
-      }
-    }
-
-    #right {
+    .flex_content {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 22rem;
-      height: 22rem;
-      padding: 41px;
-      background: #161616;
-      border-radius: 32px;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
 
-      h2 {
-        width: 21rem;
-        margin-top: 0;
-        margin-bottom: 7rem;
-        color: white;
-        line-height: 131%;
+      #left {
+        width: 68%;
+        height: 40rem;
+        background-image: url(../../../public/assets/img/partnershipBackground.png);
+        background-size: cover;
+        h1 {
+          position: relative;
+          top: 26rem;
+          left: 5rem;
+          width: 25rem;
+          color: white;
+          font-size: 40px;
+          //font-weight: 500;
+        }
       }
 
-      button {
-        width: 100%;
+      #right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 22rem;
+        height: 22rem;
+        padding: 41px;
+        background: #161616;
+        border-radius: 32px;
+
+        h2 {
+          width: 21rem;
+          margin-top: 0;
+          margin-bottom: 7rem;
+          color: white;
+          line-height: 131%;
+        }
+
+        button {
+          width: 100%;
+        }
       }
+    }
+    #bottom {
+      position: relative;
+      left: 46.5rem;
+      top: -13rem;
+      width: 43.5em;
     }
   }
 
-  #bottom {
-    position: relative;
-    left: 23rem;
-    top: -13rem;
-    width: 43.5em;
-  }
 }
