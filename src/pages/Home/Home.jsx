@@ -55,20 +55,20 @@ function Home() {
                     </div>
                     <div className="home_sections">
                         <button className="section_renovation section_box" onClick={openLink("/services/renovation")}>
-                            <p className="renovation_para">Ремонт</p>
+                            <h3 className="renovation_para">Ремонт</h3>
                             <p className="hidden_text">Без визитов на объект. <br/>
                                 Заезжайте на готовую <br/> квартиру уже через <br/> 6-8 месяцев</p>
                             <img className="linkImg revertImg" src={linkImg} alt="section_background"/>
                         </button>
                         <button className="section_building section_box" onClick={openLink("/services/building")}>
-                            <p className="building_para">Строительство</p>
+                            <h3 className="building_para">Строительство</h3>
                             <p className="hidden_text">Без визитов на объект. <br/>
 
                                 Заезжайте на готовую <br/> квартиру уже через <br/> 6-8 месяцев</p>
                             <img className="linkImg revertImg" src={linkImg} alt="section_background"/>
                         </button>
                         <button className="section_box" id="section_partnership">
-                            <p className="building_para">Партнерская программа</p>
+                            <h3 className="building_para">Партнерская программа</h3>
                             <p className="hidden_text">Без визитов на объект. <br/>
                                 Заезжайте на готовую <br/> квартиру уже через <br/> 6-8 месяцев</p>
                             <img className="linkImg revertImg" src={linkImg} alt="section_background"/>
