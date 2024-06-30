@@ -1,0 +1,49 @@
+.predict {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  #top, #down {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #top {
+    gap: 10rem;
+    #text {
+      h1 {
+        width: 35rem;
+        margin-bottom: 0;
+      }
+      p {
+        margin-top: 2rem;
+      }
+    }
+
+    #money {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 10rem;
+      padding: 0.5rem 6rem;
+      border: #161616 solid 2px;
+      border-radius: 32px;
+      h1 {
+        margin: 0;
+      }
+      span {
+        text-decoration: underline;
+      }
+
+      p {
+        margin-top: 1rem;
+        margin-bottom: 0;
+        margin-right: 5rem;
+        font-size: 13px;
+        color: #808080;
+      }
+    }
+  }
+}
