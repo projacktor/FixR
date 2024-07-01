@@ -68,7 +68,7 @@ function Home() {
                                 Заезжайте на готовую <br/> квартиру уже через <br/> 6-8 месяцев</p>
                             <img className="linkImg revertImg" src={linkImg} alt="section_background"/>
                         </button>
-                        <button className="section_box" id="section_partnership">
+                        <button className="section_box" id="section_partnership" onClick={openLink("/partnership")}>
                             <h3 className="building_para">Партнерская программа</h3>
                             <p className="hidden_text">Без визитов на объект. <br/>
                                 Заезжайте на готовую <br/> квартиру уже через <br/> 6-8 месяцев</p>
