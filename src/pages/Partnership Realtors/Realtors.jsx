@@ -22,6 +22,12 @@ import plannerImage from "../../../public/assets/img/plannerImage2.png";
 import Planner from "../../components/widgets/Planner/Planner.jsx";
 import Feedbacks from "../Feedbacks/Feedbacks.jsx";
 import FeedbacksGallery from "../../components/widgets/Feedbacks gallery/FeedbacksGallery.jsx";
+import Responsibility from "../../components/widgets/Responsibility/Responsibility.jsx";
+import responseYandex from "../../../public/assets/img/responseYandex.png";
+import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";
+import WorksGallery from "../../components/widgets/Works Gallery/WorksGallery.jsx";
+import CheckFeedbacks from "../../components/widgets/Check Feedbacks/CheckFeedbacks.jsx";
+import Payment from "../../components/widgets/Payment/Payment.jsx";
 
 function Realtors() {
     return (
@@ -66,7 +72,36 @@ function Realtors() {
                      link_text="Инструкция по регистрации"
             />
 
-            <FeedbacksGallery head_text={<h1 style={{width: '100%'}}>Посмотрите, <b>что говорят о нас</b> наши текущие партнёры</h1>}/>
+            <FeedbacksGallery
+                head_text={<h1 style={{width: '100%'}}>Посмотрите, <b>что говорят о нас</b> наши текущие партнёры
+                </h1>}/>
+
+            <Responsibility/>
+
+            <div id="home_works_gallery">
+                <div className="response_header">
+                    <div id="response_names">
+                        <p>Но лучше всего о нас расскажут</p>
+                        <h1>Выполненные работы <br/> и отзывы клиентов </h1>
+                    </div>
+                    <div id="response_bullets">
+                        <a className="response_bullet" target="_blank"
+                           href="https://yandex.ru/maps/org/fix_remont/110403249402/features/?ll=49.192026%2C55.826770&mode=search&sll=48.744609%2C55.752080&sspn=0.090294%2C0.027834&tab=features&text=%D1%84%D0%B8%D0%BA%D1%81%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82&z=12">
+                            <img alt="yandex_picture" src={responseYandex}/>
+                            <p><u>Смотреть отзывы на Яндекс</u></p>
+                        </a>
+                        <a className="response_bullet response_bullet2" target="_blank">
+                            <img alt="otzovik_picture" src={responseOtzovik}/>
+                            <p><u>Смотреть отзывы на Отзовик</u></p>
+                        </a>
+                    </div>
+                </div>
+                <WorksGallery/>
+            </div>
+
+            <CheckFeedbacks/>
+
+            <Payment/>
         </main>
     );
 }
