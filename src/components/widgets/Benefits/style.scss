@@ -1,0 +1,28 @@
+.benefits {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  #left {
+    width: 50%;
+    #content_wrapper {
+      position: sticky;
+      top: 10px;
+    }
+
+    button {
+      width: 30rem;
+      padding: 1.5rem;
+    }
+
+    h1 {
+      width: 27rem;
+    }
+  }
+
+  #right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

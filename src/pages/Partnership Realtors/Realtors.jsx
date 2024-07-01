@@ -12,6 +12,7 @@ import shieledIco from "../Home/static/icons/shiledIcon.svg";
 import lampIco from "../Home/static/icons/lampIcon.svg";
 import tickIco from "../../../public/assets/svg/tick.svg";
 import Designs from "../../components/widgets/Designs/Designs.jsx";
+import Benefits from "../../components/widgets/Benefits/Benefits.jsx";
 
 function Realtors() {
     return (
@@ -31,6 +32,8 @@ function Realtors() {
             </div>
 
             <Designs/>
+
+            <Benefits/>
         </main>
     );
 }
