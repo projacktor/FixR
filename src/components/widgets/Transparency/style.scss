@@ -1,0 +1,19 @@
+.transparency {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  width: 100%;
+
+  h1 {
+    width: 60rem;
+  }
+
+  img {
+    width: 100%
+  }
+
+  #button_container {
+    width: 100%;
+  }
+}

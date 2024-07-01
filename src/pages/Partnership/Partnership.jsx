@@ -10,6 +10,8 @@ import Planner from "../../components/widgets/Planner/Planner.jsx";
 import linkImg from "../../../public/assets/svg/linkImg.svg";
 import plannerImage from "../../../public/assets/img/plannerImage2.png";
 import OrganizationGallery from "../../components/widgets/Organization gallery/OrganizationGallery.jsx";
+import Transparency from "../../components/widgets/Transparency/Transperency.jsx";
+import Risk from "../../components/widgets/Risk/Risk.jsx";
 
 function Partnership() {
     return (
@@ -69,6 +71,10 @@ function Partnership() {
             />
 
             <OrganizationGallery/>
+
+            <Transparency/>
+
+            <Risk/>
         </main>
     );
 }
