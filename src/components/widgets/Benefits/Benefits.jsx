@@ -1,3 +1,5 @@
+// TODO: replace bullets by html
+
 import React from 'react';
 
 import "./style.scss";

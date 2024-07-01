@@ -33,6 +33,7 @@ import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";
 import plannerImg1 from "../../pages/Home/static/works/plannerImg1.png";
 import pseudoVid from "../Home/static/works/pseudoVid.png";
 import renovationHeaderBackground from "../../../public/assets/img/headBannerRenovationService.png";
+import materialsImg from "../../../public/assets/img/creditCardMaterials.png";
 
 function RenovationService() {
     return (
@@ -56,7 +57,7 @@ function RenovationService() {
                 <ReasonsList head_text={<h1><b>Избавим вас от <br/> типичных проблем</b> <br/> ремонта квартиры:</h1>}/>
             </div>
 
-            <Risk/>
+            <Risk button_text="Рассчитать стоимость" backgorund={materialsImg}/>
 
             <Comparison/>
 

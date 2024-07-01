@@ -11,6 +11,7 @@ import SeoDiv from "../../components/widgets/SEO part/seo_div.jsx";
 
 import responseYandex from "../../../public/assets/img/responseYandex.png";
 import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";
+import materialsImg from "../../../public/assets/img/creditCardMaterials.png";
 
 function Services() {
     return (
@@ -21,7 +22,7 @@ function Services() {
             </div>
 
             <div id="services_risk">
-                <Risk/>
+                <Risk button_text="Рассчитать стоимость" backgorund={materialsImg}/>
             </div>
 
             <div id="services_works_gallery">

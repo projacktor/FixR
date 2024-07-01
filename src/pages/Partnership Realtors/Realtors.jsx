@@ -3,6 +3,10 @@ import React from 'react';
 import "./style.scss";
 
 import RenovationHeader from "../../components/widgets/Renovation Header/RenovationHeader.jsx";
+import Designs from "../../components/widgets/Designs/Designs.jsx";
+import Benefits from "../../components/widgets/Benefits/Benefits.jsx";
+import Transparency from "../../components/widgets/Transparency/Transperency.jsx";
+import Risk from "../../components/widgets/Risk/Risk.jsx";
 import WhiteBullet from "../../components/shared/White bullet/WhiteBullet.jsx";
 
 import renovationHeaderBackground from "../../../public/assets/img/headBannerPartnershipRealtors.png";
@@ -11,8 +15,7 @@ import reputationIco from "../../../public/assets/svg/reputation.svg";
 import shieledIco from "../Home/static/icons/shiledIcon.svg";
 import lampIco from "../Home/static/icons/lampIcon.svg";
 import tickIco from "../../../public/assets/svg/tick.svg";
-import Designs from "../../components/widgets/Designs/Designs.jsx";
-import Benefits from "../../components/widgets/Benefits/Benefits.jsx";
+import riskBackground from "../../../public/assets/img/riskBackground2.png";
 
 function Realtors() {
     return (
@@ -34,6 +37,10 @@ function Realtors() {
             <Designs/>
 
             <Benefits/>
+
+            <Transparency/>
+
+            <Risk button_text="Стать партнером" backgorund={riskBackground}/>
         </main>
     );
 }

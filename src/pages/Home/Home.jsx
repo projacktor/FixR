@@ -12,24 +12,19 @@ import SocialMedia from "../../components/widgets/Social Media/SocialMedia.jsx";
 import ToBlog from "../../components/widgets/To Blog/ToBlog.jsx";
 import FavoriteBusiness from "../../components/widgets/Favorite business/FavoriteBusiness.jsx";
 import FAQ from "../../components/widgets/FAQ/FAQ.jsx";
-import WhiteBullet from "../../components/shared/White bullet/WhiteBullet.jsx";
 import BlackButton from "../../components/shared/buttons/Consulting Black Btn/BlackButton.jsx";
 import OrangeButton from "../../components/shared/buttons/Orange_Button/OrangeButton.jsx";
 import Planner from "../../components/widgets/Planner/Planner.jsx";
+import openLink from "../../components/functions/openLink.js";
+import HomeBullets from "../../components/widgets/Home Bullets/HomeBullets.jsx";
 
 import linkImg from "../../../public/assets/svg/linkImg.svg";
-import contactIco from "./static/icons/contactIcon.svg";
-import rublIco from "./static/icons/rublIcon.svg";
-import shieledIco from "./static/icons/shiledIcon.svg";
-import lampIco from "./static/icons/lampIcon.svg";
-import flagIco from "./static/icons/flagIcon.svg";
 import creditImg from "../../../public/assets/img/creditImg.png";
 import responseYandex from "../../../public/assets/img/responseYandex.png";
 import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";
 import plannerImg1 from "./static/works/plannerImg1.png";
 import pseudoVid from "./static/works/pseudoVid.png";
-import openLink from "../../components/functions/openLink.js";
-import HomeBullets from "../../components/widgets/Home Bullets/HomeBullets.jsx";
+import materialsImg from "../../../public/assets/img/creditCardMaterials.png";
 
 
 function Home() {
@@ -90,7 +85,7 @@ function Home() {
             </div>
 
             <div id="home_risk">
-                <Risk/>
+                <Risk button_text="Рассчитать стоимость" backgorund={materialsImg}/>
             </div>
             <div id="home_works_gallery">
                 <div className="response_header">

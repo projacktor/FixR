@@ -5,11 +5,10 @@ import "./style.scss";
 import OrangeButton from "../../shared/buttons/Orange_Button/OrangeButton.jsx";
 
 import creditCardImg from "../../../../public/assets/img/creditCardImg.png";
-import materialsImg from "../../../../public/assets/img/creditCardMaterials.png";
 import creditBullets from "../../../../public/assets/img/creditBullets.png";
 
 
-function Risk() {
+function Risk({button_text, backgorund}) {
     return (
         <div className="risk">
             <div id="risk_left">
@@ -21,9 +20,9 @@ function Risk() {
                 </div>
             </div>
             <div id="risk_right">
-                <img alt="brush_picture" src={materialsImg}/>
+                <img alt="brush_picture" src={backgorund}/>
                 <div id="button_controller">
-                    <OrangeButton text={"Рассчитать стоимость"} className={"orange_button"}/>
+                    <OrangeButton text={button_text} className={"orange_button"}/>
                 </div>
             </div>
 

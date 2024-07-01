@@ -25,6 +25,7 @@ import ToBlog from "../../components/widgets/To Blog/ToBlog.jsx";
 import FAQ from "../../components/widgets/FAQ/FAQ.jsx";
 import EngConsulting from "../../components/widgets/Eng Consulting/EngConsulting.jsx";
 import SeoDiv from "../../components/widgets/SEO part/seo_div.jsx";
+import materialsImg from "../../../public/assets/img/creditCardMaterials.png";
 
 function Partnership() {
     return (
@@ -87,7 +88,7 @@ function Partnership() {
 
             <Transparency/>
 
-            <Risk/>
+            <Risk button_text="Рассчитать стоимость" backgorund={materialsImg}/>
 
             <ReasonsList
                 head_text={<h1>Избавим ваших клиентов <br/> <b>от типичных проблем</b> <br/> ремонта квартиры:</h1>}/>

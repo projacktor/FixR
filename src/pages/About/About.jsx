@@ -18,6 +18,7 @@ import src2 from "../../../public/assets/svg/998.svg"
 import src3 from "../../../public/assets/svg/10.svg"
 import pseudoVid from "../Home/static/works/pseudoVid.png";
 import russia from "../../../public/assets/img/Russia.png";
+import materialsImg from "../../../public/assets/img/creditCardMaterials.png";
 
 function About() {
     const blackBullet1 = <p id="description">Ремонт, строительство и обслуживание квартир, жилых домов под ключ</p>;
@@ -69,7 +70,7 @@ function About() {
             </div>
 
             <div id="risk">
-                <Risk/>
+                <Risk button_text="Рассчитать стоимость" backgorund={materialsImg}/>
             </div>
 
             <div id="social_media">

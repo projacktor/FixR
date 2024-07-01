@@ -32,6 +32,7 @@ import plannerImg1 from "../Home/static/works/plannerImg1.png";
 import responseYandex from "../../../public/assets/img/responseYandex.png";
 import pseudoVid from "../Home/static/works/pseudoVid.png";
 import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";
+import materialsImg from "../../../public/assets/img/creditCardMaterials.png";
 
 function BuildingService() {
     return (
@@ -52,7 +53,7 @@ function BuildingService() {
 
             <ReasonsList head_text={<h1><b>Избавим вас от <br/> типичных проблем</b> <br/> ремонта квартиры:</h1>}/>
 
-            <Risk/>
+            <Risk button_text="Рассчитать стоимость" backgorund={materialsImg}/>
 
             <Comparison/>
 
