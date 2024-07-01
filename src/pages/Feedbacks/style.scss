@@ -36,28 +36,6 @@
     }
   }
 
-  #platforms_responses {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-    h1 {
-      position: relative;
-      right: 17rem;
-    }
-
-    img {
-      //position: relative;
-      //right: 1.5rem;
-      width: 95%;
-    }
-
-    #fdbk_scroller {
-      margin-top: 1em;
-      width: 95%;
-    }
-  }
-
   #feedbacks_works_gallery {
     display: flex;
     flex-direction: column;

@@ -10,6 +10,7 @@ import EngConsulting from "../../components/widgets/Eng Consulting/EngConsulting
 import SeoDiv from "../../components/widgets/SEO part/seo_div.jsx";
 
 import feedbacks from "../../../public/assets/img/feedbacks.png";
+import FeedbacksGallery from "../../components/widgets/Feedbacks gallery/FeedbacksGallery.jsx";
 
 function Feedbacks() {
     return (
@@ -28,13 +29,7 @@ function Feedbacks() {
                 </div>
             </div>
 
-            <div id="platforms_responses">
-                <h1>Отзывы с независимыз площадок</h1>
-                <img alt="feedbacks" src={feedbacks}/>
-                <div id="fdbk_scroller">
-                    <Scroller />
-                </div>
-            </div>
+            <FeedbacksGallery head_text={<h1>Отзывы с независимых площадок</h1>}/>
 
             <div id="feedbacks_works_gallery">
                 <h1>Работаем <b>одинаков хорошо</b></h1>

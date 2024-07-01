@@ -16,6 +16,12 @@ import shieledIco from "../Home/static/icons/shiledIcon.svg";
 import lampIco from "../Home/static/icons/lampIcon.svg";
 import tickIco from "../../../public/assets/svg/tick.svg";
 import riskBackground from "../../../public/assets/img/riskBackground2.png";
+import Predict from "../../components/widgets/Predict/Predict.jsx";
+import OrganizationGallery from "../../components/widgets/Organization gallery/OrganizationGallery.jsx";
+import plannerImage from "../../../public/assets/img/plannerImage2.png";
+import Planner from "../../components/widgets/Planner/Planner.jsx";
+import Feedbacks from "../Feedbacks/Feedbacks.jsx";
+import FeedbacksGallery from "../../components/widgets/Feedbacks gallery/FeedbacksGallery.jsx";
 
 function Realtors() {
     return (
@@ -38,9 +44,29 @@ function Realtors() {
 
             <Benefits/>
 
-            <Transparency/>
+            <Predict/>
 
             <Risk button_text="Стать партнером" backgorund={riskBackground}/>
+
+            <Transparency/>
+
+            <OrganizationGallery/>
+
+            <Planner planner_img={plannerImage}
+                     time_text="10 минут"
+                     p1_text="первой выплаты вознаграждения"
+                     step1_description="Регистрация на платформе"
+                     step1_time="2"
+                     step2_description="Оформление сделки"
+                     step2_time="8"
+                     step3_description="Проведение работ сервисом FIX-ремонт"
+                     step3_time=""
+                     step4_description="Первая выплата"
+                     p2_text="Простая регистрация на платформе для партнёров FIX-ремонт займёт не более 2-х минут вашего времени!"
+                     link_text="Инструкция по регистрации"
+            />
+
+            <FeedbacksGallery head_text={<h1 style={{width: '100%'}}>Посмотрите, <b>что говорят о нас</b> наши текущие партнёры</h1>}/>
         </main>
     );
 }
