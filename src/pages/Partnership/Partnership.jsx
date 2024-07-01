@@ -75,6 +75,8 @@ function Partnership() {
             <Transparency/>
 
             <Risk/>
+
+
         </main>
     );
 }

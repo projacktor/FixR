@@ -50,7 +50,7 @@ function BuildingService() {
 
             <SelfRenovation/>
 
-            <ReasonsList/>
+            <ReasonsList head_text={<h1><b>Избавим вас от <br/> типичных проблем</b> <br/> ремонта квартиры:</h1>}/>
 
             <Risk/>
 

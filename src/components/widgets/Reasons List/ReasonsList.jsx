@@ -4,18 +4,14 @@ import "./style.scss";
 import CheckButton from "../../shared/buttons/CheckButton/CheckButton.jsx";
 import ReasonBlock from "../../shared/Reason block/ReasonBlock.jsx";
 
-function ReasonsList() {
+function ReasonsList({head_text}) {
     return (
         <div className="reasons_list">
             <div id="left">
                 <div id="content_wrapper">
-                    <h1>
-                        <b>Избавим вас от
-                            <br/>
-                            типичных проблем</b>
-                        <br/>
-                        ремонта квартиры:
-                    </h1>
+                    {/*<h1>*/}
+                        {head_text}
+                    {/*</h1>*/}
                     <CheckButton text="Рассчитать стоимость без посещения оффиса"/>
                 </div>
             </div>

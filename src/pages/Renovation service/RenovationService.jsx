@@ -53,7 +53,7 @@ function RenovationService() {
             </div>
 
             <div id="reasons_list">
-                <ReasonsList/>
+                <ReasonsList head_text={<h1><b>Избавим вас от <br/> типичных проблем</b> <br/> ремонта квартиры:</h1>}/>
             </div>
 
             <Risk/>
