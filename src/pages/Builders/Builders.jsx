@@ -3,37 +3,37 @@ import React from 'react';
 import "./style.scss";
 
 import RenovationHeader from "../../components/widgets/Renovation Header/RenovationHeader.jsx";
-
-import renovationHeaderBackground from "../../../public/assets/img/headBannerPartnershipBuilders.png";
 import WhiteBullet from "../../components/shared/White bullet/WhiteBullet.jsx";
+import Designs from "../../components/widgets/Designs/Designs.jsx";
+import Benefits from "../../components/widgets/Benefits/Benefits.jsx";
+import FavoriteBusiness from "../../components/widgets/Favorite business/FavoriteBusiness.jsx";
+import Risk from "../../components/widgets/Risk/Risk.jsx";
+import Transparency from "../../components/widgets/Transparency/Transperency.jsx";
+import OrganizationGallery from "../../components/widgets/Organization gallery/OrganizationGallery.jsx";
+import Planner from "../../components/widgets/Planner/Planner.jsx";
+import FeedbacksGallery from "../../components/widgets/Feedbacks gallery/FeedbacksGallery.jsx";
+import Responsibility from "../../components/widgets/Responsibility/Responsibility.jsx";
+import ToBlog from "../../components/widgets/To Blog/ToBlog.jsx";
+import FAQ from "../../components/widgets/FAQ/FAQ.jsx";
+import EngConsulting from "../../components/widgets/Eng Consulting/EngConsulting.jsx";
+import SeoDiv from "../../components/widgets/SEO part/seo_div.jsx";
+import WorksGallery from "../../components/widgets/Works Gallery/WorksGallery.jsx";
+import CheckFeedbacks from "../../components/widgets/Check Feedbacks/CheckFeedbacks.jsx";
+import Presentation from "../../components/widgets/Presentation/Presentation.jsx";
+import SocialMedia from "../../components/widgets/Social Media/SocialMedia.jsx";
+
+import riskBackground from "../../../public/assets/img/riskBackground2.png";
+import renovationHeaderBackground from "../../../public/assets/img/headBannerPartnershipBuilders.png";
+import plannerImage from "../../../public/assets/img/plannerImage2.png";
+import responseYandex from "../../../public/assets/img/responseYandex.png";
+import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";
+import pseudoVid from "../Home/static/works/pseudoVid.png";
+import cooperation from "../../../public/assets/img/cooperation.png";
 import contactIco from "../Home/static/icons/contactIcon.svg";
 import reputationIco from "../../../public/assets/svg/reputation.svg";
 import shieledIco from "../Home/static/icons/shiledIcon.svg";
 import lampIco from "../Home/static/icons/lampIcon.svg";
 import tickIco from "../../../public/assets/svg/tick.svg";
-import Designs from "../../components/widgets/Designs/Designs.jsx";
-import Benefits from "../../components/widgets/Benefits/Benefits.jsx";
-import FavoriteBusiness from "../../components/widgets/Favorite business/FavoriteBusiness.jsx";
-import riskBackground from "../../../public/assets/img/riskBackground2.png";
-import Risk from "../../components/widgets/Risk/Risk.jsx";
-import Transparency from "../../components/widgets/Transparency/Transperency.jsx";
-import OrganizationGallery from "../../components/widgets/Organization gallery/OrganizationGallery.jsx";
-import plannerImage from "../../../public/assets/img/plannerImage2.png";
-import Planner from "../../components/widgets/Planner/Planner.jsx";
-import FeedbacksGallery from "../../components/widgets/Feedbacks gallery/FeedbacksGallery.jsx";
-import Responsibility from "../../components/widgets/Responsibility/Responsibility.jsx";
-import responseYandex from "../../../public/assets/img/responseYandex.png";
-import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";
-import WorksGallery from "../../components/widgets/Works Gallery/WorksGallery.jsx";
-import CheckFeedbacks from "../../components/widgets/Check Feedbacks/CheckFeedbacks.jsx";
-import Presentation from "../../components/widgets/Presentation/Presentation.jsx";
-import SocialMedia from "../../components/widgets/Social Media/SocialMedia.jsx";
-import pseudoVid from "../Home/static/works/pseudoVid.png";
-import ToBlog from "../../components/widgets/To Blog/ToBlog.jsx";
-import FAQ from "../../components/widgets/FAQ/FAQ.jsx";
-import EngConsulting from "../../components/widgets/Eng Consulting/EngConsulting.jsx";
-import SeoDiv from "../../components/widgets/SEO part/seo_div.jsx";
-import cooperation from "../../../public/assets/img/cooperation.png";
 
 function Builders() {
     return (
