@@ -7,6 +7,7 @@
   #top, #down {
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
 
   #top {
@@ -44,6 +45,39 @@
         font-size: 13px;
         color: #808080;
       }
+    }
+  }
+
+  #down {
+    justify-content: space-around;
+    width: 100%;
+    #field {
+      display: flex;
+      flex-direction: column;
+      p {
+        font-size: 13px;
+      }
+      input {
+        padding: 1.5rem;
+        background: #F4F4F4;
+        border-radius: 2rem;
+        border-color: transparent;
+      }
+    }
+
+    #button_container {
+      display: flex;
+      flex-direction: column;
+      //justify-content: center;
+      align-items: center;
+      button {
+        transform: translateY(1rem);
+        width: 100%;
+      }
+    }
+
+    div {
+      width: 25rem;
     }
   }
 }

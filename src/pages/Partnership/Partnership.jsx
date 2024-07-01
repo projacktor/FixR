@@ -50,6 +50,8 @@ function Partnership() {
             <Suit/>
 
             <Predict/>
+
+
         </main>
     );
 }
