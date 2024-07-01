@@ -6,7 +6,9 @@ import OrangeButton from "../../components/shared/buttons/Orange_Button/OrangeBu
 import HomeBullets from "../../components/widgets/Home Bullets/HomeBullets.jsx";
 import Suit from "../../components/widgets/Suit/Suit.jsx";
 import Predict from "../../components/widgets/Predict/Predict.jsx";
+import Planner from "../../components/widgets/Planner/Planner.jsx";
 import linkImg from "../../../public/assets/svg/linkImg.svg";
+import plannerImage from "../../../public/assets/img/plannerImage2.png";
 
 function Partnership() {
     return (
@@ -51,7 +53,19 @@ function Partnership() {
 
             <Predict/>
 
-
+            <Planner planner_img={plannerImage}
+                     time_text="10 минут"
+                     p1_text="первой выплаты вознаграждения"
+                     step1_description="Регистрация на платформе"
+                     step1_time="2"
+                     step2_description="Оформление сделки"
+                     step2_time="8"
+                     step3_description="Проведение работ сервисом FIX-ремонт"
+                     step3_time=""
+                     step4_description="Первая выплата"
+                     p2_text="Простая регистрация на платформе для партнёров FIX-ремонт займёт не более 2-х минут вашего времени!"
+                     link_text="Инструкция по регистрации"
+            />
         </main>
     );
 }
