@@ -17,6 +17,7 @@ import PageNotFound from "./pages/404/PageNotFound.jsx";
 import RenovationService from "./pages/Renovation service/RenovationService.jsx";
 import BuildingService from "./pages/Building service/BuildingService.jsx";
 import Partnership from "./pages/Partnership/Partnership.jsx";
+import Realtors from "./pages/Partnership Realtors/Realtors.jsx";
 
 // TODO: change photo on About page
 
@@ -40,6 +41,7 @@ function App() {
                     <Route path="/services/renovation" element={<RenovationService/>}/>
                     <Route path="/services/building" element={<BuildingService/>}/>
                     <Route path="/partnership" element={<Partnership/>}/>
+                    <Route path="/partnership/realtors" element={<Realtors/>}/>
                 </Routes>
             </BrowserRouter>
             <Footer/>

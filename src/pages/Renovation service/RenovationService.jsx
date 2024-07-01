@@ -38,7 +38,7 @@ function RenovationService() {
     return (
         <main className="renovation-service">
             <RenovationHeader image={renovationHeaderBackground}
-                              header1="Ремонт квартир под ключ по готовым проектам и с фиксированной ценой"
+                              header1={<h1>Ремонт квартир под ключ по готовым проектам и с фиксированной ценой</h1>}
                               header2="Заселитесь в квартиру мечты с мебелью в течение 3-х месяцев"/>
             <div className="bullets">
                 <WhiteBullet line1="Без визитов" line2="на объект" src={contactIco}/>

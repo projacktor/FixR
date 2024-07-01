@@ -36,7 +36,7 @@ import responseOtzovik from "../../../public/assets/img/responseOtzovik.png";
 function BuildingService() {
     return (
         <main className="building_service">
-            <RenovationHeader header1="Строительство домов под ключ по готовым проектам и с фиксированной ценой"
+            <RenovationHeader header1={<h1>Строительство домов под ключ по готовым проектам и с фиксированной ценой</h1>}
                               header2="6 месяцев до готового дома мечты с благоустройством и ремонтом"
                               image={renovationHeaderBackground}/>
 
