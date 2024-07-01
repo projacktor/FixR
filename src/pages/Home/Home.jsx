@@ -117,7 +117,20 @@ function Home() {
                 <CheckFeedbacks/>
             </div>
 
-            <Planner planner_img={plannerImg1}/>
+            <Planner
+                planner_img={plannerImg1}
+                time_text="1.5 часа"
+                p1_text="дома своей мечты"
+                step1_description="Выбор подходящего тарифа"
+                step1_time="30"
+                step2_description="Удобный выбор планировки и материала"
+                step2_time="60"
+                step3_description="Проведение работ сервисом FIX-ремонт"
+                step3_time=""
+                step4_description="Получите - распишитесь!:)"
+                p2_text="Выбирайте подходящий тариф под ваш бюджет. Цена фиксированная!"
+                link_text=""
+            />
 
             <div id="home_presentation">
                 <Presentation />
