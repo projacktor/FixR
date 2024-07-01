@@ -1,0 +1,24 @@
+.organization_gallery {
+  display: flex;
+  flex-direction: column;
+
+  #galleries {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    width: 100%;
+  }
+
+  #left, #right {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 45%;
+
+    img {
+      width: 110%;
+    }
+  }
+
+
+}

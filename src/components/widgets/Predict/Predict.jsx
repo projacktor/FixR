@@ -19,11 +19,11 @@ function Predict() {
             <div id="down">
                 <div id="field">
                     <p>Количество клиентов на ремонт</p>
-                    <input name="clients" type="number" placeholder="Например, 10" autoComplete=""/>
+                    <input name="clients" type="number" placeholder="Например, 10"/>
                 </div>
                 <div id="field">
                     <p>Количество клиентов на строительство</p>
-                    <input name="clients" type="number" placeholder="Например, 8" autoComplete=""/>
+                    <input name="clients" type="number" placeholder="Например, 8"/>
                 </div>
                 <div id="button_container">
                     <BlackButton text="Рассчитать доход"/>

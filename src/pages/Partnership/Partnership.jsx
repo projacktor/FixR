@@ -9,6 +9,7 @@ import Predict from "../../components/widgets/Predict/Predict.jsx";
 import Planner from "../../components/widgets/Planner/Planner.jsx";
 import linkImg from "../../../public/assets/svg/linkImg.svg";
 import plannerImage from "../../../public/assets/img/plannerImage2.png";
+import OrganizationGallery from "../../components/widgets/Organization gallery/OrganizationGallery.jsx";
 
 function Partnership() {
     return (
@@ -66,6 +67,8 @@ function Partnership() {
                      p2_text="Простая регистрация на платформе для партнёров FIX-ремонт займёт не более 2-х минут вашего времени!"
                      link_text="Инструкция по регистрации"
             />
+
+            <OrganizationGallery/>
         </main>
     );
 }
