@@ -48,15 +48,15 @@ function Partnership() {
                 </div>
                 <div id="bottom">
                     <div className="home_sections">
-                        <button className="section_renovation section_box" onClick={openLink("/services/renovation")}>
+                        <button className="section_renovation section_box" onClick={openLink("/partnership/realtors")}>
                             <h3 className="renovation_para">Риэлторам</h3>
                             <img className="linkImg revertImg" src={linkImg} alt="section_background"/>
                         </button>
-                        <button className="section_building section_box" onClick={openLink("/services/building")}>
+                        <button className="section_building section_box" onClick={openLink("/partnership/builders")}>
                             <h3 className="building_para">Застройщикам</h3>
                             <img className="linkImg revertImg" src={linkImg} alt="section_background"/>
                         </button>
-                        <button className="section_box" id="section_partnership">
+                        <button className="section_box" id="section_partnership" onClick={openLink("/partnership/persons")}>
                             <h3 className="building_para">Физическим лицам</h3>
                             <img className="linkImg revertImg" src={linkImg} alt="section_background"/>
                         </button>
