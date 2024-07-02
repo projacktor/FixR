@@ -1,3 +1,5 @@
+// TODO: Change style, fix banner size
+
 import React from 'react';
 
 import "./style.scss";
