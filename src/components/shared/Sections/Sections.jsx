@@ -4,7 +4,7 @@ import "./style.scss";
 import linkImg from "../../../../public/assets/svg/linkImg.svg";
 import openLink from "../../functions/openLink.js";
 
-function Sections(props) {
+function Sections() {
     return (
         <div className="sections">
             <button className="section_renovation section_box" onClick={openLink("/services/renovation")}>
@@ -27,7 +27,7 @@ function Sections(props) {
                 </ul>
                 <img className="linkImg revertImg" src={linkImg} alt="section_background"/>
             </button>
-            <button className="section_box">
+            <button className="section_box" onClick={openLink("/partnership")}>
                 <p className="sections_name">Партнерская программа</p>
                 <ul className="hidden_text">
                     <li>Квартиры</li>
