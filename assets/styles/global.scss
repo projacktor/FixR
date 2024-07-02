@@ -10,21 +10,20 @@ body {
 }
 
 main {
-  //overflow: hidden;
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 100%;
   min-height: 39rem;
-  background: #F5FFFA;
+  background: #fafafa;
 }
 
 h1, h4 {
   color: rgb(22, 22, 22);
   font-size: 3.13rem;
   font-weight: 600;
-  line-height: 3.81rem;
-  letter-spacing: -7%;
+  //line-height: 3.81rem;
+  letter-spacing: -8%;
   text-align: left;
 }
 
