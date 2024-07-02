@@ -27,9 +27,9 @@ function App() {
     return (
         <div className="App">
             <Header/>
-            <BrowserRouter>
+            <BrowserRouter basename="/FixR">
                 <Routes>
-                    <Route path="/" element={<Home/>}/>
+                    <Route path="" element={<Home/>}/>
                     <Route path="/contacts" element={<Contacts/>}/>
                     <Route path="/portfolio" element={<Portfolio/>}/>
                     <Route path="/portfolio/work1" element={<Work1/>}/>

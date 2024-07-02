@@ -7,7 +7,7 @@ import openLink from "../../functions/openLink.js";
 function Sections() {
     return (
         <div className="sections">
-            <button className="section_renovation section_box" onClick={openLink("/services/renovation")}>
+            <button className="section_renovation section_box" onClick={openLink("services/renovation")}>
                 <p className="sections_name">Ремонт</p>
                 <ul className="hidden_text">
                     <li>Квартиры</li>
@@ -17,7 +17,7 @@ function Sections() {
                 </ul>
                 <img className="linkImg revertImg" src={linkImg} alt="section_background"/>
             </button>
-            <button className="section_building section_box" onClick={openLink("/services/building")}>
+            <button className="section_building section_box" onClick={openLink("services/building")}>
                 <p className="sections_name">Строительство</p>
                 <ul className="hidden_text">
                     <li>Квартиры</li>
@@ -27,7 +27,7 @@ function Sections() {
                 </ul>
                 <img className="linkImg revertImg" src={linkImg} alt="section_background"/>
             </button>
-            <button className="section_box" onClick={openLink("/partnership")}>
+            <button className="section_box" onClick={openLink("partnership")}>
                 <p className="sections_name">Партнерская программа</p>
                 <ul className="hidden_text">
                     <li>Квартиры</li>
